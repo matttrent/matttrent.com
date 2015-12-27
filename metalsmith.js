@@ -29,9 +29,11 @@ var M = metalsmith(__dirname)
 .destination('./build')
 .use(define({
   // put defines here
+  attachments_prefix: '/attachments',
   '_': require('underscore')
 }))
 .use(drafts())
+.use(inplace('handlebars'))
 .use(markdown())
 .use(typography({
   lang: "en"
@@ -45,10 +47,13 @@ var M = metalsmith(__dirname)
   engine: 'handlebars',
   partials: 'layouts'
 }))
-.use(inplace('handlebars'))
 .use(assets({
   "source": "./assets",
   "destination": "./assets"
+}))
+.use(assets({
+  "source": "./attachments",
+  "destination": "./attachments"
 }));
 
 if (module.parent) {

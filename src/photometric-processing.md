@@ -4,7 +4,7 @@ layout: page.hbs
 ---
 
 <span class='figure'>
-<img src="http://matttrent.s3.amazonaws.com/heroku/attachments/research/photometric-processing-1.png" alt="" width="32%" /> <img src="http://matttrent.s3.amazonaws.com/heroku/attachments/research/photometric-processing-2.png" alt="" width="32%" /> <img src="http://matttrent.s3.amazonaws.com/heroku/attachments/research/photometric-processing-3.png" alt="" width="32%" /> <label for="mn-demo" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-demo" class="margin-toggle"/><span class="marginnote">
+<img src="{{ attachments_prefix }}/research/photometric-processing-1.png" alt="" width="32%" /> <img src="{{ attachments_prefix }}/research/photometric-processing-2.png" alt="" width="32%" /> <img src="{{ attachments_prefix }}/research/photometric-processing-3.png" alt="" width="32%" /> <label for="mn-demo" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-demo" class="margin-toggle"/><span class="marginnote">
   Left: original HDR image, tone mapped for display.  Center: high contrast, low frequency image representing the LED backlight.  Right: LCD image corresponding to backlight.  The combination of the backlight and LCD image will reconstruct the original image. 
 </span>
 </span>
@@ -26,13 +26,12 @@ framework.
 
 - [M.Sc. dissertation][MSc]
 - [Photometric Image Processing for HDR Displays][JVCI]
-- [HDR Techniques in Graphics: from Acquisition to Display][EG2005] ([notes][EG2005 notes])
+- [HDR Techniques in Graphics: from Acquisition to Display][EG2005]
 - [HDR Display Systems][HDRDisplay]
 
-[MSc]:          /attachments/research/papers/MscThesis.pdf
+[MSc]:          {{ attachments_prefix }}/research/papers/MscThesis.pdf
 [JVCI]:         http://dx.doi.org/10.1016/j.jvcir.2007.06.006
 [EG2005]:       http://isg.cs.tcd.ie/eg2005/T7.html
-[EG2005 notes]: /attachments/research/talks/EG.2005-HdrCourseNotes.pdf
 [HDRDisplay]:   http://www.cs.ubc.ca/labs/imager/tr/2004/Seetzen_2004_HDR
 
 ## Presentation

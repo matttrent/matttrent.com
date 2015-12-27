@@ -4,7 +4,7 @@ layout: page.hbs
 ---
 
 <span class='figure'>
-  <img src="http://matttrent.s3.amazonaws.com/heroku/attachments/research/chuckclose_full.png" alt="" width="35.5%"/> <img src="http://matttrent.s3.amazonaws.com/heroku/attachments/research/chuckclose_crop.png" alt="" width="61.5%"/> <label for="mn-demo" class="margin-toggle">&#8853;</label> <input type="checkbox" id="mn-demo" class="margin-toggle"/> <span class="marginnote">
+  <img src="{{ attachments_prefix }}/research/chuckclose_full.png" alt="" width="35.5%"/> <img src="{{ attachments_prefix }}/research/chuckclose_crop.png" alt="" width="61.5%"/> <label for="mn-demo" class="margin-toggle">&#8853;</label> <input type="checkbox" id="mn-demo" class="margin-toggle"/> <span class="marginnote">
     Self-portrait of Chuck Close viewed at 2 scales.   
   </span>
 </span>
@@ -22,10 +22,10 @@ These methods take inspiration from the fundamental organization of spatial imag
 - [Blur-Aware Image Downsizing][BAD]
 - [Defocus Techniques for Camera Dynamic Range Expansion][DRE]
 
-[PhD]:  /attachments/research/papers/PhdThesis.pdf
+[PhD]:  {{ attachments_prefix }}/research/papers/PhdThesis.pdf
 [USM]:  http://www.cs.ubc.ca/labs/imager/tr/2012/Countershading/
 [BAD]:  http://www.cs.ubc.ca/labs/imager/tr/2011/BlurAwareDownsize/
-[DRE]:  /attachments/research/papers/ElectronicImaging.2010-Defocus.pdf
+[DRE]:  {{ attachments_prefix }}/research/papers/ElectronicImaging.2010-Defocus.pdf
 
 ## Presentation
 
