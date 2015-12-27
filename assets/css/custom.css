@@ -1,33 +1,84 @@
+@font-face {
+  font-family: "et-book";
+  src: url("/assets/type/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+  src: url("/assets/type/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), 
+       url("/assets/type/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), 
+       url("/assets/type/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), 
+       url("/assets/type/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: "et-book";
+  src: url("/assets/type/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+  src: url("/assets/type/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), 
+       url("/assets/type/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), 
+       url("/assets/type/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), 
+       url("/assets/type/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+  font-weight: normal;
+  font-style: italic
+}
+
+@font-face {
+  font-family: "et-book";
+  src: url("/assets/type/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+  src: url("/assets/type/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), 
+       url("/assets/type/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), 
+       url("/assets/type/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), 
+       url("/assets/type/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+  font-weight: bold;
+  font-style: normal
+}
+
+@font-face {
+  font-family: "et-book-roman-old-style";
+  src: url("/assets/type/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+  src: url("/assets/type/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), 
+       url("/assets/type/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), 
+       url("/assets/type/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), 
+       url("/assets/type/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body { 
-	background-color: #f8f8f8;
+	background-color: #fbfbf8;
+}
+
+a:link { 
+  text-decoration: none;
+  background: -webkit-linear-gradient(#fbfbf8, #fbfbf8), -webkit-linear-gradient(#fbfbf8, #fbfbf8), -webkit-linear-gradient(#333, #333);
+  background: linear-gradient(#fbfbf8, #fbfbf8), linear-gradient(#fbfbf8, #fbfbf8), linear-gradient(#333, #333);
+  -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  text-shadow: 0.03em 0 #fbfbf8, -0.03em 0 #fbfbf8, 0 0.03em #fbfbf8, 0 -0.03em #fbfbf8, 0.06em 0 #fbfbf8, -0.06em 0 #fbfbf8, 0.09em 0 #fbfbf8, -0.09em 0 #fbfbf8, 0.12em 0 #fbfbf8, -0.12em 0 #fbfbf8, 0.15em 0 #fbfbf8, -0.15em 0 #fbfbf8;
+  background-position: 0% 93%, 100% 93%, 0% 93%; 
 }
 
 dl {
-/*  margin-top: 0;
-  margin-bottom: 20px;*/
   font-size: 1.4rem;
-  width: 45%;
-/*  -webkit-padding-start: 5%;*/
+  width: 50%;
   -webkit-padding-end: 5%;
 }
 
 dt, dd {
-  /*line-height: 1.42857143;*/
   padding: 0.5rem 0;
 }
 
 dt {
-  /*font-weight: bold;*/
 }
 
 dd {
   margin-left: 0;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 760px) { 
   .dl-horizontal dt {
     float: left;
-    width: 60px;
+    width: 50px;
     overflow: hidden;
     clear: left;
     text-align: right;
@@ -35,8 +86,12 @@ dd {
     white-space: nowrap;
   }
   .dl-horizontal dd {
-    margin-left: 80px;
+    margin-left: 70px;
   }
+}
+
+@media screen and (max-width: 760px) { 
+  dl { width: 90%; }
 }
 
 dl dt {
