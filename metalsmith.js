@@ -1,6 +1,5 @@
 var LAYOUT_PATH = 'layouts';
 
-var _           = require('underscore');
 var handlebars  = require('handlebars');
 var hb_layouts  = require('handlebars-layouts');
 var metalsmith  = require('metalsmith');
@@ -30,8 +29,7 @@ var M = metalsmith(__dirname)
 .destination('./build')
 .use(define({
   // put defines here
-  // '_': require('underscore'),
-  // development: true
+  '_': require('underscore')
 }))
 .use(drafts())
 .use(markdown())
