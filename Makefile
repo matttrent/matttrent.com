@@ -1,11 +1,11 @@
 build: clean
-	node build.js
+	node metalsmith.js
 
 clean:
 	rm -rf build
 
 serve:
-	node build.js serve
+	node_modules/metalsmith-start/bin/metalsmith-start
 
 deploy: build
 	cd ./build && \

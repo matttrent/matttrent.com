@@ -16,8 +16,6 @@ var inplace     = require('metalsmith-in-place');
 var assets      = require('metalsmith-assets');
 var s3          = require('metalsmith-s3');
 var prefixoid   = require('metalsmith-prefixoid');
-var serve       = require('metalsmith-serve');
-var watch       = require('metalsmith-watch');
 
 handlebars.registerHelper(hb_layouts(handlebars));
 
@@ -55,23 +53,15 @@ var M = metalsmith(__dirname)
   "destination": "./assets"
 }));
 
-var argv = require('minimist')(process.argv.slice(2));
-if( _.contains(argv._, 'serve') ) {
-  M = M.use(serve({
-    port: 8080,
-    verbose: true
-  }))
-  .use(watch({
-    pattern: '**/*',
-    livereload: true
-  }))
+if (module.parent) {
+  module.exports = M;
+} else {
+  M.build(function (err) {
+    if (err) {
+      console.log(err);
+    }
+    else {
+      console.log('Site build complete');
+    }
+  });
 }
-
-M.build(function (err) {
-  if (err) {
-    console.log(err);
-  }
-  else {
-    console.log('Site build complete!');
-  }
-});
