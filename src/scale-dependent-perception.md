@@ -4,9 +4,9 @@ layout: page.hbs
 ---
 
 <span class='figure'>
-  <img src="{{ attachments_prefix }}/research/chuckclose_full.png" alt="" width="35.5%"/> <img src="{{ attachments_prefix }}/research/chuckclose_crop.png" alt="" width="61.5%"/> <label for="mn-demo" class="margin-toggle">&#8853;</label> <input type="checkbox" id="mn-demo" class="margin-toggle"/> <span class="marginnote">
+  <img src="{{ attachments_prefix }}/research/chuckclose_full.png" alt="" width="35.5%"/> <img src="{{ attachments_prefix }}/research/chuckclose_crop.png" alt="" width="61.5%"/>{{#marginnote "caption"}}
     Self-portrait of Chuck Close viewed at 2 scales.  The left image is clearly recognizable as a portrait, even thought it contains the same diamond-shaped artifacts as the right.  However, the right image is difficult to distinguish as an eye and glasses without having first seen the left.  Changing the scale (in this case zooming in) shifts the dominant interpretation from a portrait in the left image to artifacts in the right image.
-  </span>
+{{/marginnote}}
 </span>
 
 The purpose of most images is to effectively convey information. Implicit in this assumption is the fact that the recipient of that information is a human observer, with a visual system responsible for converting raw sensory inputs into the perceived appearance. The appearance of an image not only depends on the image itself, but the conditions under which it is viewed as well as the response of human visual system to those inputs. 

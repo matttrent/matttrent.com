@@ -4,9 +4,9 @@ layout: page.hbs
 ---
 
 <span class='figure'>
-<img src="{{ attachments_prefix }}/research/photometric-processing-1.png" alt="" width="32%" /> <img src="{{ attachments_prefix }}/research/photometric-processing-2.png" alt="" width="32%" /> <img src="{{ attachments_prefix }}/research/photometric-processing-3.png" alt="" width="32%" /> <label for="mn-demo" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-demo" class="margin-toggle"/><span class="marginnote">
+<img src="{{ attachments_prefix }}/research/photometric-processing-1.png" alt="" width="32%" /> <img src="{{ attachments_prefix }}/research/photometric-processing-2.png" alt="" width="32%" /> <img src="{{ attachments_prefix }}/research/photometric-processing-3.png" alt="" width="32%" />{{#marginnote "caption"}}
   Left: original HDR image, tone mapped for display.  Center: high contrast, low frequency image representing the LED backlight.  Right: LCD image corresponding to backlight.  The combination of the backlight and LCD image will reconstruct the original image. 
-</span>
+{{/marginnote}}
 </span>
 
 Many real-world scenes contain a dynamic range that exceeds conventional
