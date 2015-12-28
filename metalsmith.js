@@ -13,8 +13,9 @@ var drafts      = require('metalsmith-drafts');
 var layouts     = require('metalsmith-layouts');
 var inplace     = require('metalsmith-in-place');
 var assets      = require('metalsmith-assets');
-var s3          = require('metalsmith-s3');
-var prefixoid   = require('metalsmith-prefixoid');
+var redirect    = require('metalsmith-redirect');
+// var s3          = require('metalsmith-s3');
+// var prefixoid   = require('metalsmith-prefixoid');
 
 handlebars.registerHelper(hb_layouts(handlebars));
 
@@ -73,6 +74,9 @@ var M = metalsmith(__dirname)
 .use(assets({
   "source": "./attachments",
   "destination": "./attachments"
+}))
+.use(redirect({
+  '/cv': '/attachments/work/cv.pdf'
 }));
 
 if (module.parent) {
