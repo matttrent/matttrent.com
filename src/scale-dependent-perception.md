@@ -3,11 +3,11 @@ title: Manipulating Scale-Dependent Perception of Images
 layout: page.hbs
 ---
 
-<span class='figure'>
+<figure>
   <img src="{{ attachments_prefix }}/research/chuckclose_full.png" alt="" width="35.5%"/> <img src="{{ attachments_prefix }}/research/chuckclose_crop.png" alt="" width="61.5%"/>{{#marginnote "caption"}}
-    Self-portrait of Chuck Close viewed at 2 scales.  The left image is clearly recognizable as a portrait, even thought it contains the same diamond-shaped artifacts as the right.  However, the right image is difficult to distinguish as an eye and glasses without having first seen the left.  Changing the scale (in this case zooming in) shifts the dominant interpretation from a portrait in the left image to artifacts in the right image.
+    Self-portrait of Chuck Close viewed at 2 scales.  The left image is clearly recognizable as a portrait, even thought it contains the same diamond-shaped artifacts as the right.  However, without having first seen the left, the right image is difficult to distinguish as an eye and glasses.  Changing the scale (in this case zooming in) shifts the dominant interpretation from a portrait in the left image to artifacts in the right image.
 {{/marginnote}}
-</span>
+</figure>
 
 The purpose of most images is to effectively convey information. Implicit in this assumption is the fact that the recipient of that information is a human observer, with a visual system responsible for converting raw sensory inputs into the perceived appearance. The appearance of an image not only depends on the image itself, but the conditions under which it is viewed as well as the response of human visual system to those inputs. 
 
@@ -29,6 +29,6 @@ These methods take inspiration from the fundamental organization of spatial imag
 
 ## Presentation
 
-<span class='figure'>
+<figure style='padding-top: 40px;'>
 <script async class="speakerdeck-embed" data-id="506608c6e64bdf000201ebf3" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-</span>
+</figure>

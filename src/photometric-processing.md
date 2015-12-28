@@ -3,11 +3,11 @@ title: Photometric Image Processing for HDR Displays
 layout: page.hbs
 ---
 
-<span class='figure'>
+<figure>
 <img src="{{ attachments_prefix }}/research/photometric-processing-1.png" alt="" width="32%" /> <img src="{{ attachments_prefix }}/research/photometric-processing-2.png" alt="" width="32%" /> <img src="{{ attachments_prefix }}/research/photometric-processing-3.png" alt="" width="32%" />{{#marginnote "caption"}}
   Left: original HDR image, tone mapped for display.  Center: high contrast, low frequency image representing the LED backlight.  Right: LCD image corresponding to backlight.  The combination of the backlight and LCD image will reconstruct the original image. 
 {{/marginnote}}
-</span>
+</figure>
 
 Many real-world scenes contain a dynamic range that exceeds conventional
 display technology by several orders of magnitude.  Through the combination of
@@ -36,6 +36,6 @@ framework.
 
 ## Presentation
 
-<span class='figure'>
+<figure style='padding-top: 40px;'>
 <script async class="speakerdeck-embed" data-id="01d5c3500d16013084d21231381d9bd4" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
-</span>
+</figure>
