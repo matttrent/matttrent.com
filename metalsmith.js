@@ -18,6 +18,25 @@ var prefixoid   = require('metalsmith-prefixoid');
 
 handlebars.registerHelper(hb_layouts(handlebars));
 
+handlebars.registerHelper('sidenote', function(name, options) {
+  return new handlebars.SafeString(
+    '<label for="sn-' + name + '" class="margin-toggle sidenote-number"></label>'
+    + '<input type="checkbox" id="sn-' + name + '" class="margin-toggle">'
+    + '<span class="sidenote">'
+    + options.fn(this)
+    + '</span>'
+  );
+});
+handlebars.registerHelper('marginnote', function(name, options) {
+  return new handlebars.SafeString(
+    '<label for="mn-' + name + '" class="margin-toggle"></label>'
+    + '<input type="checkbox" id="mn-' + name + '" class="margin-toggle">'
+    + '<span class="marginnote">'
+    + options.fn(this)
+    + '</span>'
+  );
+});
+
 var M = metalsmith(__dirname)
 .metadata({
   site: {
