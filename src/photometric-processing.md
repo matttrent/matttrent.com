@@ -28,11 +28,13 @@ framework.
 - [Photometric Image Processing for HDR Displays][JVCI]
 - [HDR Techniques in Graphics: from Acquisition to Display][EG2005]
 - [HDR Display Systems][HDRDisplay]
+- [Dolby Vision display][vision]
 
 [MSc]:          {{ attachments_prefix }}/research/papers/MscThesis.pdf
 [JVCI]:         http://dx.doi.org/10.1016/j.jvcir.2007.06.006
 [EG2005]:       http://isg.cs.tcd.ie/eg2005/T7.html
 [HDRDisplay]:   http://www.cs.ubc.ca/labs/imager/tr/2004/Seetzen_2004_HDR
+[vision]:       http://www.dolby.com/us/en/brands/dolby-vision.html
 
 ## Presentation
 
