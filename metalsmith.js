@@ -99,7 +99,7 @@ var M = metalsmith(__dirname)
   lang: "en"
 }))
 
-// use a separate logic for files that match either *.html or index.*
+// use a separate logic for files that match neither *.html or index.*
 // in this case, generate a "permalink", trasforming:
 // /about.html -> /about/index.html so /about will work as a url
 .use(branch('!posts/**.html')
