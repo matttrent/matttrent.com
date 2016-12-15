@@ -1,0 +1,56 @@
+/* set cv elemens wider than normal on large-screen mode */
+@media (min-width: 760px) { 
+  p, footer, table, dl { width: 65%; }
+}
+
+/* custom size some spacing and fonts to better display cv */
+@media screen { 
+  .dl-horizontal dt {
+    width: 80px; /* custom, orig 160px */
+  }
+  .dl-horizontal dd {
+    margin-left: 100px; /* custom, orig 180px */
+  }
+  .dl-small-text {
+  	font-size: 1.3rem;
+  }
+}
+
+/* customizations for printing */
+@media print {
+  /* smaller font */
+  html { 
+    font-size: 10px; 
+  }
+
+  /* widen content */
+  body { 
+    width: 94%;
+    padding-left: 3%;
+  }
+  p, footer, table, dl { 
+    width: 100%; 
+  }
+
+  /* reduce vertical spacing */
+  article, section { 
+    padding: 0rem 0rem; 
+  }
+
+  /* reduce width of dl-horizontal dd elements */
+  .dl-horizontal dt {
+    width: 60px; /* custom, orig 160px */
+    /*padding-top: 0px;*/
+    padding-bottom: 0px;
+  }
+  .dl-horizontal dd {
+    margin-left: 80px; /* custom, orig 180px */
+    /*padding-top: 0px;*/
+    padding-bottom: 0px;
+  }
+
+  /* pagebreak before section */
+  .break-before {
+    page-break-before: always;
+  }
+}

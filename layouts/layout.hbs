@@ -7,10 +7,13 @@
   <link rel="stylesheet" href="/assets/css/latex.css"/>
   <link rel="stylesheet" href="/assets/css/custom.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{#block "head"}}
+    {{{ contents }}}
+  {{/block}}
 </head>
 
 <body>
-  <article style='padding-bottom: 250px;'>
+  <article class="single-article">
   {{#block "body"}}
     {{{ contents }}}
   {{/block}}

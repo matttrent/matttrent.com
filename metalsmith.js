@@ -1,5 +1,6 @@
 var handlebars  = require('handlebars');
 var hb_layouts  = require('handlebars-layouts');
+var moment      = require('moment');
 
 var metalsmith  = require('metalsmith');
 
@@ -79,8 +80,10 @@ var M = metalsmith(__dirname)
 // define our defines
 // available in handlbars in the form {{ attachments_prefix }}
 .use(define({
-  attachments_prefix: '/attachments',
-  '_': require('underscore')
+  attachments_prefix:   '/attachments',
+  '_':                  require('underscore'),
+  'current_year':       moment().year(),
+  'years_working':      moment().year() - moment("2004", "YYYY").year() + 1
 }))
 
 // ability to store posts as drafts by placing the following front-matter:
@@ -125,10 +128,11 @@ var M = metalsmith(__dirname)
   "destination": "./attachments"
 }))
 
-// redirect urls, in this case for my cv
-.use(redirect({
-  '/cv': '/attachments/work/cv.pdf'
-}));
+// // redirect urls, in this case for my cv
+// .use(redirect({
+//   '/cv': '/attachments/work/cv.pdf'
+// }))
+;
 
 // some export stuff to run imported as a local dev server / on heroku
 if (module.parent) {

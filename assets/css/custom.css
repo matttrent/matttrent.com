@@ -75,21 +75,19 @@ dd {
   margin-left: 0;
 }
 
-@media screen and (min-width: 760px) { 
-  .dl-horizontal dt {
-    float: left;
-    width: 50px; /* custom, orig 160px */
-    overflow: hidden;
-    clear: left;
-    text-align: right;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 1.2rem; /* custom, added */
-    margin-top: .15rem; /* custom, added */
-  }
-  .dl-horizontal dd {
-    margin-left: 70px; /* custom, orig 180px */
-  }
+.dl-horizontal dt {
+  float: left;
+  width: 50px; /* custom, orig 160px */
+  overflow: hidden;
+  clear: left;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.2rem; /* custom, added */
+  margin-top: .15rem; /* custom, added */
+}
+.dl-horizontal dd {
+  margin-left: 70px; /* custom, orig 180px */
 }
 
 @media screen and (max-width: 760px) { 
@@ -105,4 +103,10 @@ img.project {
   max-height: 18ex;
   /*object-fit: cover;*/
   /*display: none;*/
+}
+
+@media screen {
+  .single-article {
+    padding-bottom: 250px;
+  }
 }
