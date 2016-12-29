@@ -74,7 +74,7 @@ I have a lot of free time in the last few months, so this list is much longer th
 - __Steven Pressfield,__ [The War of Art](http://amzn.to/2htJIvZ).  Modern-day Marcus Aurelius reminding you to show up and do your assigned work professionally, as difficult as it may be.
 - __Winifred Gallagher,__ [Rapt: Attention and the Focused Life](http://amzn.to/2iiJh9Y).  Author is diagnosed cancer, realizes her life is improved by living more in the present.  Sadly this book is mostly pop-psychology and doesn't introspect much how attention improved her life.
 - __Pedro Domingos,__ [The Master Algorithm](The Master Algorithm).  Summary of the major approaches to machine learning that turns into an ad for the author's research.  A few insights.
-- __Oliver Sacks,__ [On the Move](http://amzn.to/2iJLbzm).  Endearing biography.  I've always loved Sacks.  It was encouraging to read that someone I respect still felt he had no idea what he was doing at the age of 40.
+- __Oliver Sacks,__ [On the Move](http://amzn.to/2iJLbzm).  Endearing autobiography.  I've always loved Sacks.  It was encouraging to read that someone I respect still felt he had no idea what he was doing at the age of 40.
 - __Donald Barlett,__ [Howard Hughes: His Life and Madness](http://amzn.to/2ivcDBM).  For as much as Hughes is a household name, I was surprised how little I knew about his life.  Hughes was a complete nut.
 - __Jean Edward Smith,__ [Eisenhower in War and Peace](http://amzn.to/2hxchw0).  I bought it for the perspective on the European theater, but was equally interested in his presidency.
 - __Michael Lewis,__ [Flash Boys](http://amzn.to/2icKcLe).  The dark and dirty world of high-frequency trading.  This is absolutely nuts.
