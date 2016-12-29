@@ -22,7 +22,7 @@ Last updated: __December 2016__. If this gets more than a couple months out of d
 - Suetonius, [The Twelve Caesars](http://amzn.to/2iaaE7Z).
 - Plutarch, [Plutarch's Lives Volume 1](http://amzn.to/2ijsvKr).
 - Plutarch, [Plutarch's Lives Volume 2](http://amzn.to/2isEjao).
-- Robert J. Gordon, [The Rise and Fall of American Growth](http://amzn.to/2ijy1fT).
+- Robert Gordon, [The Rise and Fall of American Growth](http://amzn.to/2ijy1fT).
 - Daniel Yergin, [The Quest](http://amzn.to/2iGKJ4P).
 - Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
 - John McPhee, [Assembling California](http://amzn.to/2i9V64b).
@@ -66,7 +66,20 @@ I have a lot of free time in the last few months, so this list is much longer th
 - __Oliver Burkeman,__ [The Antidote: Happiness for People Who Can't Stand Positive Thinking](http://amzn.to/2iH2X6n).  I generally don't include subtitles here and I generally don't read much modern pop-philosophy.  This book is an exception.  It does a fantastic job of weaving many of my philosophical influences into one thread.
 
 <!--
+- __Carl Anderson,__ [Creating a Data-Driven Organization](http://amzn.to/2hA5XVW).
+- __Ryan Holiday,__ [The Daily Stoic](http://amzn.to/2iiGjlJ)
 - __Steven Pressfield,__ [The Warrior Ethos](http://amzn.to/2hyalF8).
+- __John Vaillant,__ [The Golden Spruce](http://amzn.to/2iJXRtY)
+- __Kevin Kelly,__ [The Inevitable](http://amzn.to/2iJFQIh)
+- __Ryan Holiday,__ [Ego Is the Enemy](http://amzn.to/2iJwEUj)
+- __Steven Pressfield,__ [The War of Art](http://amzn.to/2htJIvZ)
+- __Winifred Gallagher,__ [Rapt: Attention and the Focused Life](http://amzn.to/2iiJh9Y)
+- __Pedro Domingos,__ [The Master Algorithm](The Master Algorithm)
+- __Oliver Sacks,__ [On the Move](http://amzn.to/2iJLbzm)
+- __Donald Barlett,__ [Howard Hughes: His Life and Madness](http://amzn.to/2ivcDBM)
+- __Jean Edward Smith,__ [Eisenhower in War and Peace](http://amzn.to/2hxchw0)
+- __Michael Lewis,__ [Flash Boys](http://amzn.to/2icKcLe)
+- __ Tyler Cowen,__ [The Great Stagnation](http://amzn.to/2imHjaW)
 -->
 
 ## All time most influential
@@ -75,15 +88,15 @@ If I were to recommend a short list of books, they'd focus on helping one get th
 
 - __Seneca,__ [Letters from a Stoic][].  Letters from Seneca to his friend, Lucilius, on the thoughts an actions one should consider to lead a good life.  The human condition hasn't changed much in the last 2000 years and the problems the Romans faced are the same as we contend with today.  If you replace the names, these could be contemporary letters{{#sidenote "seneca"}}If this resonates with you, I'd highly recommend the full collection of his [Letters on Ethics][].{{/sidenote}}.
 - __Marcus Aurelius,__ [Meditations][].  Similar to the previous, the personal journal of the one true philosopher-king to have ever ruled.  Marcus Aurelius is the most powerful man in the world and still reminds himself to practice patience and prepare to meet adversity with acceptance.  He could have literally any desire granted and reminds himself of his duty.  Reading his thoughts really puts your own life and "struggles" in a different light.
-- __George E. Vaillant,__ [Triumphs of Experience](http://amzn.to/2iGQzU6).  The book of the Harvard Grant Study, the greatest longitudinal study ever conducted, following men from university through the rest of their lives.  While many books discuss what our elder's think is most important, this book quantifiably studies what leads to flourishing later in life.  Author's summary: "Happiness is love.  Full stop."
+- __George Vaillant,__ [Triumphs of Experience](http://amzn.to/2iGQzU6).  The book of the Harvard Grant Study, the greatest longitudinal study ever conducted, following men from university through the rest of their lives.  While many books discuss what our elder's think is most important, this book quantifiably studies what leads to flourishing later in life.  Author's summary: "Happiness is love.  Full stop."
 
 [Letters from a Stoic]: http://amzn.to/2iGW7O3
 [Meditations]: http://amzn.to/2iGAuBI
 [Letters on Ethics]: http://amzn.to/2iafj9X
 
-Books that have significantly influenced my thinking, in no particular order:
+Books that have significantly influenced me, in no particular order:
 
 - __Nassim Taleb,__ [Antifragile](http://amzn.to/2iGZ9Cc).  Culmination of Taleb's thesis spanning Fooled by Randomness and the Black Swan.  Exploring the concept of things that are not only robust to chaos, but actually thrive in it, across all spheres of life.  Also, I love how cranky he is.  I could listen to him yell at kids to get off his lawn all day.
 - __Cal Newport,__ [So Good They Can't Ignore You](http://amzn.to/2iH0lW7). Refuting the advice to "follow your passion", Cal deconstructs the best approach to building a meaningful career.  He proceeds to thoroughly map out an approach to define your professional life on your own terms, and gain the credibility to obtain it.  Quite possibel the best career book I've ever read.
 - __Wade Davis,__ [One River](http://amzn.to/2iGPMlR).  Biography of Richard Evans Schultes, one of the most celebrated ethnobotanists to ever life, written by his protege.  Recounts his exploration of the Brazilian rainforest, weaving the stories of him, the people he meets, the plants, and the history of the land into one narrative.  
-- __Eiji Yoshikawa__, [Musashi](http://amzn.to/2iHcDxO).  Historical fiction of the life of Miyamoto Musashi, the most renowned Japanese swordsman who ever lived.  A ronin's journey through Edo Period Japan for perfection of his art and purification of spirit. This novel reads much like Gone with the Wind, but with more people fighting with swords.
+- __Eiji Yoshikawa,__ [Musashi](http://amzn.to/2iHcDxO).  Historical fiction of the life of Miyamoto Musashi, the most renowned Japanese swordsman who ever lived.  A ronin's journey through Edo Period Japan for perfection of his art and purification of spirit. This novel reads much like Gone with the Wind, but with more people fighting with swords.
