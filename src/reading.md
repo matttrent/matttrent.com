@@ -14,7 +14,7 @@ Last updated: __December 2016__. If this gets more than a couple months out of d
 - Jean Edward Smith, [FDR](http://amzn.to/2iGwhho).
 - Sebastian Junger, [Tribe: On Homecoming and Belonging](http://amzn.to/2ijAw1R).
 - Steward Brand, [How Buildings Learn](http://amzn.to/2igd1UL).
-- David Diez, Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek). {{#sidenote "stats"}}Please recommend me a good graduate-level statistics book for people that know math but not stats.{{/sidenote}}
+- David Diez, Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek){{#sidenote "stats"}}Please recommend me a good graduate-level statistics book for people that know math but not stats.{{/sidenote}}. 
 
 [coursera stats]: https://www.coursera.org/specializations/statistics
 

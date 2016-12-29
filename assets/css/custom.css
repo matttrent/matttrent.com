@@ -58,7 +58,7 @@ a:link {
   background-position: 0% 93%, 100% 93%, 0% 93%; 
 }
 
-dl {
+section>dl {
   font-size: 1.4rem;
   width: 50%;
   -webkit-padding-end: 5%;
@@ -91,7 +91,9 @@ dd {
 }
 
 @media screen and (max-width: 760px) { 
-  dl { width: 90%; }
+  section>dl { width: 90%; }
+  section>ul { width: 90%; }
+  section>ol { width: 90%; }
 }
 
 dl dt {

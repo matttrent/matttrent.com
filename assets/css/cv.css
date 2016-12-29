@@ -1,6 +1,6 @@
 /* set cv elemens wider than normal on large-screen mode */
 @media (min-width: 760px) { 
-  p, footer, table, dl { width: 65%; }
+  p, footer, table, section>dl { width: 65%; }
 }
 
 /* custom size some spacing and fonts to better display cv */
