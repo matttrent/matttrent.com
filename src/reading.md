@@ -29,8 +29,7 @@ Last updated: __December 2016__. If this gets more than a couple months out of d
 - Eric Greitens, [Resilience](http://amzn.to/2ig8IJl).
 - Yuval Harari, [Sapiens: A Brief History of Humankind](http://amzn.to/2iGM7om).
 - Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY).
-- Daniel Levitin. [The Organized Mind](http://amzn.to/2iGTgVp).
-- Arnold Bennett. [How to Live on 24 Hours a Day](http://amzn.to/2iH06dz).
+- Daniel Levitin, [The Organized Mind](http://amzn.to/2iGTgVp).
 
 <!--
 - David MacKay, [Sustainable Energy - Without the Hot Air](http://amzn.to/2ia87La).
@@ -42,6 +41,7 @@ Last updated: __December 2016__. If this gets more than a couple months out of d
 
 I have a lot of free time in the last few months, so this list is much longer than it would normally be.
 
+- __Arnold Bennett,__ [How to Live on 24 Hours a Day](http://amzn.to/2iH06dz).  A short essay on how not to waste your life.  If Seneca's _On the Shortness of Life_ is the strategy, this is one flavor of tactics.
 - __Charles Mann,__ [1491](http://amzn.to/2iGYuQW).  The New World as it actually was.  Contrary to what is taught in school, Columbus did not land in a sparsely settled, near-pristine wilderness and instead encountered a continent populated by advanced civilizations.
 - __John Vaillant,__ [The Tiger](http://amzn.to/2i9Z50A).  Tiger in Russia turns man-eater.  Combo special ops/animal warden team hunts tiger.  Tiger hunts them.  Insanity that is Russia.  Man vs. alpha preditor.
 - __Tim Ferriss,__ [Tools of Titans](http://amzn.to/2ia7rW8).  Agree or disagrees Ferriss' priorities, he's excellent at distilling things down into actionable life-hacks.  This is his most wide-reaching book yet.  Lots of things to apply to your life.
@@ -66,22 +66,6 @@ I have a lot of free time in the last few months, so this list is much longer th
 - __Walter Isaacson,__ [Einstein: His Life and Universe](http://amzn.to/2hy8HDe).  Sadly, not as good as Franklin.  Not because Isaacson wrote a poor book, but Einstein's life wasn't particulary interesting after general relativity.
 - __Oliver Burkeman,__ [The Antidote: Happiness for People Who Can't Stand Positive Thinking](http://amzn.to/2iH2X6n).  I generally don't include subtitles here and I generally don't read much modern pop-philosophy.  This book is an exception.  It does a fantastic job of weaving many of my philosophical influences into one thread.
 - __Carl Anderson,__ [Creating a Data-Driven Organization](http://amzn.to/2hA5XVW).  Good conceptual framework for the steps required to make data and data science effective at a company.
-- __Ryan Holiday,__ [The Daily Stoic](http://amzn.to/2iiGjlJ).  Daily Stoicism reader.  It's on my bedside table, but I haven't opened it as much as I think I should.
-- __Steven Pressfield,__ [The Warrior Ethos](http://amzn.to/2hyalF8).  I'm a big fan of Pressfield's writing and the mentality of doing one's duty.  This book scratches both those itches.
-- __John Vaillant,__ [The Golden Spruce](http://amzn.to/2iJXRtY).  Man cuts down golden-needled tree on Haida Gwaii.  I mostly enjoyed it for the description of the British Columbian coastal wilderness.
-- __Kevin Kelly,__ [The Inevitable](http://amzn.to/2iJFQIh).  Founding editor of Wired discusses future trends in consumer Internet technology.  Kelly presents a fascinating view of the technological future, better framing things I had thought of and introducing many new ideas.  My main complaint is that it's an overly rosy picture that doesn't really consider societal impact of many of these changes.
-- __Edward Slingerland,__ [Trying Not to Try](http://amzn.to/2icWa7s). Ancient Chinese philosophy meets modern cognition.  Reframes the role of Kahneman's System 1 and System 2 in the constellation of Daoist with insights on how to make it applicable to your life.
-- __Tyler Cowen,__ [Average Is Over](http://amzn.to/2icOTEQ).  Followup to [The Great Stagnation](http://amzn.to/2imHjaW) detailing the ongoing bifurcation of American society into the haves and the have-nots.  Economic forces will progressively reduce the middle class that has dominated the 20th century.
-- __Ryan Holiday,__ [Ego Is the Enemy](http://amzn.to/2iJwEUj).  Another modern Stoicism book.  Holiday continues the Stoic tradition of distilling things to a series of life-hacks.  Love it, hate it, but if works, use it.
-- __Steven Pressfield,__ [The War of Art](http://amzn.to/2htJIvZ).  Modern-day Marcus Aurelius reminding you to show up and do your assigned work professionally, as difficult as it may be.
-- __Winifred Gallagher,__ [Rapt: Attention and the Focused Life](http://amzn.to/2iiJh9Y).  Author is diagnosed cancer, realizes her life is improved by living more in the present.  Sadly this book is mostly pop-psychology and doesn't introspect much how attention improved her life.
-- __Pedro Domingos,__ [The Master Algorithm](The Master Algorithm).  Summary of the major approaches to machine learning that turns into an ad for the author's research.  A few insights.
-- __Oliver Sacks,__ [On the Move](http://amzn.to/2iJLbzm).  Endearing autobiography.  I've always loved Sacks.  It was encouraging to read that someone I respect still felt he had no idea what he was doing at the age of 40.
-- __Donald Barlett,__ [Howard Hughes: His Life and Madness](http://amzn.to/2ivcDBM).  For as much as Hughes is a household name, I was surprised how little I knew about his life.  Hughes was a complete nut.
-- __Jean Edward Smith,__ [Eisenhower in War and Peace](http://amzn.to/2hxchw0).  I bought it for the perspective on the European theater, but was equally interested in his presidency.
-- __Michael Lewis,__ [Flash Boys](http://amzn.to/2icKcLe).  The dark and dirty world of high-frequency trading.  This is absolutely nuts.
-- __Tyler Cowen,__ [The Great Stagnation](http://amzn.to/2imHjaW).  We've run out of the major contributors to the last century of American growth.  The future will continue at the same pace.
-- __Daniel Kahneman,__ [Thinking, Fast and Slow](http://amzn.to/2hxgmjI).  Summary of Kahnemann's research career into cognitive biases.  Got distracted after the first section.  While I think the book is right in broad strokes, I don't think we understand the brain well enough to consider the specifics gospel.
 
 ## All time most influential
 
@@ -102,3 +86,25 @@ Books that have significantly influenced me, in no particular order:
 - __Wade Davis,__ [One River](http://amzn.to/2iGPMlR).  Biography of Richard Evans Schultes, one of the most celebrated ethnobotanists to ever live, written by his protege.  Recounts his exploration of the Brazilian rainforest, weaving the stories of him, the people he meets, the plants, and the history of the land into one narrative.  
 - __Eiji Yoshikawa,__ [Musashi](http://amzn.to/2iHcDxO).  Historical fiction of the life of Miyamoto Musashi, the most renowned Japanese swordsman who ever lived.  A ronin's journey through Edo Period Japan for perfection of his art and purification of spirit. This novel reads much like Gone with the Wind, but with more people fighting with swords.
 - __Chris Kresser,__ [The Paleo Cure](http://amzn.to/2id3nUS).  I've read a lot of books on the paleo diet and associated lifestyle.  This is far and away the best one, focusing how to use it theraputically.  It provides a clear conceptual framework on how to remove potentially irritating foods, then test whether you can tolerate them or not.  Then moves on to the other lifestyle modifications that can improve one's health.  The one book on diet I recommend to people.
+
+## Abridged archive
+
+A selection of things that I have read not so recently.
+
+- __Ryan Holiday,__ [The Daily Stoic](http://amzn.to/2iiGjlJ).  Daily Stoicism reader.  It's on my bedside table, but I haven't opened it as much as I think I should.
+- __Steven Pressfield,__ [The Warrior Ethos](http://amzn.to/2hyalF8).  I'm a big fan of Pressfield's writing and the mentality of doing one's duty.  This book scratches both those itches.
+<!-- - __John Vaillant,__ [The Golden Spruce](http://amzn.to/2iJXRtY).  Man cuts down golden-needled tree on Haida Gwaii.  I mostly enjoyed it for the description of the British Columbian coastal wilderness. -->
+- __Kevin Kelly,__ [The Inevitable](http://amzn.to/2iJFQIh).  Founding editor of Wired discusses future trends in consumer Internet technology.  Kelly presents a fascinating view of the technological future, better framing things I had thought of and introducing many new ideas.  My main complaint is that it's an overly rosy picture that doesn't really consider societal impact of many of these changes.
+- __Edward Slingerland,__ [Trying Not to Try](http://amzn.to/2icWa7s). Ancient Chinese philosophy meets modern cognition.  Reframes the role of Kahneman's System 1 and System 2 in the constellation of Daoist with insights on how to make it applicable to your life.
+- __Tyler Cowen,__ [Average Is Over](http://amzn.to/2icOTEQ).  Followup to [The Great Stagnation](http://amzn.to/2imHjaW) detailing the ongoing bifurcation of American society into the haves and the have-nots.  Economic forces will progressively reduce the middle class that has dominated the 20th century.
+- __Ryan Holiday,__ [Ego Is the Enemy](http://amzn.to/2iJwEUj).  Another modern Stoicism book.  Holiday continues the Stoic tradition of distilling things to a series of life-hacks.  Love it, hate it, but if works, use it.
+- __Steven Pressfield,__ [The War of Art](http://amzn.to/2htJIvZ).  Modern-day Marcus Aurelius reminding you to show up and do your assigned work professionally, as difficult as it may be.
+<!-- - __Winifred Gallagher,__ [Rapt: Attention and the Focused Life](http://amzn.to/2iiJh9Y).  Author is diagnosed cancer, realizes her life is improved by living more in the present.  Sadly this book is mostly pop-psychology and doesn't introspect much how attention improved her life. -->
+<!-- - __Pedro Domingos,__ [The Master Algorithm](The Master Algorithm).  Summary of the major approaches to machine learning that turns into an ad for the author's research.  A few insights. -->
+- __Oliver Sacks,__ [On the Move](http://amzn.to/2iJLbzm).  Endearing autobiography.  I've always loved Sacks.  It was encouraging to read that someone I respect still felt he had no idea what he was doing at the age of 40.
+<!-- - __Donald Barlett,__ [Howard Hughes: His Life and Madness](http://amzn.to/2ivcDBM).  For as much as Hughes is a household name, I was surprised how little I knew about his life.  Hughes was a complete nut. -->
+- __Jean Edward Smith,__ [Eisenhower in War and Peace](http://amzn.to/2hxchw0).  I bought it for the perspective on the European theater, but was equally interested in his presidency.
+- __Michael Lewis,__ [Flash Boys](http://amzn.to/2icKcLe).  The dark and dirty world of high-frequency trading.  This is absolutely nuts.
+- __Tyler Cowen,__ [The Great Stagnation](http://amzn.to/2imHjaW).  We've run out of the major contributors to the last century of American growth.  The future will continue at the same pace.
+- __Mason Currey,__ [Daily Rituals: How Artists Work](http://amzn.to/2iKm9QD). Delightful little book recounting the daily rituals and working habits of many artists.  A wonderful diversity of approaches.  My only regret is he didn't include more scientists and thinkers.
+- __Daniel Kahneman,__ [Thinking, Fast and Slow](http://amzn.to/2hxgmjI).  Summary of Kahnemann's research career into cognitive biases.  Got distracted after the first section.  While I think the book is right in broad strokes, I don't think we understand the brain well enough to consider the specifics gospel.
