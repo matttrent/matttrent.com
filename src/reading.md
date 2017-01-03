@@ -11,8 +11,7 @@ Last updated: __December 2016__. If this gets more than a couple months out of d
 
 ## Currently reading
 
-- Jean Edward Smith, [FDR](http://amzn.to/2iGwhho).
-- Sebastian Junger, [Tribe: On Homecoming and Belonging](http://amzn.to/2ijAw1R).
+- Yuval Harari, [Sapiens: A Brief History of Humankind](http://amzn.to/2j1iv5a)
 - David Diez, Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek){{#sidenote "stats"}}Please recommend me a good graduate-level statistics book for people that know math but not stats.{{/sidenote}}. 
 
 ## On the radar
@@ -25,7 +24,6 @@ Last updated: __December 2016__. If this gets more than a couple months out of d
 - Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
 - John McPhee, [Assembling California](http://amzn.to/2i9V64b).
 - Eric Greitens, [Resilience](http://amzn.to/2ig8IJl).
-- Yuval Harari, [Sapiens: A Brief History of Humankind](http://amzn.to/2iGM7om).
 - Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY).
 - Daniel Levitin, [The Organized Mind](http://amzn.to/2iGTgVp).
 
@@ -39,7 +37,9 @@ Last updated: __December 2016__. If this gets more than a couple months out of d
 
 I have a lot of free time in the last few months, so this list is much longer than it would normally be.
 
-- __Arnold Bennett,__ [How to Live on 24 Hours a Day](http://amzn.to/2iH06dz).  A short essay on how not to waste your life.  If Seneca's _On the Shortness of Life_ is the strategy, this is one flavor of tactics.
+- __Jean Edward Smith,__ [FDR](http://amzn.to/2iGwhho).  Detailed biography of of the third great President, along with Washington and Lincoln.  I had not appreciated how much the current scope of the executive branch and the involvement of the US government in well-being of all Americans was a result of his terms.  See also PBS's exellent series [The Roosevelts](http://www.pbs.org/kenburns/the-roosevelts).
+- __Sebastian Junger,__ [Tribe: On Homecoming and Belonging](http://amzn.to/2ijAw1R). Short but profound book on the nature of human connection and society. For all of the material weath modern society has us, it seems at odds with our evolutionary history and has not brought a similar increase in happiness, purpose and belonging.
+- __Arnold Bennett,__ [How to Live on 24 Hours a Day](http://amzn.to/2iH06dz).  A short essay on how not to waste your life.  If Seneca's _On the Shortness of Life_ is the strategy, this is one set of simple tactics.
 - __Charles Mann,__ [1491](http://amzn.to/2iGYuQW).  The New World as it actually was.  Contrary to what is taught in school, Columbus did not land in a sparsely settled, near-pristine wilderness and instead encountered a continent populated by advanced civilizations.
 - __John Vaillant,__ [The Tiger](http://amzn.to/2i9Z50A).  Tiger in Russia turns man-eater.  Combo special ops/animal warden team hunts tiger.  Tiger hunts them.  Insanity that is Russia.  Man vs. alpha preditor.
 - __Tim Ferriss,__ [Tools of Titans](http://amzn.to/2ia7rW8).  Agree or disagrees Ferriss' priorities, he's excellent at distilling things down into actionable life-hacks.  This is his most wide-reaching book yet.  Lots of things to apply to your life.
@@ -80,7 +80,7 @@ If I were to recommend a short list of books, they'd focus on helping one get th
 Books that have significantly influenced me, in no particular order:
 
 - __Nassim Taleb,__ [Antifragile](http://amzn.to/2iGZ9Cc).  Culmination of Taleb's thesis spanning Fooled by Randomness and the Black Swan.  Exploring the concept of things that are not only robust to chaos, but actually thrive in it, across all spheres of life.  Also, I love how cranky he is.  I could listen to him yell at kids to get off his lawn all day.
-- __Cal Newport,__ [So Good They Can't Ignore You](http://amzn.to/2iH0lW7). Refuting the advice to "follow your passion", Cal deconstructs the best approach to building a meaningful career.  He proceeds to thoroughly map out an approach to define your professional life on your own terms, and gain the credibility to obtain it.  Quite possibel the best career book I've ever read.
+- __Cal Newport,__ [So Good They Can't Ignore You](http://amzn.to/2iH0lW7). Refuting the advice to "follow your passion", Cal deconstructs the best approach to building a meaningful career.  He proceeds to thoroughly map out an approach to define your professional life on your own terms, and gain the credibility to obtain it.  Quite possibly the best career book I've ever read.
 - __Wade Davis,__ [One River](http://amzn.to/2iGPMlR).  Biography of Richard Evans Schultes, one of the most celebrated ethnobotanists to ever live, written by his protege.  Recounts his exploration of the Brazilian rainforest, weaving the stories of him, the people he meets, the plants, and the history of the land into one narrative.  
 - __Eiji Yoshikawa,__ [Musashi](http://amzn.to/2iHcDxO).  Historical fiction of the life of Miyamoto Musashi, the most renowned Japanese swordsman who ever lived.  A ronin's journey through Edo Period Japan for perfection of his art and purification of spirit. This novel reads much like Gone with the Wind, but with more people fighting with swords.
 - __Chris Kresser,__ [The Paleo Cure](http://amzn.to/2id3nUS).  I've read a lot of books on the paleo diet and associated lifestyle.  This is far and away the best one, focusing how to use it theraputically.  It provides a clear conceptual framework on how to remove potentially irritating foods, then test whether you can tolerate them or not.  Then moves on to the other lifestyle modifications that can improve one's health.  The one book on diet I recommend to people.
