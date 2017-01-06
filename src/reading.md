@@ -11,7 +11,6 @@ Last updated: __January 2017__. If this gets more than a couple months out of da
 
 ## Currently reading
 
-- Yuval Harari, [Sapiens: A Brief History of Humankind](http://amzn.to/2j1iv5a)
 - David Diez, Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek){{#sidenote "stats"}}Please recommend me a good graduate-level statistics book for people that know math but not stats.{{/sidenote}}. 
 
 ## On the radar
@@ -37,6 +36,7 @@ Last updated: __January 2017__. If this gets more than a couple months out of da
 
 I have a lot of free time in the last few months, so this list is much longer than it would normally be.
 
+- __Yuval Harari,__ [Sapiens](http://amzn.to/2j1iv5a).  A Big History book ala Guns, Germs and Steel.  Interesting points but, similar to GG&S, the scope is so broad I found it difficult to overcome my skepticism that the author is only picking from the surface to support their chosen narrative. I read the first half and only skimmed the latter.  I may just not like the genre.
 - __Jean Edward Smith,__ [FDR](http://amzn.to/2iGwhho).  Detailed biography of of the third great President, along with Washington and Lincoln.  I had not appreciated how much the current scope of the executive branch and the involvement of the US government in well-being of all Americans was a result of his terms.  See also PBS's exellent series [The Roosevelts](http://www.pbs.org/kenburns/the-roosevelts).
 - __Sebastian Junger,__ [Tribe: On Homecoming and Belonging](http://amzn.to/2ijAw1R). Short but profound book on the nature of human connection and society. For all of the material weath modern society has us, it seems at odds with our evolutionary history and has not brought a similar increase in happiness, purpose and belonging.
 - __Arnold Bennett,__ [How to Live on 24 Hours a Day](http://amzn.to/2iH06dz).  A short essay on how not to waste your life.  If Seneca's _On the Shortness of Life_ is the strategy, this is one set of simple tactics.
