@@ -11,6 +11,7 @@ Last updated: __January 2017__. If this gets more than a couple months out of da
 
 ## Currently reading
 
+- Eric Greitens, [Resilience](http://amzn.to/2ig8IJl).
 - David Diez, Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek){{#sidenote "stats"}}Please recommend me a good graduate-level statistics book for people that know math but not stats.{{/sidenote}}. 
 
 ## On the radar
@@ -22,9 +23,17 @@ Last updated: __January 2017__. If this gets more than a couple months out of da
 - Daniel Yergin, [The Quest](http://amzn.to/2iGKJ4P).
 - Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
 - John McPhee, [Assembling California](http://amzn.to/2i9V64b).
-- Eric Greitens, [Resilience](http://amzn.to/2ig8IJl).
 - Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY).
 - Daniel Levitin, [The Organized Mind](http://amzn.to/2iGTgVp).
+- Seneca, [Letters on Ethics: To Lucilius](http://amzn.to/2iQ1awU).
+- Epictetus, [Art of Living](http://amzn.to/2iUggUK).
+- Epictetus, [Discourses and Selected Writings](http://amzn.to/2iQ2f8d).
+- Edward Hallowell, [Driven to Distraction](http://amzn.to/2i2CC1W).
+- Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx).
+- Peter Bevelin, [Seeking Wisdom](http://amzn.to/2iPTKKe).
+- Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP).
+- Reid Hoffman & Ben Casnocha. [The Start-up of You](http://amzn.to/2iUc7An).
+- Robert Greene. [Mastery](http://amzn.to/2i2HbJy).
 
 <!--
 - David MacKay, [Sustainable Energy - Without the Hot Air](http://amzn.to/2ia87La).
