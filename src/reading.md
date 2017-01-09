@@ -23,6 +23,7 @@ Last updated: __January 2017__. If this gets more than a couple months out of da
 - Daniel Yergin, [The Quest](http://amzn.to/2iGKJ4P).
 - Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
 - John McPhee, [Assembling California](http://amzn.to/2i9V64b).
+- George Polya, [How to Solve It](http://amzn.to/2iVzJEC).
 - Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY).
 - Daniel Levitin, [The Organized Mind](http://amzn.to/2iGTgVp).
 - Seneca, [Letters on Ethics: To Lucilius](http://amzn.to/2iQ1awU).

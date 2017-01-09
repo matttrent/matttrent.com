@@ -28,7 +28,7 @@
     width: 94%;
     padding-left: 3%;
   }
-  p, footer, table, dl { 
+  p, footer, table, dl, section>dl { 
     width: 100%; 
   }
 
