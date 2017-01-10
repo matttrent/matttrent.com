@@ -12,6 +12,7 @@ Last updated: __January 2017__. If this gets more than a couple months out of da
 ## Currently reading
 
 - Eric Greitens, [Resilience](http://amzn.to/2ig8IJl).
+- Daniel Yergin, [The Quest](http://amzn.to/2iGKJ4P).
 - David Diez, Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek){{#sidenote "stats"}}Please recommend me a good graduate-level statistics book for people that know math but not stats.{{/sidenote}}. 
 
 ## On the radar
@@ -20,7 +21,6 @@ Last updated: __January 2017__. If this gets more than a couple months out of da
 - Plutarch, [Plutarch's Lives Volume 1](http://amzn.to/2ijsvKr).
 - Plutarch, [Plutarch's Lives Volume 2](http://amzn.to/2isEjao).
 - Robert Gordon, [The Rise and Fall of American Growth](http://amzn.to/2ijy1fT).
-- Daniel Yergin, [The Quest](http://amzn.to/2iGKJ4P).
 - Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
 - John McPhee, [Assembling California](http://amzn.to/2i9V64b).
 - George Polya, [How to Solve It](http://amzn.to/2iVzJEC).
