@@ -16,6 +16,16 @@
   }
 }
 
+@media screen and (max-width: 760px) { 
+  .dl-horizontal dt {
+      text-align: left;
+  }
+  .dl-horizontal dd {
+    clear: left;
+    margin-left: 0px;
+  }  
+}
+
 /* customizations for printing */
 @media print {
   /* smaller font */
