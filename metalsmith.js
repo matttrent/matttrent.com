@@ -82,6 +82,8 @@ var M = metalsmith(__dirname)
 .use(define({
   attachments_prefix:   '/attachments',
   '_':                  require('underscore'),
+  'current_date':       moment().format('DD MMMM YYYY'),
+  'current_month':      moment().format('MMMM YYYY'),
   'current_year':       moment().year(),
   'years_working':      moment().year() - moment("2004", "YYYY").year() + 1
 }))

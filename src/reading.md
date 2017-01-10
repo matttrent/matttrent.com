@@ -5,7 +5,7 @@ layout: page.hbs
 
 A list of books at various stages of my reading pipeline.
 
-Last updated: __January 2017__. If this gets more than a couple months out of date, remind me to update it ([@matttrent][matttrent]).
+Last updated: __{{ current_month }}__. If this gets more than a couple months out of date, remind me to update it ([@matttrent][matttrent]).
 
 [matttrent]:   https://twitter.com/matttrent
 
