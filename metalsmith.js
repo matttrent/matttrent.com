@@ -28,8 +28,6 @@ var assets      = require('metalsmith-assets');
 var redirect    = require('metalsmith-redirect');
 //                https://github.com/mwishek/metalsmith-s3
 // var s3          = require('metalsmith-s3');
-//                https://github.com/evoja/metalsmith-prefixoid
-// var prefixoid   = require('metalsmith-prefixoid');
 
 // register handlebars layout helper
 handlebars.registerHelper(hb_layouts(handlebars));
@@ -97,7 +95,9 @@ var M = metalsmith(__dirname)
 .use(inplace('handlebars'))
 
 // process markdown files
-.use(markdown())
+.use(markdown({
+  smartypants: true
+}))
 
 // use richtypo.js when processing
 .use(typography({
@@ -130,10 +130,6 @@ var M = metalsmith(__dirname)
   "destination": "./attachments"
 }))
 
-// // redirect urls, in this case for my cv
-// .use(redirect({
-//   '/cv': '/attachments/work/cv.pdf'
-// }))
 ;
 
 // some export stuff to run imported as a local dev server / on heroku
