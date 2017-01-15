@@ -79,11 +79,11 @@ var M = metalsmith(__dirname)
 // available in handlbars in the form {{ attachments_prefix }}
 .use(define({
   attachments_prefix:   '/attachments',
-  '_':                  require('underscore'),
-  'current_date':       moment().format('DD MMMM YYYY'),
-  'current_month':      moment().format('MMMM YYYY'),
-  'current_year':       moment().year(),
-  'years_working':      moment().year() - moment("2004", "YYYY").year() + 1
+  _:                    require('underscore'),
+  current_date:         moment().format('DD MMMM YYYY'),
+  current_month:        moment().format('MMMM YYYY'),
+  current_year:         moment().year(),
+  years_working:        moment().year() - moment("2004", "YYYY").year() + 1
 }))
 
 // ability to store posts as drafts by placing the following front-matter:
@@ -122,12 +122,12 @@ var M = metalsmith(__dirname)
 
 // copy static ./assets and ./attachments to the destination directory
 .use(assets({
-  "source": "./assets",
-  "destination": "./assets"
+  source:       "./assets",
+  destination:  "./assets"
 }))
 .use(assets({
-  "source": "./attachments",
-  "destination": "./attachments"
+  source:       "./attachments",
+  destination:  "./attachments"
 }))
 
 ;
