@@ -34,13 +34,16 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx).
 - Peter Bevelin, [Seeking Wisdom](http://amzn.to/2iPTKKe).
 - Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP).
-- Reid Hoffman & Ben Casnocha. [The Start-up of You](http://amzn.to/2iUc7An).
-- Robert Greene. [Mastery](http://amzn.to/2i2HbJy).
+- Reid Hoffman & Ben Casnocha, [The Start-up of You](http://amzn.to/2iUc7An).
+- Robert Greene, [Mastery](http://amzn.to/2i2HbJy).
+- Benjamin Todd, [80,000 Hours](http://amzn.to/2juYJSt).
+- Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K).
+- Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU).
+- Cameron Davidson-Pilon, [Bayesian Methods for Hackers](http://amzn.to/2kyFu8v).
 
 <!--
 - David MacKay, [Sustainable Energy - Without the Hot Air](http://amzn.to/2ia87La).
 - Peter Thiel, [Zero to One](http://amzn.to/2iabOQT).
-- Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K).
 -->
 
 ## Recently finished
