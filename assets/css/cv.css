@@ -42,6 +42,11 @@
     width: 100%; 
   }
 
+  /* get rid of space above first title */
+  h1 {
+    margin-top: 2rem;
+  }
+
   /* reduce vertical spacing */
   article, section { 
     padding: 0rem 0rem; 
@@ -62,5 +67,10 @@
   /* pagebreak before section */
   .break-before {
     page-break-before: always;
+  }
+
+  /* print-specific hide */
+  .print-hide {
+    display: none !important;
   }
 }
