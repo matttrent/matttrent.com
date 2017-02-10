@@ -12,7 +12,6 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 ## Currently reading
 
 - Norman MacRae, [John Von Neumann](http://amzn.to/2kBv8Z5).
-- Elizabeth Dunn & Michael Norton, [Happy Money](http://amzn.to/2laGe4M).
 - David Diez, Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek){{#sidenote "stats"}}Please recommend me a good graduate-level statistics book for people that know math but not stats.{{/sidenote}}. 
 
 ## On the radar
@@ -49,6 +48,7 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 I have a lot of free time in the last few months, so this list is much longer than it would normally be.
 
+- __Elizabeth Dunn & Michael Norton,__ [Happy Money](http://amzn.to/2laGe4M).  Survey of scientific literature regarding how money affects our emotional well-being.  Sadly, some of the examples confuse correlation and causation, but the overall advice is very useful to consider if you want to buy the most happiness for your dollar.
 - __Benjamin Todd,__ [80,000 Hours](http://amzn.to/2laUXvC).  A well-reasoned examination of how to do the most social good with one's career, focused on readers just starting theirs. 
 - __Gordon Livingston,__ [Too Soon Old, Too Late Smart](http://amzn.to/2jnCH17).  30 statements about making sense of mortality, relationships and modern life.  Some of the points hit so deeply it was physically uncomfortable to read at times.  This is one of those books you reread portions of every few months until the work their way into your being.  Recommended.
 - __Daniel Yergin,__ [The Quest](http://amzn.to/2iGKJ4P).  Tackling the massive topic of global energy, politics, national security and the course of events that got us to the modern day.  Mostly told through small vignettes to illustrate particular points, this grabbed me much more than expected.
