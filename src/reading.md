@@ -11,43 +11,44 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Currently reading
 
-- Norman MacRae, [John Von Neumann](http://amzn.to/2kBv8Z5).
+- Jon Gertner. [The Idea Factory: Bell Labs](http://amzn.to/2mxeGGn).
 - David Diez, Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek){{#sidenote "stats"}}Please recommend me a good graduate-level statistics book for people that know math but not stats.{{/sidenote}}. 
 
 ## On the radar
 
+- Oliver Sacks. [Gratitude](http://amzn.to/2miuyR1).
+- L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL).
 - Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K)
-- Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU).
 - Cameron Davidson-Pilon, [Bayesian Methods for Hackers](http://amzn.to/2kyFu8v).
 - Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY).
 - George Polya, [How to Solve It](http://amzn.to/2iVzJEC).
 - Seneca, [Letters on Ethics: To Lucilius](http://amzn.to/2iQ1awU).
 - Suetonius, [The Twelve Caesars](http://amzn.to/2iaaE7Z).
-<!-- - Plutarch, [Plutarch's Lives Volume 1](http://amzn.to/2ijsvKr). -->
-<!-- - Plutarch, [Plutarch's Lives Volume 2](http://amzn.to/2isEjao). -->
 - Robert Gordon, [The Rise and Fall of American Growth](http://amzn.to/2ijy1fT).
 - Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
-<!-- - John McPhee, [Assembling California](http://amzn.to/2i9V64b). -->
+- Frank Herbert. [Dune](http://amzn.to/2lbslC9){{#sidenote "dune"}}Never fear, I've read it before.  I'll read it again.  I love books as physical artifacts, and hardcover edition was too good to pass up.{{/sidenote}}.
 - Daniel Levitin, [The Organized Mind](http://amzn.to/2iGTgVp).
-<!-- - Epictetus, [Art of Living](http://amzn.to/2iUggUK). -->
-<!-- - Epictetus, [Discourses and Selected Writings](http://amzn.to/2iQ2f8d). -->
-- Edward Hallowell, [Driven to Distraction](http://amzn.to/2i2CC1W).
-<!-- - Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx). -->
 - Peter Bevelin, [Seeking Wisdom](http://amzn.to/2iPTKKe).
 - Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP).
+- Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU).
+- Robert Greene, [Mastery](http://amzn.to/2i2HbJy).
+<!-- - Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx). -->
+<!-- - Epictetus, [Art of Living](http://amzn.to/2iUggUK). -->
+<!-- - Epictetus, [Discourses and Selected Writings](http://amzn.to/2iQ2f8d). -->
+<!-- - Plutarch, [Plutarch's Lives Volume 1](http://amzn.to/2ijsvKr). -->
+<!-- - Plutarch, [Plutarch's Lives Volume 2](http://amzn.to/2isEjao). -->
 <!-- - Reid Hoffman & Ben Casnocha, [The Start-up of You](http://amzn.to/2iUc7An). -->
-<!-- - Robert Greene, [Mastery](http://amzn.to/2i2HbJy). -->
-
-
-<!--
-- David MacKay, [Sustainable Energy - Without the Hot Air](http://amzn.to/2ia87La).
-- Peter Thiel, [Zero to One](http://amzn.to/2iabOQT).
--->
+<!-- - David MacKay, [Sustainable Energy - Without the Hot Air](http://amzn.to/2ia87La). -->
+<!-- - Peter Thiel, [Zero to One](http://amzn.to/2iabOQT). -->
+<!-- - John McPhee, [Assembling California](http://amzn.to/2i9V64b). -->
 
 ## Recently finished
 
 I have a lot of free time in the last few months, so this list is much longer than it would normally be.
 
+- __Adam Steltzner,__ [The Right Kind of Crazy](http://amzn.to/2mx7Fp2).  Book on curiosity and technical leadership (that is leading both technological development and the people doing it) by the JPL scientist responsible for the _Curiosity_ Sky Crane.
+- __Edward Hallowell,__ [Driven to Distraction](http://amzn.to/2i2CC1W).  Definitive work on ADHD, especially in adults.  While most pertinent to those with ADHD, I think it's lessons broadly applicable.  On any topic, the best instruction often comes from the ones for which a skill comes the least naturally.  The systems and psychology that help the distractable get stuff done are of interest to all.
+- __Norman MacRae,__ [John Von Neumann](http://amzn.to/2kBv8Z5).  Father of the modern computer, among many other accomplishments.  While an innate genius (a term much overused, but truly warranted here) his skill was as much nuture as nature.  As such, the book provides nuggets to develop your own thinking skills.
 - __Elizabeth Dunn & Michael Norton,__ [Happy Money](http://amzn.to/2laGe4M).  Survey of scientific literature regarding how money affects our emotional well-being.  Sadly, some of the examples confuse correlation and causation, but the overall advice is very useful to consider if you want to buy the most happiness for your dollar.
 - __Benjamin Todd,__ [80,000 Hours](http://amzn.to/2laUXvC).  A well-reasoned examination of how to do the most social good with one's career, focused on readers just starting theirs. 
 - __Gordon Livingston,__ [Too Soon Old, Too Late Smart](http://amzn.to/2jnCH17).  30 statements about making sense of mortality, relationships and modern life.  Some of the points hit so deeply it was physically uncomfortable to read at times.  This is one of those books you reread portions of every few months until the work their way into your being.  Recommended.
@@ -72,7 +73,7 @@ If I were to recommend a short list of books, they'd focus on helping one get th
 - __George Vaillant,__ [Triumphs of Experience](http://amzn.to/2iGQzU6).  The book of the Harvard Grant Study, the greatest longitudinal study ever conducted, following men from university through the rest of their lives.  While many books discuss what our elder's think is most important, this book quantifiably studies what leads to flourishing later in life.  Author's summary: "Happiness is love.  Full stop."
 
 [Letters from a Stoic]: http://amzn.to/2iGW7O3
-[Meditations]: http://amzn.to/2iGAuBI
+[Meditations]: http://amzn.to/2lAS8p6
 [Letters on Ethics]: http://amzn.to/2iafj9X
 
 Books that have significantly influenced me, in no particular order:
