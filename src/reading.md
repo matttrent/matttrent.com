@@ -30,6 +30,7 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - Daniel Levitin, [The Organized Mind](http://amzn.to/2iGTgVp).
 - Peter Bevelin, [Seeking Wisdom](http://amzn.to/2iPTKKe).
 - Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP).
+- Wade Davis, [The Wayfinders: Why Ancient Wisdom Matters in the Modern World](http://amzn.to/2l0O6cG).
 - Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU).
 - Robert Greene, [Mastery](http://amzn.to/2i2HbJy).
 <!-- - Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx). -->
