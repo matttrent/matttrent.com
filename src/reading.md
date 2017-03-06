@@ -11,12 +11,11 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Currently reading
 
-- Jon Gertner. [The Idea Factory: Bell Labs](http://amzn.to/2mxeGGn).
+- Oliver Sacks. [Gratitude](http://amzn.to/2miuyR1).
 - David Diez, Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek){{#sidenote "stats"}}Please recommend me a good graduate-level statistics book for people that know math but not stats.{{/sidenote}}. 
 
 ## On the radar
 
-- Oliver Sacks. [Gratitude](http://amzn.to/2miuyR1).
 - L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL).
 - Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K)
 - Cameron Davidson-Pilon, [Bayesian Methods for Hackers](http://amzn.to/2kyFu8v).
@@ -26,11 +25,9 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - Suetonius, [The Twelve Caesars](http://amzn.to/2iaaE7Z).
 - Robert Gordon, [The Rise and Fall of American Growth](http://amzn.to/2ijy1fT).
 - Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
-- Frank Herbert. [Dune](http://amzn.to/2lbslC9){{#sidenote "dune"}}Never fear, I've read it before.  I'll read it again.  I love books as physical artifacts, and hardcover edition was too good to pass up.{{/sidenote}}.
 - Daniel Levitin, [The Organized Mind](http://amzn.to/2iGTgVp).
 - Peter Bevelin, [Seeking Wisdom](http://amzn.to/2iPTKKe).
 - Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP).
-- Wade Davis, [The Wayfinders: Why Ancient Wisdom Matters in the Modern World](http://amzn.to/2l0O6cG).
 - Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU).
 - Robert Greene, [Mastery](http://amzn.to/2i2HbJy).
 <!-- - Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx). -->
@@ -45,8 +42,9 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
-I have a lot of free time in the last few months, so this list is much longer than it would normally be.
-
+- __Frank Herbert,__ [Dune](http://amzn.to/2lbslC9).  Never fear, I've read it before; I'll read it again.  The hardcover edition was too good to pass up.
+- __Jon Gertner,__ [The Idea Factory: Bell Labs](http://amzn.to/2mxeGGn).  The story of one of the greatest sources of technological innovation in American history.  Lots of insight into the creation of new techologies and analysis of modern innovation.
+- __Wade Davis,__ [The Wayfinders: Why Ancient Wisdom Matters in the Modern World](http://amzn.to/2l0O6cG).  "The myriad of cultures of the world are not failed attempts at modernity, let alone failed attempts to be us. They are unique answers to a fundamental question: What does it mean to be human and alive?"  Watch his [Long Now talk](http://longnow.org/seminars/02010/jan/13/wayfinders-why-ancient-wisdom-matters-modern-world/) as well.
 - __Adam Steltzner,__ [The Right Kind of Crazy](http://amzn.to/2mx7Fp2).  Book on curiosity and technical leadership (that is leading both technological development and the people doing it) by the JPL scientist responsible for the _Curiosity_ Sky Crane.
 - __Edward Hallowell,__ [Driven to Distraction](http://amzn.to/2i2CC1W).  Definitive work on ADHD, especially in adults.  While most pertinent to those with ADHD, I think it's lessons broadly applicable.  On any topic, the best instruction often comes from the ones for which a skill comes the least naturally.  The systems and psychology that help the distractable get stuff done are of interest to all.
 - __Paul Kalanithi,__ [When Breath Becomes Air](http://amzn.to/2myfzOY).  The words of the dying are perhaps the best advice on how to live.
