@@ -11,12 +11,15 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Currently reading
 
-- Oliver Sacks. [Gratitude](http://amzn.to/2miuyR1).
-- David Diez, Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek){{#sidenote "stats"}}Please recommend me a good graduate-level statistics book for people that know math but not stats.{{/sidenote}}. 
+- William Manchester, [The Last Lion: Winston Spencer Churchill: Defender of the Realm, 1940-1965](The Last Lion: Winston Spencer Churchill: Defender of the Realm, 1940-1965).
+- Yuval Noah Harari, [Homo Deus](http://amzn.to/2ozpWpI).
+- John Kruschke, [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g).
 
 ## On the radar
 
+- Frank Ostaseski, [The Five Invitations](http://amzn.to/2pfpnm5).
 - L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL).
+- Twyla Tharp, [The Creative Habit](http://amzn.to/2ozgpyV).
 - Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K)
 - Cameron Davidson-Pilon, [Bayesian Methods for Hackers](http://amzn.to/2kyFu8v).
 - Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY).
@@ -30,6 +33,7 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP).
 - Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU).
 - Robert Greene, [Mastery](http://amzn.to/2i2HbJy).
+- Dave Asprey, [Head Strong](http://amzn.to/2oznIqs).
 <!-- - Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx). -->
 <!-- - Epictetus, [Art of Living](http://amzn.to/2iUggUK). -->
 <!-- - Epictetus, [Discourses and Selected Writings](http://amzn.to/2iQ2f8d). -->
@@ -42,6 +46,10 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __Timothy C. Urdan,__ [Statistics in Plain English](http://amzn.to/2oztSqn).  This is the intro frequentist statistics book I've been looking for.  There's dozens of books that cover the basic curriculum, but the majority either assume move too slowly for me or assume too much background.  This one hit the sweet spot.
+- __William Manchester,__ [The Last Lion: Winston Spencer Churchill: Alone, 1932-1940](http://amzn.to/2p3AqiF).  2nd in a Winston Churchill biography trilogy.  My main takeaway was a greater understanding of the run-up to WWII.
+- __Oliver Sacks,__ [Gratitude](http://amzn.to/2miuyR1).  Oliver Sacks looks back on his life and contemplates old age.  A short, endearing reminder of where one's priorities should be.  This one will be reread many times.
+- __David Diez,__ Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek).  Intro stats book.  Moved too slowly, and hand-waved away too many details for me.  If you want to understand this subject matter, I recommend [Statistics in Plain English](http://amzn.to/2oztSqn) instead.
 - __Frank Herbert,__ [Dune](http://amzn.to/2lbslC9).  Never fear, I've read it before; I'll read it again.  The hardcover edition was too good to pass up.
 - __Jon Gertner,__ [The Idea Factory: Bell Labs](http://amzn.to/2mxeGGn).  The story of one of the greatest sources of technological innovation in American history.  Lots of insight into the creation of new techologies and analysis of modern innovation.
 - __Wade Davis,__ [The Wayfinders: Why Ancient Wisdom Matters in the Modern World](http://amzn.to/2l0O6cG).  "The myriad of cultures of the world are not failed attempts at modernity, let alone failed attempts to be us. They are unique answers to a fundamental question: What does it mean to be human and alive?"  Watch his [Long Now talk](http://longnow.org/seminars/02010/jan/13/wayfinders-why-ancient-wisdom-matters-modern-world/) as well.
@@ -56,15 +64,6 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - __Gordon Livingston,__ [Too Soon Old, Too Late Smart](http://amzn.to/2jnCH17).  30 statements about making sense of mortality, relationships and modern life.  Some of the points hit so deeply it was physically uncomfortable to read at times.  This is one of those books you reread portions of every few months until the work their way into your being.  Recommended.
 - __Daniel Yergin,__ [The Quest](http://amzn.to/2iGKJ4P).  Tackling the massive topic of global energy, politics, national security and the course of events that got us to the modern day.  Mostly told through small vignettes to illustrate particular points, this grabbed me much more than expected.
 - __Eric Greitens,__ [Resilience](http://amzn.to/2ig8IJl).  Lessons on cultivating resiliance from a Navy Seal.  I made it through the first 100 pagse but it feels like a book to be digested in small chapters over time.
-- __Yuval Harari,__ [Sapiens](http://amzn.to/2j1iv5a).  A Big History book ala Guns, Germs and Steel.  Interesting points but, similar to GG&S, the scope is so broad I found it difficult to overcome my skepticism that the author is only picking from the surface to support their chosen narrative. I read the first half and only skimmed the latter.  I may just not like the genre.
-- __Jean Edward Smith,__ [FDR](http://amzn.to/2iGwhho).  Detailed biography of of the third great President, along with Washington and Lincoln.  I had not appreciated how much the current scope of the executive branch and the involvement of the US government in well-being of all Americans was a result of his terms.  See also PBS's exellent series [The Roosevelts](http://www.pbs.org/kenburns/the-roosevelts).
-- __Sebastian Junger,__ [Tribe: On Homecoming and Belonging](http://amzn.to/2ijAw1R). Short but profound book on the nature of human connection and society. For all of the material weath modern society has us, it seems at odds with our evolutionary history and has not brought a similar increase in happiness, purpose and belonging.
-- __Arnold Bennett,__ [How to Live on 24 Hours a Day](http://amzn.to/2iH06dz).  A short essay on how not to waste your life.  If Seneca's _On the Shortness of Life_ is the strategy, this is one set of simple tactics.
-- __Charles Mann,__ [1491](http://amzn.to/2iGYuQW).  The New World as it actually was.  Contrary to what is taught in school, Columbus did not land in a sparsely settled, near-pristine wilderness and instead encountered a continent populated by advanced civilizations.
-- __John Vaillant,__ [The Tiger](http://amzn.to/2i9Z50A).  Tiger in Russia turns man-eater.  Combo special ops/animal warden team hunts tiger.  Tiger hunts them.  Insanity that is Russia.  Man vs. alpha preditor.
-- __Tim Ferriss,__ [Tools of Titans](http://amzn.to/2ia7rW8).  Agree or disagrees Ferriss' priorities, he's excellent at distilling things down into actionable life-hacks.  This is his most wide-reaching book yet.  Lots of things to apply to your life.
-- __Ryan Avent,__ [The Wealth of Humans](http://amzn.to/2hv0kXw).  How does technological progress alter the relationship of Labor and Capital.  What does the future look like when there isn't enough work for the members of society?  I can't tell whether the book was superficial or I simply didn't understand it.
-- __Daron Acemoglu & James Robinson,__ [Why Nations Fail](http://amzn.to/2ig8UIE).  Extractive political and economic institutions that maintain advantage for the minority elite are largely responsible for why nations fail to develop economically.
 
 ## All time most influential
 
@@ -89,12 +88,21 @@ Books that have significantly influenced me, in no particular order:
 - __Alfred Lansing,__ [Endurance: Shackleton's Incredible Voyage](http://amzn.to/2ia4m8p).  The story of Shackleton's famed Antarctic expedition.  Despite his boat being destroyed and being trapped for 18 months, managed to get the entire crew home safely.  Perhaps one of the best studies of the quality of leadership. 
 - __Steven Pressfield,__ [Gates of Fire](http://amzn.to/2iGCslH).  Fictional, yeh highly accurate, recounting of the battle of the Spartans and the battle of Thermopylae.  I could barely put it down.
 - __Steward Brand,__ [Whole Earth Discipline](http://amzn.to/2igfDSM).  Argues that many of the things (nuclear power, GMO crops, etc...) viewed as ecological disasters have been exagerated, and may be necessary to avoid the larger ecological disaster of climate change.  If you're interested in climate change, this is your map.
+- __Sebastian Junger,__ [Tribe: On Homecoming and Belonging](http://amzn.to/2ijAw1R). Short but profound book on the nature of human connection and society. For all of the material weath modern society has us, it seems at odds with our evolutionary history and has not brought a similar increase in happiness, purpose and belonging.
 
 
 ## Abridged archive
 
 A selection of things that I have read not so recently.
 
+- __Yuval Harari,__ [Sapiens](http://amzn.to/2j1iv5a).  A Big History book ala Guns, Germs and Steel.  Interesting points but, similar to GG&S, the scope is so broad I found it difficult to overcome my skepticism that the author is only picking from the surface to support their chosen narrative. I read the first half and only skimmed the latter.  I may just not like the genre.
+- __Jean Edward Smith,__ [FDR](http://amzn.to/2iGwhho).  Detailed biography of of the third great President, along with Washington and Lincoln.  I had not appreciated how much the current scope of the executive branch and the involvement of the US government in well-being of all Americans was a result of his terms.  See also PBS's exellent series [The Roosevelts](http://www.pbs.org/kenburns/the-roosevelts).
+- __Arnold Bennett,__ [How to Live on 24 Hours a Day](http://amzn.to/2iH06dz).  A short essay on how not to waste your life.  If Seneca's _On the Shortness of Life_ is the strategy, this is one set of simple tactics.
+- __Charles Mann,__ [1491](http://amzn.to/2iGYuQW).  The New World as it actually was.  Contrary to what is taught in school, Columbus did not land in a sparsely settled, near-pristine wilderness and instead encountered a continent populated by advanced civilizations.
+- __John Vaillant,__ [The Tiger](http://amzn.to/2i9Z50A).  Tiger in Russia turns man-eater.  Combo special ops/animal warden team hunts tiger.  Tiger hunts them.  Insanity that is Russia.  Man vs. alpha preditor.
+- __Tim Ferriss,__ [Tools of Titans](http://amzn.to/2ia7rW8).  Agree or disagrees Ferriss' priorities, he's excellent at distilling things down into actionable life-hacks.  This is his most wide-reaching book yet.  Lots of things to apply to your life.
+- __Ryan Avent,__ [The Wealth of Humans](http://amzn.to/2hv0kXw).  How does technological progress alter the relationship of Labor and Capital.  What does the future look like when there isn't enough work for the members of society?  I can't tell whether the book was superficial or I simply didn't understand it.
+- __Daron Acemoglu & James Robinson,__ [Why Nations Fail](http://amzn.to/2ig8UIE).  Extractive political and economic institutions that maintain advantage for the minority elite are largely responsible for why nations fail to develop economically.
 - __Steward Brand,__ [How Buildings Learn](http://amzn.to/2igd1UL).  Got distracted half way through, but still got a lot out of it.  I've always considered architecture and software development to have interesting parallels and this reinforced that idea.  Biggest insight: certain buildings being like blue jeans where they improve with use and wear.  Many things that interest me share that concept.
 - __Mortimer Adler & Charles Van Doren,__ [How to Read a Book](http://amzn.to/2inkioh).  How-to guide for reading books.  While seemingly obvious, most of us were not taught the skills necessary for digesting difficult reading material.  This book presents a 4-level approach for understanding great books.  Ironically, I didn't finish it.
 - __Christian Rudder,__ [Dataclysm](http://amzn.to/2hy15kg).  A study of how of human behavior on social networks.  How do people think and act towards their fellow members of society when no ones looking.  Many of the problems that came to light in 2016 have been around for a long time.
