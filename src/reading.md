@@ -11,7 +11,7 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Currently reading
 
-- William Manchester, [The Last Lion: Winston Spencer Churchill: Defender of the Realm, 1940-1965](The Last Lion: Winston Spencer Churchill: Defender of the Realm, 1940-1965).
+- Chris Bellamy, [Absolute War](http://amzn.to/2ohqjmn).
 - Yuval Noah Harari, [Homo Deus](http://amzn.to/2ozpWpI).
 - John Kruschke, [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g).
 
@@ -46,6 +46,7 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __William Manchester,__ [The Last Lion: Winston Spencer Churchill: Defender of the Realm, 1940-1965](http://amzn.to/2p9cSZS).  Continuing the previous biography about Churchill's time as Prime Minister during WWII.  I got too fascinated in the Eastern Front and stopped in favor of reading on that.
 - __Timothy C. Urdan,__ [Statistics in Plain English](http://amzn.to/2oztSqn).  This is the intro frequentist statistics book I've been looking for.  There's dozens of books that cover the basic curriculum, but the majority either assume move too slowly for me or assume too much background.  This one hit the sweet spot.
 - __William Manchester,__ [The Last Lion: Winston Spencer Churchill: Alone, 1932-1940](http://amzn.to/2p3AqiF).  2nd in a Winston Churchill biography trilogy.  My main takeaway was a greater understanding of the run-up to WWII.
 - __Oliver Sacks,__ [Gratitude](http://amzn.to/2miuyR1).  Oliver Sacks looks back on his life and contemplates old age.  A short, endearing reminder of where one's priorities should be.  This one will be reread many times.
