@@ -35,8 +35,9 @@
 
   /* widen content */
   body { 
-    width: 94%;
-    padding-left: 3%;
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 3rem;
   }
   p, footer, table, dl, section>dl { 
     width: 100%; 
@@ -67,6 +68,7 @@
   /* pagebreak before section */
   .break-before {
     page-break-before: always;
+    padding-top: 3rem;
   }
 
   /* print-specific hide */
