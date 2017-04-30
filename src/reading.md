@@ -46,6 +46,8 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __Richard Rhodes,__ [The Making of the Atomic Bomb](http://amzn.to/2qtaARX).  Absolutely fascinating history of the making of one of the most amazing (and horrifying) scientific and technological achievements of humanity.  Rhodes does a stellar job of weaving the stories of the science, the people, the philosophy, the politics and the logistics.  Will read again.
+- __Daniel Coyle,__ [The Talent Code](http://amzn.to/2qiXoCF).  What is necessary to give rise to talent, in any area.  I'm having trouble summarizing it, but there are some good gems among the pop-neuroscience and personal anecdotes.
 - __William Manchester,__ [The Last Lion: Winston Spencer Churchill: Defender of the Realm, 1940-1965](http://amzn.to/2p9cSZS).  Continuing the previous biography about Churchill's time as Prime Minister during WWII.  I got too fascinated in the Eastern Front and stopped in favor of reading on that.
 - __Timothy C. Urdan,__ [Statistics in Plain English](http://amzn.to/2oztSqn).  This is the intro frequentist statistics book I've been looking for.  There's dozens of books that cover the basic curriculum, but the majority either assume move too slowly for me or assume too much background.  This one hit the sweet spot.
 - __William Manchester,__ [The Last Lion: Winston Spencer Churchill: Alone, 1932-1940](http://amzn.to/2p3AqiF).  2nd in a Winston Churchill biography trilogy.  My main takeaway was a greater understanding of the run-up to WWII.
