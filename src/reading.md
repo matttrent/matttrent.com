@@ -11,15 +11,15 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Currently reading
 
-- Chris Bellamy, [Absolute War](http://amzn.to/2ohqjmn).
 - Yuval Noah Harari, [Homo Deus](http://amzn.to/2ozpWpI).
 - John Kruschke, [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g).
+- Twyla Tharp, [The Creative Habit](http://amzn.to/2ozgpyV).
 
 ## On the radar
 
+- Massimo Pigliucci, [How to Be a Stoic](http://amzn.to/2q0E9wQ).
 - Frank Ostaseski, [The Five Invitations](http://amzn.to/2pfpnm5).
 - L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL).
-- Twyla Tharp, [The Creative Habit](http://amzn.to/2ozgpyV).
 - Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K)
 - Cameron Davidson-Pilon, [Bayesian Methods for Hackers](http://amzn.to/2kyFu8v).
 - Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY).
@@ -46,6 +46,8 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __Chris Bellamy,__ [Absolute War](http://amzn.to/2ohqjmn).  First in what I imagine will be many books about the Eastern Front of WWII{{#sidenote "absolutewar"}}I highly recommend Dan Carlin's [Ghosts of the Ostfront](http://www.dancarlin.com/product/hardcore-history-ghosts-ostfront-series/) series, if you're at all curious.{{/sidenote}}. The book focused on military operations and the logistics of those movements, and vignettes of the major characters.  While I didn't want the book to be overwhelmed with stories from the front, I found the book glossed over it to a surprising degree.  If you skim too fast, you could miss a million deaths.
+- __Kim Zetter,__ [Countdown to Zero Day](http://amzn.to/2qnEMhZ).  The story behind Stuxnet, sabotage of the Iranian nuclear program and the vulnerability of infrastructure in the coming age of cyber-warfare.  The future is scary.
 - __Richard Rhodes,__ [The Making of the Atomic Bomb](http://amzn.to/2qtaARX).  Absolutely fascinating history of the making of one of the most amazing (and horrifying) scientific and technological achievements of humanity.  Rhodes does a stellar job of weaving the stories of the science, the people, the philosophy, the politics and the logistics.  Will read again.
 - __Daniel Coyle,__ [The Talent Code](http://amzn.to/2qiXoCF).  What is necessary to give rise to talent, in any area.  I'm having trouble summarizing it, but there are some good gems among the pop-neuroscience and personal anecdotes.
 - __William Manchester,__ [The Last Lion: Winston Spencer Churchill: Defender of the Realm, 1940-1965](http://amzn.to/2p9cSZS).  Continuing the previous biography about Churchill's time as Prime Minister during WWII.  I got too fascinated in the Eastern Front and stopped in favor of reading on that.
