@@ -13,21 +13,21 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 - Yuval Noah Harari, [Homo Deus](http://amzn.to/2ozpWpI).
 - John Kruschke, [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g).
+- Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
 - Twyla Tharp, [The Creative Habit](http://amzn.to/2ozgpyV).
+- Massimo Pigliucci, [How to Be a Stoic](http://amzn.to/2q0E9wQ).
+- Tom Wolfe, [The Right Stuff](http://amzn.to/2rOLD4D).
 
 ## On the radar
 
-- Massimo Pigliucci, [How to Be a Stoic](http://amzn.to/2q0E9wQ).
 - Frank Ostaseski, [The Five Invitations](http://amzn.to/2pfpnm5).
 - L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL).
 - Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K)
-- Cameron Davidson-Pilon, [Bayesian Methods for Hackers](http://amzn.to/2kyFu8v).
 - Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY).
 - George Polya, [How to Solve It](http://amzn.to/2iVzJEC).
 - Seneca, [Letters on Ethics: To Lucilius](http://amzn.to/2iQ1awU).
 - Suetonius, [The Twelve Caesars](http://amzn.to/2iaaE7Z).
 - Robert Gordon, [The Rise and Fall of American Growth](http://amzn.to/2ijy1fT).
-- Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
 - Daniel Levitin, [The Organized Mind](http://amzn.to/2iGTgVp).
 - Peter Bevelin, [Seeking Wisdom](http://amzn.to/2iPTKKe).
 - Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP).
@@ -46,6 +46,8 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __Cameron Davidson-Pilon,__ [Bayesian Methods for Hackers](http://amzn.to/2kyFu8v).  Started it and immediately switched to [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g) for more depth.  I find this book best as a tutorial for [PyMC3](https://pymc-devs.github.io/pymc3/).
+- __James Gliek,__ [Genius: The Life and Science of Richard Feynman](http://amzn.to/2rfi4MQ).  Doesn't play up his persona as much as [Surely You're Joking](http://amzn.to/2qNdbZN) but covers the history and implications of his physics well.  I didn't find a whole lot new in it, but I've already read most other books on Feynman and his area.
 - __Chris Bellamy,__ [Absolute War](http://amzn.to/2ohqjmn).  First in what I imagine will be many books about the Eastern Front of WWII{{#sidenote "absolutewar"}}I highly recommend Dan Carlin's [Ghosts of the Ostfront](http://www.dancarlin.com/product/hardcore-history-ghosts-ostfront-series/) series, if you're at all curious.{{/sidenote}}. The book focused on military operations and the logistics of those movements, and vignettes of the major characters.  While I didn't want the book to be overwhelmed with stories from the front, I found the book glossed over it to a surprising degree.  If you skim too fast, you could miss a million deaths.
 - __Kim Zetter,__ [Countdown to Zero Day](http://amzn.to/2qnEMhZ).  The story behind Stuxnet, sabotage of the Iranian nuclear program and the vulnerability of infrastructure in the coming age of cyber-warfare.  The future is scary.
 - __Richard Rhodes,__ [The Making of the Atomic Bomb](http://amzn.to/2qtaARX).  Absolutely fascinating history of the making of one of the most amazing (and horrifying) scientific and technological achievements of humanity.  Rhodes does a stellar job of weaving the stories of the science, the people, the philosophy, the politics and the logistics.  Will read again.
