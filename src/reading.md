@@ -15,8 +15,7 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - John Kruschke, [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g).
 - Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
 - Twyla Tharp, [The Creative Habit](http://amzn.to/2ozgpyV).
-- Massimo Pigliucci, [How to Be a Stoic](http://amzn.to/2q0E9wQ).
-- Tom Wolfe, [The Right Stuff](http://amzn.to/2rOLD4D).
+- Richard Rhodes. [Dark Sun](http://amzn.to/2rLKuxi).
 
 ## On the radar
 
@@ -46,6 +45,8 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __Massimo Pigliucci,__ [How to Be a Stoic](http://amzn.to/2q0E9wQ).  Another book on Stoic philosophy.  A few good explanations, but mostly a rehash for me.  However, I think it's worth it for the practical spirtual exercises alone, which echo [Ben Franklin's virtues](http://www.thirteenvirtues.com/).
+- __Tom Wolfe,__ [The Right Stuff](http://amzn.to/2rOLD4D).  History of the Mercury 7 program and the first astronauts.  Rocket planes, fighter-jock machismo and the willingness to place oneself in the path of danger to prove you have it.  I really enjoyed this.
 - __Cameron Davidson-Pilon,__ [Bayesian Methods for Hackers](http://amzn.to/2kyFu8v).  Started it and immediately switched to [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g) for more depth.  I find this book best as a tutorial for [PyMC3](https://pymc-devs.github.io/pymc3/).
 - __James Gliek,__ [Genius: The Life and Science of Richard Feynman](http://amzn.to/2rfi4MQ).  Doesn't play up his persona as much as [Surely You're Joking](http://amzn.to/2qNdbZN) but covers the history and implications of his physics well.  I didn't find a whole lot new in it, but I've already read most other books on Feynman and his area.
 - __Chris Bellamy,__ [Absolute War](http://amzn.to/2ohqjmn).  First in what I imagine will be many books about the Eastern Front of WWII{{#sidenote "absolutewar"}}I highly recommend Dan Carlin's [Ghosts of the Ostfront](http://www.dancarlin.com/product/hardcore-history-ghosts-ostfront-series/) series, if you're at all curious.{{/sidenote}}. The book focused on military operations and the logistics of those movements, and vignettes of the major characters.  While I didn't want the book to be overwhelmed with stories from the front, I found the book glossed over it to a surprising degree.  If you skim too fast, you could miss a million deaths.
