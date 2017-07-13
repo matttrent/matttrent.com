@@ -11,11 +11,10 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Currently reading
 
+- Tyler Cowen, [The Complacent Class](http://amzn.to/2vgXrgU).
 - Yuval Noah Harari, [Homo Deus](http://amzn.to/2ozpWpI).
 - John Kruschke, [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g).
 - Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
-- Twyla Tharp, [The Creative Habit](http://amzn.to/2ozgpyV).
-- Richard Rhodes. [Dark Sun](http://amzn.to/2rLKuxi).
 
 ## On the radar
 
@@ -32,7 +31,6 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP).
 - Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU).
 - Robert Greene, [Mastery](http://amzn.to/2i2HbJy).
-- Dave Asprey, [Head Strong](http://amzn.to/2oznIqs).
 <!-- - Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx). -->
 <!-- - Epictetus, [Art of Living](http://amzn.to/2iUggUK). -->
 <!-- - Epictetus, [Discourses and Selected Writings](http://amzn.to/2iQ2f8d). -->
@@ -45,6 +43,14 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __Twyla Tharp,__ [The Creative Habit](http://amzn.to/2ozgpyV).  I've been trying to restart a creative thinking habit.  Picked the book up, put it down, then did so again.  I feel I got a better return on investment from The Artist's Way.
+- __Walter Isaacson,__ [The Innovators](http://amzn.to/2tQQyDO).  The 150 year history of the hundreds of inventors and contributors that gave rise to personal computers, the Internet and the modern information age.  Similar in spirit to The Making of the Atomic Bomb in all the best ways possible.
+- __Colin Woodard,__ [American Nations](http://amzn.to/2sUmAxr).  The separate histories of the 11 different groups that populated the United States, Canada and Northern Mexico, how they're interacted in the 500 year history of European settlement and how their histories explain our modurn situation.
+- __John Miles White,__ [Bandit Algorithms for Website Optimization](http://amzn.to/2vhk198).  Basic coverage on the motivation and techniques for using multi-arm bandit algorithms to continually tweak websites.
+- __Ben Rich,__ [Skunkworks](http://amzn.to/2sUKp8k).  History and accomplishments of Lockheed's special projects group responsible for the U2, the SR-71 and the stealth fighter amongst other aircraft.  A study in small teams doing amazingly innovative work.
+- __Vasily Grossman,__ [A Writer at War](http://amzn.to/2tQiTu0).  Notes from one of the most widely traveled World War II Soviet reporters.  Grossman had nearly-unrestricted access to the Soviet Eastern Front and he paints a very comprehensive picture of life on the ground.  Chilling, to say the least.
+- __Dave Asprey,__ [Head Strong](http://amzn.to/2oznIqs).  Tour of many approaches to improve cognitive function.  I do some already and will need to test the rest before reporting back on efficacy.
+- __Richard Rhodes,__ [Dark Sun](http://amzn.to/2rLKuxi).  Followup to the excellent Making of the Atomic Bomb.  Expands coverage to include Russian scientific/technical developments and espionage.  Somehow it didn't grab me as much and I put it down half way through.
 - __Massimo Pigliucci,__ [How to Be a Stoic](http://amzn.to/2q0E9wQ).  Another book on Stoic philosophy.  A few good explanations, but mostly a rehash for me.  However, I think it's worth it for the practical spirtual exercises alone, which echo [Ben Franklin's virtues](http://www.thirteenvirtues.com/).
 - __Tom Wolfe,__ [The Right Stuff](http://amzn.to/2rOLD4D).  History of the Mercury 7 program and the first astronauts.  Rocket planes, fighter-jock machismo and the willingness to place oneself in the path of danger to prove you have it.  I really enjoyed this.
 - __Cameron Davidson-Pilon,__ [Bayesian Methods for Hackers](http://amzn.to/2kyFu8v).  Started it and immediately switched to [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g) for more depth.  I find this book best as a tutorial for [PyMC3](https://pymc-devs.github.io/pymc3/).
