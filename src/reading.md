@@ -11,13 +11,14 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Currently reading
 
-- Tyler Cowen, [The Complacent Class](http://amzn.to/2vgXrgU).
-- Yuval Noah Harari, [Homo Deus](http://amzn.to/2ozpWpI).
+- Edvard Radzinsky, [Stalin](http://amzn.to/2fPWZE7).
+- Michael Harris. [Solitude](http://amzn.to/2vNC5JL).
 - John Kruschke, [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g).
 - Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
 
 ## On the radar
 
+- Matt Ridley, [The Evolution of Everything](http://amzn.to/2x9TXhj).
 - Frank Ostaseski, [The Five Invitations](http://amzn.to/2pfpnm5).
 - L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL).
 - Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K)
@@ -43,6 +44,9 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __Jack Weatherford,__ [Genghis Khan and the Making of the Modern World](http://amzn.to/2vIF6g5).  The life of Temüjin and how the values the Mongols carried with the as they built their empire laid the foundation for much of what we consider the hallmarks of modernity.
+- __Yuval Noah Harari,__ [Homo Deus](http://amzn.to/2ozpWpI).  Loved this book.  So much to say about how the next hundred years of technological development will fundamentally change what it means to be human.
+- __Tyler Cowen,__ [The Complacent Class](http://amzn.to/2vgXrgU).  Prediction of the increasing tendancy for Americans to keep the country the way it is.  It didn't grab me as much as his previous two, and didn't pick it up after the flight I started it on.
 - __Twyla Tharp,__ [The Creative Habit](http://amzn.to/2ozgpyV).  I've been trying to restart a creative thinking habit.  Picked the book up, put it down, then did so again.  I feel I got a better return on investment from The Artist's Way.
 - __Walter Isaacson,__ [The Innovators](http://amzn.to/2tQQyDO).  The 150 year history of the hundreds of inventors and contributors that gave rise to personal computers, the Internet and the modern information age.  Similar in spirit to The Making of the Atomic Bomb in all the best ways possible.
 - __Colin Woodard,__ [American Nations](http://amzn.to/2sUmAxr).  The separate histories of the 11 different groups that populated the United States, Canada and Northern Mexico, how they're interacted in the 500 year history of European settlement and how their histories explain our modurn situation.
@@ -57,27 +61,6 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - __James Gliek,__ [Genius: The Life and Science of Richard Feynman](http://amzn.to/2rfi4MQ).  Doesn't play up his persona as much as [Surely You're Joking](http://amzn.to/2qNdbZN) but covers the history and implications of his physics well.  I didn't find a whole lot new in it, but I've already read most other books on Feynman and his area.
 - __Chris Bellamy,__ [Absolute War](http://amzn.to/2ohqjmn).  First in what I imagine will be many books about the Eastern Front of WWII{{#sidenote "absolutewar"}}I highly recommend Dan Carlin's [Ghosts of the Ostfront](http://www.dancarlin.com/product/hardcore-history-ghosts-ostfront-series/) series, if you're at all curious.{{/sidenote}}. The book focused on military operations and the logistics of those movements, and vignettes of the major characters.  While I didn't want the book to be overwhelmed with stories from the front, I found the book glossed over it to a surprising degree.  If you skim too fast, you could miss a million deaths.
 - __Kim Zetter,__ [Countdown to Zero Day](http://amzn.to/2qnEMhZ).  The story behind Stuxnet, sabotage of the Iranian nuclear program and the vulnerability of infrastructure in the coming age of cyber-warfare.  The future is scary.
-- __Richard Rhodes,__ [The Making of the Atomic Bomb](http://amzn.to/2qtaARX).  Absolutely fascinating history of the making of one of the most amazing (and horrifying) scientific and technological achievements of humanity.  Rhodes does a stellar job of weaving the stories of the science, the people, the philosophy, the politics and the logistics.  Will read again.
-- __Daniel Coyle,__ [The Talent Code](http://amzn.to/2qiXoCF).  What is necessary to give rise to talent, in any area.  I'm having trouble summarizing it, but there are some good gems among the pop-neuroscience and personal anecdotes.
-- __William Manchester,__ [The Last Lion: Winston Spencer Churchill: Defender of the Realm, 1940-1965](http://amzn.to/2p9cSZS).  Continuing the previous biography about Churchill's time as Prime Minister during WWII.  I got too fascinated in the Eastern Front and stopped in favor of reading on that.
-- __Timothy C. Urdan,__ [Statistics in Plain English](http://amzn.to/2oztSqn).  This is the intro frequentist statistics book I've been looking for.  There's dozens of books that cover the basic curriculum, but the majority either assume move too slowly for me or assume too much background.  This one hit the sweet spot.
-- __William Manchester,__ [The Last Lion: Winston Spencer Churchill: Alone, 1932-1940](http://amzn.to/2p3AqiF).  2nd in a Winston Churchill biography trilogy.  My main takeaway was a greater understanding of the run-up to WWII.
-- __Oliver Sacks,__ [Gratitude](http://amzn.to/2miuyR1).  Oliver Sacks looks back on his life and contemplates old age.  A short, endearing reminder of where one's priorities should be.  This one will be reread many times.
-- __David Diez,__ Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek).  Intro stats book.  Moved too slowly, and hand-waved away too many details for me.  If you want to understand this subject matter, I recommend [Statistics in Plain English](http://amzn.to/2oztSqn) instead.
-- __Frank Herbert,__ [Dune](http://amzn.to/2lbslC9).  Never fear, I've read it before; I'll read it again.  The hardcover edition was too good to pass up.
-- __Jon Gertner,__ [The Idea Factory: Bell Labs](http://amzn.to/2mxeGGn).  The story of one of the greatest sources of technological innovation in American history.  Lots of insight into the creation of new techologies and analysis of modern innovation.
-- __Wade Davis,__ [The Wayfinders: Why Ancient Wisdom Matters in the Modern World](http://amzn.to/2l0O6cG).  "The myriad of cultures of the world are not failed attempts at modernity, let alone failed attempts to be us. They are unique answers to a fundamental question: What does it mean to be human and alive?"  Watch his [Long Now talk](http://longnow.org/seminars/02010/jan/13/wayfinders-why-ancient-wisdom-matters-modern-world/) as well.
-- __Adam Steltzner,__ [The Right Kind of Crazy](http://amzn.to/2mx7Fp2).  Book on curiosity and technical leadership (that is leading both technological development and the people doing it) by the JPL scientist responsible for the _Curiosity_ Sky Crane.
-- __Edward Hallowell,__ [Driven to Distraction](http://amzn.to/2i2CC1W).  Definitive work on ADHD, especially in adults.  While most pertinent to those with ADHD, I think it's lessons broadly applicable.  On any topic, the best instruction often comes from the ones for which a skill comes the least naturally.  The systems and psychology that help the distractable get stuff done are of interest to all.
-- __Paul Kalanithi,__ [When Breath Becomes Air](http://amzn.to/2myfzOY).  The words of the dying are perhaps the best advice on how to live.
-- __Norman MacRae,__ [John Von Neumann](http://amzn.to/2kBv8Z5).  Father of the modern computer, among many other accomplishments.  While an innate genius (a term much overused, but truly warranted here) his skill was as much nuture as nature.  As such, the book provides nuggets to develop your own thinking skills.
-- __Elizabeth Dunn & Michael Norton,__ [Happy Money](http://amzn.to/2laGe4M).  Survey of scientific literature regarding how money affects our emotional well-being.  Sadly, some of the examples confuse correlation and causation, but the overall advice is very useful to consider if you want to buy the most happiness for your dollar.
-- __Benjamin Todd,__ [80,000 Hours](http://amzn.to/2laUXvC).  A well-reasoned examination of how to do the most social good with one's career, focused on readers just starting theirs. 
-- __Neal Stephenson,__ [Seveneves](http://amzn.to/2mywX6g). After writing Anathem, Neal asked himself "what if instead of 90% plot and 10% orbital mechanics, the next book was the other way around?"  Snark aside, I loved this, especially the first 2 acts.
-- __Neal Stephenson,__ [Anathem](http://amzn.to/2lXDElC). If academia decided to really double-down on the ivory town.
-- __Gordon Livingston,__ [Too Soon Old, Too Late Smart](http://amzn.to/2jnCH17).  30 statements about making sense of mortality, relationships and modern life.  Some of the points hit so deeply it was physically uncomfortable to read at times.  This is one of those books you reread portions of every few months until the work their way into your being.  Recommended.
-- __Daniel Yergin,__ [The Quest](http://amzn.to/2iGKJ4P).  Tackling the massive topic of global energy, politics, national security and the course of events that got us to the modern day.  Mostly told through small vignettes to illustrate particular points, this grabbed me much more than expected.
-- __Eric Greitens,__ [Resilience](http://amzn.to/2ig8IJl).  Lessons on cultivating resiliance from a Navy Seal.  I made it through the first 100 pagse but it feels like a book to be digested in small chapters over time.
 
 ## All time most influential
 
@@ -103,12 +86,32 @@ Books that have significantly influenced me, in no particular order:
 - __Steven Pressfield,__ [Gates of Fire](http://amzn.to/2iGCslH).  Fictional, yeh highly accurate, recounting of the battle of the Spartans and the battle of Thermopylae.  I could barely put it down.
 - __Steward Brand,__ [Whole Earth Discipline](http://amzn.to/2igfDSM).  Argues that many of the things (nuclear power, GMO crops, etc...) viewed as ecological disasters have been exagerated, and may be necessary to avoid the larger ecological disaster of climate change.  If you're interested in climate change, this is your map.
 - __Sebastian Junger,__ [Tribe: On Homecoming and Belonging](http://amzn.to/2ijAw1R). Short but profound book on the nature of human connection and society. For all of the material weath modern society has us, it seems at odds with our evolutionary history and has not brought a similar increase in happiness, purpose and belonging.
-
+- __Richard Rhodes,__ [The Making of the Atomic Bomb](http://amzn.to/2qtaARX).  Absolutely fascinating history of the making of one of the most amazing (and horrifying) scientific and technological achievements of humanity.  Rhodes does a stellar job of weaving the stories of the science, the people, the philosophy, the politics and the logistics.  Will read again.
+- __Jon Gertner,__ [The Idea Factory: Bell Labs](http://amzn.to/2mxeGGn).  The story of one of the greatest sources of technological innovation in American history.  Lots of insight into the creation of new techologies and analysis of modern innovation.
+- __Wade Davis,__ [The Wayfinders: Why Ancient Wisdom Matters in the Modern World](http://amzn.to/2l0O6cG).  "The myriad of cultures of the world are not failed attempts at modernity, let alone failed attempts to be us. They are unique answers to a fundamental question: What does it mean to be human and alive?"  Watch his [Long Now talk](http://longnow.org/seminars/02010/jan/13/wayfinders-why-ancient-wisdom-matters-modern-world/) as well.
 
 ## Abridged archive
 
 A selection of things that I have read not so recently.
 
+- __Daniel Coyle,__ [The Talent Code](http://amzn.to/2qiXoCF).  What is necessary to give rise to talent, in any area.  I'm having trouble summarizing it, but there are some good gems among the pop-neuroscience and personal anecdotes.
+- __William Manchester,__ [The Last Lion: Winston Spencer Churchill: Defender of the Realm, 1940-1965](http://amzn.to/2p9cSZS).  Continuing the previous biography about Churchill's time as Prime Minister during WWII.  I got too fascinated in the Eastern Front and stopped in favor of reading on that.
+- __Timothy C. Urdan,__ [Statistics in Plain English](http://amzn.to/2oztSqn).  This is the intro frequentist statistics book I've been looking for.  There's dozens of books that cover the basic curriculum, but the majority either assume move too slowly for me or assume too much background.  This one hit the sweet spot.
+- __William Manchester,__ [The Last Lion: Winston Spencer Churchill: Alone, 1932-1940](http://amzn.to/2p3AqiF).  2nd in a Winston Churchill biography trilogy.  My main takeaway was a greater understanding of the run-up to WWII.
+- __Oliver Sacks,__ [Gratitude](http://amzn.to/2miuyR1).  Oliver Sacks looks back on his life and contemplates old age.  A short, endearing reminder of where one's priorities should be.  This one will be reread many times.
+- __David Diez,__ Christopher Barr & Mine Çetinkaya-Rundel, [OpenIntro Statistics](http://amzn.to/2iGIoek).  Intro stats book.  Moved too slowly, and hand-waved away too many details for me.  If you want to understand this subject matter, I recommend [Statistics in Plain English](http://amzn.to/2oztSqn) instead.
+- __Frank Herbert,__ [Dune](http://amzn.to/2lbslC9).  Never fear, I've read it before; I'll read it again.  The hardcover edition was too good to pass up.
+- __Adam Steltzner,__ [The Right Kind of Crazy](http://amzn.to/2mx7Fp2).  Book on curiosity and technical leadership (that is leading both technological development and the people doing it) by the JPL scientist responsible for the _Curiosity_ Sky Crane.
+- __Edward Hallowell,__ [Driven to Distraction](http://amzn.to/2i2CC1W).  Definitive work on ADHD, especially in adults.  While most pertinent to those with ADHD, I think it's lessons broadly applicable.  On any topic, the best instruction often comes from the ones for which a skill comes the least naturally.  The systems and psychology that help the distractable get stuff done are of interest to all.
+- __Paul Kalanithi,__ [When Breath Becomes Air](http://amzn.to/2myfzOY).  The words of the dying are perhaps the best advice on how to live.
+- __Norman MacRae,__ [John Von Neumann](http://amzn.to/2kBv8Z5).  Father of the modern computer, among many other accomplishments.  While an innate genius (a term much overused, but truly warranted here) his skill was as much nuture as nature.  As such, the book provides nuggets to develop your own thinking skills.
+- __Elizabeth Dunn & Michael Norton,__ [Happy Money](http://amzn.to/2laGe4M).  Survey of scientific literature regarding how money affects our emotional well-being.  Sadly, some of the examples confuse correlation and causation, but the overall advice is very useful to consider if you want to buy the most happiness for your dollar.
+- __Benjamin Todd,__ [80,000 Hours](http://amzn.to/2laUXvC).  A well-reasoned examination of how to do the most social good with one's career, focused on readers just starting theirs. 
+- __Neal Stephenson,__ [Seveneves](http://amzn.to/2mywX6g). After writing Anathem, Neal asked himself "what if instead of 90% plot and 10% orbital mechanics, the next book was the other way around?"  Snark aside, I loved this, especially the first 2 acts.
+- __Neal Stephenson,__ [Anathem](http://amzn.to/2lXDElC). If academia decided to really double-down on the ivory town.
+- __Gordon Livingston,__ [Too Soon Old, Too Late Smart](http://amzn.to/2jnCH17).  30 statements about making sense of mortality, relationships and modern life.  Some of the points hit so deeply it was physically uncomfortable to read at times.  This is one of those books you reread portions of every few months until the work their way into your being.  Recommended.
+- __Daniel Yergin,__ [The Quest](http://amzn.to/2iGKJ4P).  Tackling the massive topic of global energy, politics, national security and the course of events that got us to the modern day.  Mostly told through small vignettes to illustrate particular points, this grabbed me much more than expected.
+- __Eric Greitens,__ [Resilience](http://amzn.to/2ig8IJl).  Lessons on cultivating resiliance from a Navy Seal.  I made it through the first 100 pagse but it feels like a book to be digested in small chapters over time.
 - __Yuval Harari,__ [Sapiens](http://amzn.to/2j1iv5a).  A Big History book ala Guns, Germs and Steel.  Interesting points but, similar to GG&S, the scope is so broad I found it difficult to overcome my skepticism that the author is only picking from the surface to support their chosen narrative. I read the first half and only skimmed the latter.  I may just not like the genre.
 - __Jean Edward Smith,__ [FDR](http://amzn.to/2iGwhho).  Detailed biography of of the third great President, along with Washington and Lincoln.  I had not appreciated how much the current scope of the executive branch and the involvement of the US government in well-being of all Americans was a result of his terms.  See also PBS's exellent series [The Roosevelts](http://www.pbs.org/kenburns/the-roosevelts).
 - __Arnold Bennett,__ [How to Live on 24 Hours a Day](http://amzn.to/2iH06dz).  A short essay on how not to waste your life.  If Seneca's _On the Shortness of Life_ is the strategy, this is one set of simple tactics.
