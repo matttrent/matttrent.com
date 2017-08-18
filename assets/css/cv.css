@@ -6,13 +6,16 @@
 /* custom size some spacing and fonts to better display cv */
 @media screen { 
   .dl-horizontal dt {
-    width: 80px; /* custom, orig 160px */
+    width: 90px; /* custom, orig 160px */
   }
   .dl-horizontal dd {
-    margin-left: 100px; /* custom, orig 180px */
+    margin-left: 110px; /* custom, orig 180px */
   }
   .dl-small-text {
   	font-size: 1.3rem;
+  }
+  .experience, .exp {
+    color: #777;
   }
 }
 
