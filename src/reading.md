@@ -179,3 +179,13 @@ A selection of things that I have read not so recently.
 - __Winifred Gallagher,__ [Rapt: Attention and the Focused Life](http://amzn.to/2iiJh9Y).  Author is diagnosed cancer, realizes her life is improved by living more in the present.  Sadly this book is mostly pop-psychology and doesn't introspect much how attention improved her life.
 - __Pedro Domingos,__ [The Master Algorithm](The Master Algorithm).  Summary of the major approaches to machine learning that turns into an ad for the author's research.  A few insights.
 - __Donald Barlett,__ [Howard Hughes: His Life and Madness](http://amzn.to/2ivcDBM).  For as much as Hughes is a household name, I was surprised how little I knew about his life.  Hughes was a complete nut.
+
+Pre read.
+
+<ol>
+{{#each collections.reading}}
+<li>{{this.author}}, <a href='/{{this.path}}'>{{this.title}}</a></li>
+{{/each}}
+</ol>
+
+Post read.

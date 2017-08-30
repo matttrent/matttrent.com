@@ -4,12 +4,14 @@ var moment      = require('moment');
 
 var metalsmith  = require('metalsmith');
 
+var moremeta    = require(__dirname + '/metalsmith-moremeta');
+
 //                https://github.com/aymericbeaumet/metalsmith-define
 var define      = require('metalsmith-define');
 //                https://github.com/ericgj/metalsmith-branch
 var branch      = require('metalsmith-branch');
 //                https://github.com/segmentio/metalsmith-collections
-// var collections = require('metalsmith-collections');
+var collections = require('metalsmith-collections');
 //                https://github.com/segmentio/metalsmith-markdown
 var markdown    = require('metalsmith-markdown');
 //                https://github.com/algenon/metalsmith-typography
@@ -28,6 +30,8 @@ var assets      = require('metalsmith-assets');
 var redirect    = require('metalsmith-redirect');
 //                https://github.com/mwishek/metalsmith-s3
 // var s3          = require('metalsmith-s3');
+
+var debugUi     = require('metalsmith-debug-ui');
 
 // register handlebars layout helper
 handlebars.registerHelper(hb_layouts(handlebars));
@@ -90,9 +94,20 @@ var M = metalsmith(__dirname)
 // draft: true
 .use(drafts())
 
-// in-place templating to let handlebars access metadata, defines and 
-// front-matter when processing templates
-.use(inplace('handlebars'))
+.use(debugUi.report('stage 1'))
+
+.use(collections({
+  reading: {
+    pattern: 'reading/bookx*.md',
+    sortBy: 'title',
+    reverse: true,
+    metadata: {
+        layout: 'page.hbs',
+    }
+  }
+}))
+
+.use(debugUi.report('stage 2'))
 
 // process markdown files
 .use(markdown({
@@ -107,11 +122,22 @@ var M = metalsmith(__dirname)
 // use a separate logic for files that match neither *.html or index.*
 // in this case, generate a "permalink", trasforming:
 // /about.html -> /about/index.html so /about will work as a url
-.use(branch('!posts/**.html')
+.use(branch('!reading/**/bookx_*')
   .use(branch('!index.*').use(permalinks({
     relative: false
   })))
 )
+.use(branch('reading/**/bookx*').use(permalinks({
+  pattern:  ':collection/:title',
+  relative: false
+})))
+
+// determine root paths and navigation
+.use(moremeta())
+
+// in-place templating to let handlebars access metadata, defines and 
+// front-matter when processing templates
+.use(inplace('handlebars'))
 
 // use handlebars as our templating engine
 // handlebars also processes partial templates, which are stored in the same directory
@@ -129,6 +155,8 @@ var M = metalsmith(__dirname)
   source:       "./attachments",
   destination:  "./attachments"
 }))
+
+.use(debugUi.report('stage 3'))
 
 ;
 
