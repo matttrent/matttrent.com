@@ -11,13 +11,13 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Currently reading
 
-- Edvard Radzinsky, [Stalin](http://amzn.to/2fPWZE7).
 - Michael Harris. [Solitude](http://amzn.to/2vNC5JL).
-- John Kruschke, [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g).
-- Ian Goodfellow, Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).
 
 ## On the radar
 
+- Kumiko Kakehashi, [So Sad to Fall in Battle](http://amzn.to/2xYwtx3).
+- Peter Godfrey-Smith, [Other Minds](http://amzn.to/2wT50y9).
+- Jimmy Soni, [A Mind at Play](http://amzn.to/2wSPulK).
 - Matt Ridley, [The Evolution of Everything](http://amzn.to/2x9TXhj).
 - Frank Ostaseski, [The Five Invitations](http://amzn.to/2pfpnm5).
 - L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL).
@@ -44,6 +44,14 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __John Kruschke,__ [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g).  I think Bayesian methods are the future of statistical analysis.  This book provides a great practitioners introduction and a warm-up for the heavier-weight [Bayesian Data Analysis](http://amzn.to/2eY17Su) by Gelman et al.
+- __Ian Goodfellow,__ Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).  The one and only textbook for deep learning.  If you're even remotely interested in the topic, you should own this.  The book presents from a theoretical standpoint, and pairs very well with [Practical Deep Learning for Coders](http://course.fast.ai/) course.  Do both.
+- __Cixin Liu,__ [Death's End](http://amzn.to/2xZ0lci).  Last of the Three-Body Series.  Progressed pretty slowly for me, partly retelling previous events from a different point of view, but the end more than made up for it.  The final view of the universe Liu paints at the end had my mind spinning for days.
+- __Cixin Liu,__ [The Dark Forest](http://amzn.to/2wiYkFS).  Sophomore album.  Good in it's own right.  Great in the context of the trilogy.
+- __Cixin Liu,__ [The Three-Body Problem](http://amzn.to/2wT55BP).  It's hard to evaluate each of the three books in the series on its own.  This had a bit of a slow start, but really drew me in after.  I read all three so quickly I forget exactly where one left off and the next started.  I'm not normally much a reader of science fiction, but this trilogy is highly recommended.
+- __James Watson,__ [The Double Helix](http://amzn.to/2gUQ1L1).  Story of the discovering of the DNA helix from one of it's founders.  Got a few chapters in, but didn't really grab me.
+- __Marc Reisner,__ [Cadillac Desert](http://amzn.to/2xpprEu).  The American West, the quest to provide water to an arid landscape when there simply isn't enough, and the birth of the modern welfare state in subsidized agriculture.  The story of the US west is story of its geography and climate.
+- __Edvard Radzinsky,__ [Stalin](http://amzn.to/2fPWZE7).  Biography of one of the most ruthless and effective dictators ever.  Stalin inherited a rural peasantry and transformed it into an industrial superpower in 20 years, while waging war against Hitler, taking some 50 million lives in the process.
 - __Jack Weatherford,__ [Genghis Khan and the Making of the Modern World](http://amzn.to/2vIF6g5).  The life of Temüjin and how the values the Mongols carried with the as they built their empire laid the foundation for much of what we consider the hallmarks of modernity.
 - __Yuval Noah Harari,__ [Homo Deus](http://amzn.to/2ozpWpI).  Loved this book.  So much to say about how the next hundred years of technological development will fundamentally change what it means to be human.
 - __Tyler Cowen,__ [The Complacent Class](http://amzn.to/2vgXrgU).  Prediction of the increasing tendancy for Americans to keep the country the way it is.  It didn't grab me as much as his previous two, and didn't pick it up after the flight I started it on.
