@@ -96,6 +96,7 @@ var M = metalsmith(__dirname)
 
 .use(debugUi.report('stage 1'))
 
+// collections, specifically for all my book notes
 .use(collections({
   reading: {
     pattern: 'reading/bookx*.md',
@@ -104,6 +105,8 @@ var M = metalsmith(__dirname)
   }
 }))
 
+// add metadata to each element of collection
+// in this case, we're customizing the template
 .use(addmeta({
   reading: {
     layout: 'book_notes.hbs'
