@@ -11,13 +11,16 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Currently reading
 
-- Michael Harris. [Solitude](http://amzn.to/2vNC5JL).
+- Peter Godfrey-Smith, [Other Minds](http://amzn.to/2wT50y9).
+- Robert Kull, [Solitude](http://amzn.to/2y7FB4i).
+- Alex Soojung-Kim Pang, [Rest](http://amzn.to/2y74fTe).
+- Herbert Simon, [The Sciences of the Artificial](http://amzn.to/2y808G1).
+- James Carse, [Finite and Infinite Games](http://amzn.to/2gmTmmF).
 
 ## On the radar
 
-- Kumiko Kakehashi, [So Sad to Fall in Battle](http://amzn.to/2xYwtx3).
-- Peter Godfrey-Smith, [Other Minds](http://amzn.to/2wT50y9).
-- Jimmy Soni, [A Mind at Play](http://amzn.to/2wSPulK).
+- Lawrence Freedman, [Strategy: A History](http://amzn.to/2z7hH7x).
+- Paul Hawken, [Drawdown](http://amzn.to/2y8191k).
 - Matt Ridley, [The Evolution of Everything](http://amzn.to/2x9TXhj).
 - Frank Ostaseski, [The Five Invitations](http://amzn.to/2pfpnm5).
 - L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL).
@@ -44,6 +47,10 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __Michael Harris,__ [Solitude](http://amzn.to/2vNC5JL).  First in a series of books on the value of solitude.  I'm fascinated by the concept at the moment, but this felt more like reverie with bits of pop neuroscience and complaining about modern digital technology sprinkled in, than containing an real insight.
+- __Kumiko Kakehashi,__ [So Sad to Fall in Battle](http://amzn.to/2xYwtx3).  The battle of Io Jima as seen through the letters of Japanese commanding General, Tadamichi Kuribayashi.  Doomed from the start, his outfit still managed to hold off an overwhelming force for months.  A true study in leadership.
+- __Jimmy Soni,__ [A Mind at Play](http://amzn.to/2wSPulK).  Biography of Claude Shannon, founder of the field information theory. His genius provided us the intellectual foundation for all modern communications.  The main thread of the book is how he managed to maintain levity with his work and approach problems playfully.
+- __Steven Lee Meyers,__ [The New Tsar](http://amzn.to/2xpSPKX).  Biography of Putin.  Started, made it a bit in and put it down.  Followed his undistinguished early career and didn't make it to his rise to power.  Will need to resume at some point.
 - __John Kruschke,__ [Doing Bayesian Data Analysis](http://amzn.to/2ofEY0g).  I think Bayesian methods are the future of statistical analysis.  This book provides a great practitioners introduction and a warm-up for the heavier-weight [Bayesian Data Analysis](http://amzn.to/2eY17Su) by Gelman et al.
 - __Ian Goodfellow,__ Yoshua Bengio & Aaron Courville, [Deep Learning](http://amzn.to/2igiMC9).  The one and only textbook for deep learning.  If you're even remotely interested in the topic, you should own this.  The book presents from a theoretical standpoint, and pairs very well with [Practical Deep Learning for Coders](http://course.fast.ai/) course.  Do both.
 - __Cixin Liu,__ [Death's End](http://amzn.to/2xZ0lci).  Last of the Three-Body Series.  Progressed pretty slowly for me, partly retelling previous events from a different point of view, but the end more than made up for it.  The final view of the universe Liu paints at the end had my mind spinning for days.
