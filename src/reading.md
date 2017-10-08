@@ -184,7 +184,9 @@ Pre read.
 
 <ol>
 {{#each collections.reading}}
+{{#if this.title}}
 <li>{{this.author}}, <a href='/{{this.path}}'>{{this.title}}</a></li>
+{{/if}}
 {{/each}}
 </ol>
 
