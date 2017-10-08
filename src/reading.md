@@ -19,6 +19,7 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## On the radar
 
+- Jill Bolte Taylor, [My Stroke of Insight](http://amzn.to/2xs7SPy).
 - Lawrence Freedman, [Strategy: A History](http://amzn.to/2z7hH7x).
 - Paul Hawken, [Drawdown](http://amzn.to/2y8191k).
 - Matt Ridley, [The Evolution of Everything](http://amzn.to/2x9TXhj).
