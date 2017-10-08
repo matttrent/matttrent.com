@@ -25,9 +25,11 @@ module.exports = function() {
       // calculate root
       file.root = file.root || meta.rootpath || (file.path ? '../'.repeat(file.path.split('/').length) : '');
 
+      console.log(file.path, ' ', file.collection.length);
+
       // get first non-page collection
-      file.mainCollection = null;
-      file.isPage = false;
+      // file.mainCollection = null;
+      // file.isPage = false;
       c = 0;
       // while (c < file.collection.length) {
       //   if (file.collection[c] == 'page') {
@@ -66,6 +68,10 @@ module.exports = function() {
 
         // layout from page, collection, default
         layout = file.layout || (thisCol.metadata && thisCol.metadata.layout) || null;
+        // console.log(file.title, ' ', file.layout);
+        // if (thisCol.metadata) console.log(thisCol.metadata.layout);
+        console.log(Object.keys(thisCol));
+        console.log(thisCol.metadata);
         if (layout) file.layout = layout;
 
       }

@@ -4,14 +4,14 @@ var moment      = require('moment');
 
 var metalsmith  = require('metalsmith');
 
-var moremeta    = require(__dirname + '/metalsmith-moremeta');
-
 //                https://github.com/aymericbeaumet/metalsmith-define
 var define      = require('metalsmith-define');
 //                https://github.com/ericgj/metalsmith-branch
 var branch      = require('metalsmith-branch');
 //                https://github.com/segmentio/metalsmith-collections
 var collections = require('metalsmith-collections');
+//                https://github.com/sealeg/metalsmith-collections-addmeta
+var addmeta     = require('metalsmith-collections-addmeta');
 //                https://github.com/segmentio/metalsmith-markdown
 var markdown    = require('metalsmith-markdown');
 //                https://github.com/algenon/metalsmith-typography
@@ -101,9 +101,12 @@ var M = metalsmith(__dirname)
     pattern: 'reading/bookx*.md',
     sortBy: 'title',
     reverse: true,
-    metadata: {
-        layout: 'page.hbs',
-    }
+  }
+}))
+
+.use(addmeta({
+  reading: {
+    layout: 'page.hbs'
   }
 }))
 
@@ -131,9 +134,6 @@ var M = metalsmith(__dirname)
   pattern:  ':collection/:title',
   relative: false
 })))
-
-// determine root paths and navigation
-.use(moremeta())
 
 // in-place templating to let handlebars access metadata, defines and 
 // front-matter when processing templates
