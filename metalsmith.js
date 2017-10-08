@@ -83,7 +83,6 @@ var M = metalsmith(__dirname)
   current_date:         moment().format('DD MMMM YYYY'),
   current_month:        moment().format('MMMM YYYY'),
   current_year:         moment().year(),
-  years_working:        moment().year() - moment("2004", "YYYY").year() + 1,
   cache_suffix:         'v=' + String(Math.round( Math.random() * 1e7 )),
 }))
 
