@@ -100,13 +100,13 @@ var M = metalsmith(__dirname)
   reading: {
     pattern: 'reading/bookx*.md',
     sortBy: 'title',
-    reverse: true,
+    // reverse: true,
   }
 }))
 
 .use(addmeta({
   reading: {
-    layout: 'page.hbs'
+    layout: 'book_notes.hbs'
   }
 }))
 
