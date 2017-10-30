@@ -6,6 +6,8 @@ var metalsmith  = require('metalsmith');
 
 //                https://github.com/aymericbeaumet/metalsmith-define
 var define      = require('metalsmith-define');
+//                https://github.com/segmentio/metalsmith-ignore
+var ignore      = require('metalsmith-ignore');
 //                https://github.com/ericgj/metalsmith-branch
 var branch      = require('metalsmith-branch');
 //                https://github.com/segmentio/metalsmith-collections
@@ -105,6 +107,12 @@ var M = metalsmith(__dirname)
     reverse: true,
   }
 }))
+
+// filter out reference portion of library
+.use(ignore([
+  'reading/refx*'
+  ])
+)
 
 // add metadata to each element of collection
 // in this case, we're customizing the template
