@@ -100,8 +100,9 @@ var M = metalsmith(__dirname)
 .use(collections({
   reading: {
     pattern: 'reading/bookx*.md',
-    sortBy: 'title',
-    // reverse: true,
+    // sortBy: 'title',
+    sortBy: 'modified_date',
+    reverse: true,
   }
 }))
 

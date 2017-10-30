@@ -3,6 +3,7 @@ asset_id: 6DDFB5D3819F738FF124D5E548C17633
 author: Jimmy Soni
 modified_date: '2017-10-07T15:51:30'
 title: A Mind at Play
+summary: Biography of Claude Shannon, founder of the field information theory. His genius provided us the intellectual foundation for all modern communications. The main thread of the book is how he managed to maintain levity with his work and approach problems playfully.
 ---
 
 # A Mind at Play

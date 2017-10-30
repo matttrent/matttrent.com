@@ -182,12 +182,12 @@ A selection of things that I have read not so recently.
 
 Pre read.
 
-<ol>
+<ul>
 {{#each collections.reading}}
-{{#if this.title}}
-<li>{{this.author}}, <a href='/{{this.path}}'>{{this.title}}</a></li>
-{{/if}}
+{{#if this.title}}{{#unless this.top_book}}
+<li><strong>{{this.author}},</strong> <a href='/{{this.path}}'>{{this.title}}</a>. {{this.summary}}</li>
+{{/unless}}{{/if}}
 {{/each}}
-</ol>
+</ul>
 
 Post read.

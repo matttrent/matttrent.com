@@ -1,4 +1,11 @@
-# bookx so good they can't ignore you
+---
+author: Cal Newport
+modified_date: '2017-10-07T15:51:30'
+title: So Good They Can’t Ignore You
+top_book: true
+summary: Refuting the advice to “follow your passion”, Cal deconstructs the best approach to building a meaningful career. He proceeds to thoroughly map out an approach to define your professional life on your own terms, and gain the credibility to obtain it. Quite possibly the best career book I’ve ever read.
+---
+# So Good They Can't Ignore You
 
 ## Rule 1: don't follow your passion
 
