@@ -11,19 +11,16 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Currently reading
 
-- Peter Godfrey-Smith, [Other Minds](http://amzn.to/2wT50y9).
-- Robert Kull, [Solitude](http://amzn.to/2y7FB4i).
 - Alex Soojung-Kim Pang, [Rest](http://amzn.to/2y74fTe).
-- Herbert Simon, [The Sciences of the Artificial](http://amzn.to/2y808G1).
 - James Carse, [Finite and Infinite Games](http://amzn.to/2gmTmmF).
+- Frank Ostaseski, [The Five Invitations](http://amzn.to/2pfpnm5).
+- Adrian Goldsworthy, [Caesar](http://amzn.to/2htzIJx).
 
 ## On the radar
 
-- Jill Bolte Taylor, [My Stroke of Insight](http://amzn.to/2xs7SPy).
 - Lawrence Freedman, [Strategy: A History](http://amzn.to/2z7hH7x).
 - Paul Hawken, [Drawdown](http://amzn.to/2y8191k).
 - Matt Ridley, [The Evolution of Everything](http://amzn.to/2x9TXhj).
-- Frank Ostaseski, [The Five Invitations](http://amzn.to/2pfpnm5).
 - L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL).
 - Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K)
 - Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY).
@@ -36,6 +33,8 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP).
 - Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU).
 - Robert Greene, [Mastery](http://amzn.to/2i2HbJy).
+- Edward Gibbon, [Decline and Fall of the Roman Empire](http://amzn.to/2hufQpA).
+- Tim O'Reilly, [WTF: What's the Future](http://amzn.to/2ia5ybj).
 <!-- - Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx). -->
 <!-- - Epictetus, [Art of Living](http://amzn.to/2iUggUK). -->
 <!-- - Epictetus, [Discourses and Selected Writings](http://amzn.to/2iQ2f8d). -->
@@ -44,10 +43,15 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 <!-- - Reid Hoffman & Ben Casnocha, [The Start-up of You](http://amzn.to/2iUc7An). -->
 <!-- - David MacKay, [Sustainable Energy - Without the Hot Air](http://amzn.to/2ia87La). -->
 <!-- - Peter Thiel, [Zero to One](http://amzn.to/2iabOQT). -->
-<!-- - John McPhee, [Assembling California](http://amzn.to/2i9V64b). -->
 
 ## Recently finished
 
+- __Jill Bolte Taylor,__ [My Stroke of Insight](http://amzn.to/2xs7SPy).
+- __Tom Wolfe,__ [The Electric Kool-Aid Acid Test](http://amzn.to/2yvySii).
+- __Peter Godfrey-Smith,__ [Other Minds](http://amzn.to/2wT50y9).
+- __Robert Kull,__ [Solitude](http://amzn.to/2y7FB4i).
+- __Herbert Simon,__ [The Sciences of the Artificial](http://amzn.to/2y808G1).
+- __John McPhee,__ [Assembling California](http://amzn.to/2i9V64b).
 - __Michael Harris,__ [Solitude](http://amzn.to/2vNC5JL).  First in a series of books on the value of solitude.  I'm fascinated by the concept at the moment, but this felt more like reverie with bits of pop neuroscience and complaining about modern digital technology sprinkled in, than containing an real insight.
 - __Kumiko Kakehashi,__ [So Sad to Fall in Battle](http://amzn.to/2xYwtx3).  The battle of Io Jima as seen through the letters of Japanese commanding General, Tadamichi Kuribayashi.  Doomed from the start, his outfit still managed to hold off an overwhelming force for months.  A true study in leadership.
 - __Jimmy Soni,__ [A Mind at Play](http://amzn.to/2wSPulK).  Biography of Claude Shannon, founder of the field information theory. His genius provided us the intellectual foundation for all modern communications.  The main thread of the book is how he managed to maintain levity with his work and approach problems playfully.
