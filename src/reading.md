@@ -13,7 +13,6 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 - Alex Soojung-Kim Pang, [Rest](http://amzn.to/2y74fTe).
 - James Carse, [Finite and Infinite Games](http://amzn.to/2gmTmmF).
-- Frank Ostaseski, [The Five Invitations](http://amzn.to/2pfpnm5).
 - Adrian Goldsworthy, [Caesar](http://amzn.to/2htzIJx).
 
 ## On the radar
@@ -34,7 +33,6 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU).
 - Robert Greene, [Mastery](http://amzn.to/2i2HbJy).
 - Edward Gibbon, [Decline and Fall of the Roman Empire](http://amzn.to/2hufQpA).
-- Tim O'Reilly, [WTF: What's the Future](http://amzn.to/2ia5ybj).
 <!-- - Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx). -->
 <!-- - Epictetus, [Art of Living](http://amzn.to/2iUggUK). -->
 <!-- - Epictetus, [Discourses and Selected Writings](http://amzn.to/2iQ2f8d). -->
@@ -46,12 +44,14 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
-- __Jill Bolte Taylor,__ [My Stroke of Insight](http://amzn.to/2xs7SPy).
-- __Tom Wolfe,__ [The Electric Kool-Aid Acid Test](http://amzn.to/2yvySii).
-- __Peter Godfrey-Smith,__ [Other Minds](http://amzn.to/2wT50y9).
-- __Robert Kull,__ [Solitude](http://amzn.to/2y7FB4i).
-- __Herbert Simon,__ [The Sciences of the Artificial](http://amzn.to/2y808G1).
-- __John McPhee,__ [Assembling California](http://amzn.to/2i9V64b).
+- __Tim O'Reilly,__ [WTF: What's the Future](http://amzn.to/2ia5ybj).  How to think about the next years of technologic development from one of the original observers.  The book started out a bit too techno-cheerleader for me, but as it progressed I got more and more into it and his perspective.  I think it serves as an excellent guide to thinking about technology and society.
+- __Frank Ostaseski,__ [The Five Invitations](http://amzn.to/2pfpnm5).  What death can teach us about living fully.  Had a good friend die recently.  This helped put things in perspective.
+- __Jill Bolte Taylor,__ [My Stroke of Insight](http://amzn.to/2xs7SPy).  Author has a stroke.  Author is a neuroscientist able to relate things she's experiencing to deeper understanding of the nature of the self and consciousness.  Fascinating first half.  The second gets a bit too steeped in self-help language, but is interesting in spite of that. 
+- __Tom Wolfe,__ [The Electric Kool-Aid Acid Test](http://amzn.to/2yvySii).  The exploits of Ken Kesey and The Merry Pranksters.  I love the way Tom Wolfe covers every subject he touches.
+- __Peter Godfrey-Smith,__ [Other Minds](http://amzn.to/2wT50y9).  The ancestors of cephalopods branched off from the ancestors of humans long enough ago they may represent a coevolution of consciousness.  Touches on the evolution of consciousness and why exists at all.
+- __Robert Kull,__ [Solitude](http://amzn.to/2y7FB4i).  Author lives alone for a year on a remote island off the coast of Chile and writes about it.  Some insights, some fluff.
+- __Herbert Simon,__ [The Sciences of the Artificial](http://amzn.to/2y808G1).  Methods of thinking about artificial constructs we create in the world.  Relation of design to solving most constructud problems.  I couldn't get into it.
+- __John McPhee,__ [Assembling California](http://amzn.to/2i9V64b).  The geology and tectonic processes that created California.  Was too geologically dense for me, but I enjoyed the bits I could understand.
 - __Michael Harris,__ [Solitude](http://amzn.to/2vNC5JL).  First in a series of books on the value of solitude.  I'm fascinated by the concept at the moment, but this felt more like reverie with bits of pop neuroscience and complaining about modern digital technology sprinkled in, than containing an real insight.
 - __Kumiko Kakehashi,__ [So Sad to Fall in Battle](http://amzn.to/2xYwtx3).  The battle of Io Jima as seen through the letters of Japanese commanding General, Tadamichi Kuribayashi.  Doomed from the start, his outfit still managed to hold off an overwhelming force for months.  A true study in leadership.
 - __Jimmy Soni,__ [A Mind at Play](http://amzn.to/2wSPulK).  Biography of Claude Shannon, founder of the field information theory. His genius provided us the intellectual foundation for all modern communications.  The main thread of the book is how he managed to maintain levity with his work and approach problems playfully.
