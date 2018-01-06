@@ -15,22 +15,22 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - Matt Ridley, [The Evolution of Everything](http://amzn.to/2x9TXhj).
 - Oliver Sacks, [The River of Consciousness](http://amzn.to/2CJuyS1).
 
-## On the radar
-
-- Paul Hawken, [Drawdown](http://amzn.to/2y8191k).
-- L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL).
-- Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K)
-- Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY).
-- George Polya, [How to Solve It](http://amzn.to/2iVzJEC).
-- Seneca, [Letters on Ethics: To Lucilius](http://amzn.to/2iQ1awU).
-- Suetonius, [The Twelve Caesars](http://amzn.to/2iaaE7Z).
-- Robert Gordon, [The Rise and Fall of American Growth](http://amzn.to/2ijy1fT).
-- Daniel Levitin, [The Organized Mind](http://amzn.to/2iGTgVp).
-- Peter Bevelin, [Seeking Wisdom](http://amzn.to/2iPTKKe).
-- Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP).
-- Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU).
-- Robert Greene, [Mastery](http://amzn.to/2i2HbJy).
-- Edward Gibbon, [Decline and Fall of the Roman Empire](http://amzn.to/2hufQpA).
+<!-- ## On the radar -->
+<!--  -->
+<!-- - Paul Hawken, [Drawdown](http://amzn.to/2y8191k). -->
+<!-- - L. Steven Sieden, [Buckminster Fuller's Universe: His Life and Work](http://amzn.to/2kXDECL). -->
+<!-- - Chuck Closterman, [But What If We're Wrong?](http://amzn.to/2iGNE1K) -->
+<!-- - Cicero, [On a Life Well Spent](http://amzn.to/2ijD2oY). -->
+<!-- - George Polya, [How to Solve It](http://amzn.to/2iVzJEC). -->
+<!-- - Seneca, [Letters on Ethics: To Lucilius](http://amzn.to/2iQ1awU). -->
+<!-- - Suetonius, [The Twelve Caesars](http://amzn.to/2iaaE7Z). -->
+<!-- - Robert Gordon, [The Rise and Fall of American Growth](http://amzn.to/2ijy1fT). -->
+<!-- - Daniel Levitin, [The Organized Mind](http://amzn.to/2iGTgVp). -->
+<!-- - Peter Bevelin, [Seeking Wisdom](http://amzn.to/2iPTKKe). -->
+<!-- - Charles Munger, [Poor Charlie's Almanack](http://amzn.to/2i4HPJP). -->
+<!-- - Phillip M Pierson, [Metaphysics of Buckminster Fuller](http://amzn.to/2kyxELU). -->
+<!-- - Robert Greene, [Mastery](http://amzn.to/2i2HbJy). -->
+<!-- - Edward Gibbon, [Decline and Fall of the Roman Empire](http://amzn.to/2hufQpA). -->
 <!-- - Viktor Frankl, [Man's Search for Meaning](http://amzn.to/2j33bpx). -->
 <!-- - Epictetus, [Art of Living](http://amzn.to/2iUggUK). -->
 <!-- - Epictetus, [Discourses and Selected Writings](http://amzn.to/2iQ2f8d). -->
