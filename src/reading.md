@@ -184,9 +184,7 @@ Pre read.
 
 <ul>
 {{#each collections.reading}}
-{{#if this.title}}{{#unless this.top_book}}
 <li><strong>{{this.author}},</strong> <a href='/{{this.path}}'>{{this.title}}</a>. {{this.summary}}</li>
-{{/unless}}{{/if}}
 {{/each}}
 </ul>
 

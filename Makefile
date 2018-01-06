@@ -16,3 +16,6 @@ deploy: build
 	rm -rf .git
 
 .PHONY: build serve clean
+
+pull-reading:
+	git pull -s subtree reading-notes master
