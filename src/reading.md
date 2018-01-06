@@ -1,7 +1,13 @@
 ---
 title: What I'm reading
 layout: page.hbs
+data: 
+    top: books-top.json
+    fav: books-favorite.json
+    recent: books-recent.json
+    rest: books-rest.json
 ---
+
 
 A list of books at various stages of my reading pipeline.
 
@@ -189,3 +195,11 @@ Pre read.
 </ul>
 
 Post read.
+
+<ul>
+{{#data.top}}
+<li><strong>{{this.author}},</strong> <a href='/{{this.path}}'>{{this.title}}</a>. {{this.summary}}</li>
+{{/data.top}}
+</ul>
+
+Post post read.

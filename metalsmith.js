@@ -32,6 +32,8 @@ var assets      = require('metalsmith-assets');
 var redirect    = require('metalsmith-redirect');
 //                https://github.com/mwishek/metalsmith-s3
 // var s3          = require('metalsmith-s3');
+//                https://github.com/tests-always-included/metalsmith-data-loader
+var dataLoader  = require("metalsmith-data-loader");
 
 var debugUi     = require('metalsmith-debug-ui');
 
@@ -91,6 +93,9 @@ var M = metalsmith(__dirname)
   current_year:         moment().year(),
   cache_suffix:         'v=' + String(Math.round( Math.random() * 1e7 )),
 }))
+
+// load extra data from json files
+.use(dataLoader())
 
 // ability to store posts as drafts by placing the following front-matter:
 // draft: true
