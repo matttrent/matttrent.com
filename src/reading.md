@@ -12,8 +12,8 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 ## Currently reading
 
 - James Carse, [Finite and Infinite Games](http://amzn.to/2gmTmmF).
-- Matt Ridley, [The Evolution of Everything](http://amzn.to/2x9TXhj).
-- Oliver Sacks, [The River of Consciousness](http://amzn.to/2CJuyS1).
+- Walter Issacson, [Leonardo da Vinci](http://amzn.to/2BPR2fM).
+- Matthew Walker, [Why We Sleep](http://amzn.to/2DTJCde).
 
 <!-- ## On the radar -->
 <!--  -->
@@ -42,6 +42,12 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 
 ## Recently finished
 
+- __Oliver Sacks,__ [The Mind's Eye](http://amzn.to/2DWvDTN). Stories from the edges of visual perception.
+- __Oliver Sacks,__ [Hallucinations](http://amzn.to/2FAjN24). All the ways we can perceive things that aren't there.
+- __Oliver Sacks,__ [An Anthropologist on Mars](http://amzn.to/2DUXKmk). If The Man Who... draws you in, this establishes the cadence.
+- __Oliver Sacks,__ [The Man Who Mistook His Wife for a Hat](http://amzn.to/2BQXXW8). Embarassingly for all my interest in the mind/brain I'd never read much of his work.  My previous read started me on a binge.
+- __Matt Ridley,__ [The Evolution of Everything](http://amzn.to/2x9TXhj). Most things change slowly and iteratively instead of being designed.  Book tells the same story in every domain it touches.  Interesting insights, but rather repetitive.
+- __Oliver Sacks,__ [The River of Consciousness](http://amzn.to/2CJuyS1). Sacks' final book, published posthumously, on the experience of consciousness and what it means to be and experience a self.  His willingness to look beyond the clinical to the (dare-I-say) spiritual shines here.  A most fit capstone on an amazing literary career.
 - __BH Liddell Hart,__ [Scipio Africanus](http://amzn.to/2B5Efdo).  Biography of one of history's greatest generals, almost forgotten in our time.  Scipio defeated Hannibal, saving Rome from the brink of destruction and ensuring its ascendency.  Through Hart's analysis, many of Scipio's strategies are just as applicable to today's environment.
 - __Lawrence Freedman,__ [Strategy: A History](http://amzn.to/2z7hH7x).  History of the concept of strategy.  Got caught up with other responsibilities before I could build moment to get through it.  Shelving for now but will return to at a future date.
 - __Philip K. Dick,__ [The Man in the High Castle](http://amzn.to/2B5Esxc).  Realized I'd never read the original.  I didn't find it as dynamic as the TV series.  I read it on a flight, so I might need to revisit to see if I glossed over parts and missed some of the depth.
@@ -56,7 +62,7 @@ Last updated: __{{ current_month }}__. If this gets more than a couple months ou
 - __Tom Wolfe,__ [The Electric Kool-Aid Acid Test](http://amzn.to/2yvySii).  The exploits of Ken Kesey and The Merry Pranksters.  I love the way Tom Wolfe covers every subject he touches.
 - __Peter Godfrey-Smith,__ [Other Minds](http://amzn.to/2wT50y9).  The ancestors of cephalopods branched off from the ancestors of humans long enough ago they may represent a coevolution of consciousness.  Touches on the evolution of consciousness and why exists at all.
 - __Robert Kull,__ [Solitude](http://amzn.to/2y7FB4i).  Author lives alone for a year on a remote island off the coast of Chile and writes about it.  Some insights, some fluff.
-- __Herbert Simon,__ [The Sciences of the Artificial](http://amzn.to/2y808G1).  Methods of thinking about artificial constructs we create in the world.  Relation of design to solving most constructud problems.  I couldn't get into it.
+- __Herbert Simon,__ [The Sciences of the Artificial](http://amzn.to/2y808G1).  Methods of thinking about artificial constructs we create in the world.  Relation of design to solving most constructed problems.  I couldn't get into it.
 - __John McPhee,__ [Assembling California](http://amzn.to/2i9V64b).  The geology and tectonic processes that created California.  Was too geologically dense for me, but I enjoyed the bits I could understand.
 - __Michael Harris,__ [Solitude](http://amzn.to/2vNC5JL).  First in a series of books on the value of solitude.  I'm fascinated by the concept at the moment, but this felt more like reverie with bits of pop neuroscience and complaining about modern digital technology sprinkled in, than containing an real insight.
 - __Kumiko Kakehashi,__ [So Sad to Fall in Battle](http://amzn.to/2xYwtx3).  The battle of Io Jima as seen through the letters of Japanese commanding General, Tadamichi Kuribayashi.  Doomed from the start, his outfit still managed to hold off an overwhelming force for months.  A true study in leadership.
