@@ -50,7 +50,7 @@ layout: page.hbs
     - this has always felt clunky to me
     - slugging without a very solid connection
     - need to install XWindows on your remote server
-    - never played as nice as I'd like with local OS
+    - never played as nice as I'd like with local OS (copy, paste, undo, etc...)
     - Still using emacs or vim
 - sshfs
     - remotely connect to the machine via an ssh connection
@@ -76,14 +76,19 @@ layout: page.hbs
     - pros: no conflicts
     - cons: can't work offline, can be challenging to navigate large codebases, 
       potential costs connecting to expensive instances
+- Ala Carte
+    - Don't need to do all the options--any one will work
+    - Don't need to pick just one--they can complement each other
 
 ## Aside 1: project folder organization
 
 - whichever option you take, folder organization can help keep you sane
-- 2 top level directories: projects and data
+- 2 top level directories on the server: projects and data
+    - (you can put things where ever you want on your laptop)
     - projects contains a folder per project, which is a git repo
     - keep your data outside the project folder
-    - less things to check for changes, speeds up making edits
+    - the less files, the faster all the approaches complete their checks for
+      changes
     - same for results if there's a lot of data
 - define a convention that the contents of each top-level folder of the project
   on ever get changed on your laptop or on the remote server
@@ -112,108 +117,141 @@ layout: page.hbs
 
 - `push` folders, such as `code` and `scripts`, only get changed on the laptop 
    and are sent to the server
-- `pull` folders, `notebooks` and results`, only get changed on the remote
+- `pull` folders, `notebooks` and `results`, only get changed on the remote
   server and are retrieved to your laptop
 - the names of the folders are unimportant
 - just commit to not changing files in the same folder on both machines
-- if you don't follow this advice, you'll need to double- and triple-check
-  before synchronizing.  just avoid it
+  {{#sidenote "sn-folders"}}if you don't follow this advice, you'll need to double- and triple-check
+  before synchronizing.  just don't do it.{{/sidenote}}
 
 ## Aside 2: SSH configuration
 
+- configure your ssh connection
+- in `~/.ssh/config` you should have an entry that looks like:
+
 <pre class="code">
-Host deeplearn-v100 ec2-XXXXXX.us-west-2.compute.amazonaws.com
-    HostName ec2-XXXXX.us-west-2.compute.amazonaws.com
-    User ubuntu
-    IdentityFile ~/.ssh/aws-key-deeplearn.pem
-    IdentitiesOnly yes
+Host aws-deeplearn ec2-XXXXXX.us-west-2.compute.amazonaws.com
+
+    HostName ec2-XXXXX.us-west-2.compute.amazonaws.com  # hostname again here
+    User ubuntu                                         # remote server username
+    IdentityFile ~/.ssh/aws-key-deeplearn.pem           # ssh key to use
+    LocalForward 9999 localhost:8888                    # forward ipython notebook
 </pre>
+
+- can now type `ssh aws-deeplearn` and log in without any extra steps
+- any program that SSHs to the full hostname can log in without any extra steps
+- we'll add some additional things as we go
+
+## Remote editing via rmate (and Visual Studio Code)
+
+- [Remote VSCode][]
+- Pros:
+    - simple (comparatively) to setup
+    - it's remote edit, so you can't mess things up with sync
+    - Works with VS Code, Sublime, and Textmate
+- Cons:
+    - can't see entire directory structure
+    - need to be online and instance running
+- install Remote VSCode in Visual Studio Code
+- setup the configuration options in your user settings as shown [here][Remote VSCode]
+
+[Remote VSCode]: https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode
+
+- install rmate on your remote server
+
+<pre class="code">
+$ pip install rmate
+</pre>
+
+- configure your ssh settings
+
+<pre class="code">
+Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
+    ...
+    <strong>RemoteForward 52698 localhost:52698</strong>
+</pre>
+
+- now you can start vs code
+- type `rmate <some file>` on the remote server
+- and it will open in visual studio code
 
 ## Syncing via rsync
 
-- the lowest tech approach to syncing directories between 2 machines is using 
-  [rsync][] from the command line
+- the most general approach is probably using [rsync][] from the command line
 - in theory, very straight forward
 - `rsync local_folder remote_folder` to send changes to remote machine
 - `rsync remote_folder local_folder` to get changes back
 - in practice, it needs a million command line arguments and you can run it 
   from the wrong directory
 - either overwriting your work or making needless copies
+- pros:
+    - local copy
+    - use any editor, just run from the shell
+    - don't need to be online
+    - easily adaptable to your needs
+- cons:
+    - syncing can mess things up, even with the helper scripts below
+    - need to run manually after making changes
+    - have to like commandline scripting
 
 [rsync]: https://rsync.samba.org/
 
 - simplify a bit
 - remember our directory organization?
 - only sync full project directories, respect our push/pull choices from above
-
-**aws-put**
-
-<pre class="code">
-#!/bin/bash
-# syncs the current project (as defined by git repo) to default EC2 instance
-
-# get the path to the project root (where the .git folder is)
-project_path=`git rev-parse --show-toplevel 2> /dev/null`
-
-if [ $? -eq 0 ]; then
-
-    # name of the project folder
-    project_name=`basename $project_path`
-
-    # rsync to server ~/projects/project-name
-    rsync -avL --progress \
-        --exclude=/notebooks --exclude=/results \
-        -e "ssh" $1 \
-        $project_path $REMOTE_INSTANCE_URL:projects
-fi
-</pre>
-
 - assumes remote server url is in `$REMOTE_INSTANCE_URL` environment variable 
 
-**aws-get**
+<figure>
+<script src="https://gist.github.com/matttrent/feeab97d476f8dde7c0f713ef03c6f0a.js"></script>
+</figure>
 
-<pre class="code">
-#!/bin/bash
-# syncs the default EC2 instance to current project (as defined by git repo)
+- save these somewhere in `$PATH` on your laptop
+- can now type `remote-push.sh` and `remote-pull.sh` anywhere in your project and
+  it will intelligently sync the entire project with copy on the remote server
+- supports additional rsync options
+- `--dry-run` is a particularly handy one to check before syncing
 
-# get the path to the project root (where the .git folder is)
-project_path=`git rev-parse --show-toplevel 2> /dev/null`
-
-if [ $? -eq 0 ]; then
-
-    # name of the project folder
-    project_name=`basename $project_path`
-
-    # rsync from server ~/projects/project-name
-    rsync -avL --cvs-exclude --progress \
-        --exclude=/code --exclude=/scripts --exclude=/docs \
-        -e "ssh" $1 \
-        $REMOTE_INSTANCE_URL:projects/$project_name/ $project_path
-fi
-</pre>
 
 - even with these helpers I would often get confused
-- run remote code, having forgotten to `aws-put` first
+- run remote code, having forgotten to `remote-push` first
 
 ## Syncing via PyCharm
 
 - Cadillac option
 - Great IDE, including the free version
 - However, the feature is only available with the $90/year paid subscription
-- [work remotely with pycharm tensorflow and ssh][remote-pycharm]
+- But it includes syntax highlighting and code completion using the remote 
+  server's python install, run remote scripts within the IDE, a remote 
+  debugger, and a bunch of other cool features I haven't explored yet
+- setting everything up is lengthy, but straightforward entering values in
+  PyCharm's GUI
+
+
+- pros:
+    - can work offline
+    - editor has a lot of amazing features, including auto-syncing changed files
+    - entirely GUI-based setup
+- cons:
+    - costs $$$
+
+
+- follow the instructions here: 
+  [work remotely with pycharm tensorflow and ssh][remote-pycharm]
+- the **Setup the Console** section and everything after it is option
 
 [remote-pycharm]: https://medium.com/@erikhallstrm/work-remotely-with-pycharm-tensorflow-and-ssh-c60564be862d
-
-## Remote editing via rmate (and Visual Studio Code)
-
-- [Remote VSCode][]
-
-[Remote VSCode]: https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode
 
 ## Remote editing via Nuclide (and Atom)
 
 - Recently encountered Nuclide when I started at Facebook
 - about Nuclide and Atom
+- pros:
+    - makes remote dev feel like you're doing it on your laptop
+    - responsive, watches remote files, notifies you of changes
+    - don't need to worry about syncing
+- cons:
+    - pain in the ass to install
+    - need to be online and instance running
 
 Install local stuff
 
@@ -222,37 +260,39 @@ Install local stuff
 
 Install remote stuff
 
-- install some crap
+- install some crap {{#sidenote "sn-nuclide-install"}}Yes, I put `$`s at the
+beginning of each line so you have to copy them one-by-one.  It's mean, but
+you'll thank me.{{/sidenote}}
 
 <pre class="code">
 # installing prerequisites
-sudo apt-get install -y autoconf automake build-essential libpcre3
+$ sudo apt-get install -y autoconf automake build-essential libpcre3
 
 # installing node
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt-get install -y nodejs
+$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
 
 # installing nuclide
-sudo npm install -g nuclide
+$ sudo npm install -g nuclide
 
 # checking out appropriate version of watchman
-cd ~
-git clone https://github.com/facebook/watchman.git
-cd watchman/
-git checkout v4.7.0
+$ cd ~
+$ git clone https://github.com/facebook/watchman.git
+$ cd watchman/
+$ git checkout v4.7.0
 
 # installing watchman
-./autogen.sh
-./configure
-make
-sudo make install
-watchman --version
+$ ./autogen.sh
+$ ./configure
+$ make
+$ sudo make install
+$ watchman --version
 
 # configuring inotify
-echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches && \
-echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_queued_events && \
-echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_instances && \
-watchman shutdown-server
+$ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches && \
+$ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_queued_events && \
+$ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_instances && \
+$ watchman shutdown-server
 </pre>
 
 Configure ssh
@@ -263,18 +303,14 @@ Configure ssh
 
 <pre class="code">
 Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
-    HostName ec2-XXXX.us-west-2.compute.amazonaws.com
-    User ubuntu
-    IdentityFile ~/.ssh/aws-key-deeplearn.pem
-    IdentitiesOnly yes
-
-    <strong># atom/nuclide remote dev
-    LocalForward 9090 localhost:9090
+    ...
+    <strong>LocalForward 9090 localhost:9090
     LocalForward 20022 localhost:22</strong>
 </pre>
 
-{{#marginnote "nuclide remote"}}
-    <a href="/attachments/nuclide.png"><img src="/attachments/nuclide.png"></a>
+{{#marginnote "mn-nuclide-remote"}}
+<a href="/attachments/nuclide.png"><img src="/attachments/nuclide.png"></a>
+Nuclide Remote Connection dialog with appropriate settings.
 {{/marginnote}}
 
 
