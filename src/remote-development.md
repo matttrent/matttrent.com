@@ -1,6 +1,7 @@
 ---
 title: Developing on a remote server
 layout: page.hbs
+# draft: true
 ---
 
 ## Motivation
@@ -79,6 +80,9 @@ layout: page.hbs
 - Ala Carte
     - Don't need to do all the options--any one will work
     - Don't need to pick just one--they can complement each other
+    - I'll present them in order from least investment (of time or money) to 
+      greatest
+    - and end with my opinions
 
 ## Aside 1: project folder organization
 
@@ -144,14 +148,12 @@ Host aws-deeplearn ec2-XXXXXX.us-west-2.compute.amazonaws.com
 
 ## Remote editing via rmate (and Visual Studio Code)
 
+{{#marginnote "comp-rmate-pro"}}
+*Advantages:* simple (comparatively) to setup it's remote edit, so you can't mess things up with sync Works with VS Code, Sublime, and Textmate.  
+*Disadvantages:* can't see entire directory structure need to be online and instance running
+{{/marginnote}}
+
 - [Remote VSCode][]
-- Pros:
-    - simple (comparatively) to setup
-    - it's remote edit, so you can't mess things up with sync
-    - Works with VS Code, Sublime, and Textmate
-- Cons:
-    - can't see entire directory structure
-    - need to be online and instance running
 - install Remote VSCode in Visual Studio Code
 - setup the configuration options in your user settings as shown [here][Remote VSCode]
 
@@ -177,6 +179,11 @@ Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
 
 ## Syncing via rsync
 
+{{#marginnote "comp-rsync-pro"}}
+*Advantages:* local copy,  use any editor, just run from the shell,  don't need to be online,  easily adaptable to your needs.  
+*Disadvantages:* syncing can mess things up, even with the helper scripts below, need to run manually after making changes, have to like commandline scripting
+{{/marginnote}}
+
 - the most general approach is probably using [rsync][] from the command line
 - in theory, very straight forward
 - `rsync local_folder remote_folder` to send changes to remote machine
@@ -184,15 +191,6 @@ Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
 - in practice, it needs a million command line arguments and you can run it 
   from the wrong directory
 - either overwriting your work or making needless copies
-- pros:
-    - local copy
-    - use any editor, just run from the shell
-    - don't need to be online
-    - easily adaptable to your needs
-- cons:
-    - syncing can mess things up, even with the helper scripts below
-    - need to run manually after making changes
-    - have to like commandline scripting
 
 [rsync]: https://rsync.samba.org/
 
@@ -217,6 +215,11 @@ Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
 
 ## Syncing via PyCharm
 
+{{#marginnote "comp-pycharm"}}
+*Advantages:* can work offline. editor has a lot of amazing features, including auto-syncing changed files. entirely GUI-based setup.  
+*Disadvantages:* costs $$$
+{{/marginnote}}
+
 - Cadillac option
 - Great IDE, including the free version
 - However, the feature is only available with the $90/year paid subscription
@@ -227,14 +230,6 @@ Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
   PyCharm's GUI
 
 
-- pros:
-    - can work offline
-    - editor has a lot of amazing features, including auto-syncing changed files
-    - entirely GUI-based setup
-- cons:
-    - costs $$$
-
-
 - follow the instructions here: 
   [work remotely with pycharm tensorflow and ssh][remote-pycharm]
 - the **Setup the Console** section and everything after it is option
@@ -243,15 +238,13 @@ Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
 
 ## Remote editing via Nuclide (and Atom)
 
+{{#marginnote "comp-nuclide"}}
+*Advantages:*  makes remote dev feel like you're doing it on your laptop.  responsive, watches remote files, notifies you of changes.  don't need to worry about syncing.  
+*Disadvantages:*  pain in the ass to install. need to be online and instance running. 
+{{/marginnote}}
+
 - Recently encountered Nuclide when I started at Facebook
 - about Nuclide and Atom
-- pros:
-    - makes remote dev feel like you're doing it on your laptop
-    - responsive, watches remote files, notifies you of changes
-    - don't need to worry about syncing
-- cons:
-    - pain in the ass to install
-    - need to be online and instance running
 
 Install local stuff
 
