@@ -47,10 +47,10 @@ handlebars.registerHelper('sidenote', function(name, options) {
 });
 
 // register a marginnote (numbered sidenote) helper, used in the form
-// {{#sidenote "foo"}}bar bar bar{{/sidenote}}
+// {{#marginnote "foo"}}bar bar bar{{/marginnote}}
 handlebars.registerHelper('marginnote', function(name, options) {
   return new handlebars.SafeString(
-    '<label for="mn-' + name + '" class="margin-toggle"></label>'
+    '<label for="mn-' + name + '" class="margin-toggle">&#8853;</label>'
     + '<input type="checkbox" id="mn-' + name + '" class="margin-toggle">'
     + '<span class="marginnote">'
     + options.fn(this)

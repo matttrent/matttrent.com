@@ -4,101 +4,111 @@ layout: page.hbs
 # draft: true
 ---
 
-## Motivation
+Over the last year, I've been spending more and more time working on deep 
+learning projects.  All these projects call for a big GPU, of the variety that
+definitely dosesn't fit into my laptop.  So, while I'm still sitting at my 
+laptop writing code, I need to run the code on a machine that's often somewhere 
+else, such as AWS.
 
-- spending lots of time on deep learning projects
-- need a big gpu
-- gpu dosesn't fit into my laptop
-- so I need to run code on a computer I'm not actually sitting at 
-  (AWS box, my own personal server, etc...)
+The workflow of having to run the code on a separate machine turns out to kind 
+of being a pain.  Once the code is on that remote machine, running it is 
+reasonably straightforward.  However, getting that code to the remove server is 
+still surprisingly challenging, especially when one wants to do so continously 
+while they are in the process of developing and testing the code.
 
+One approach is to work entirely in the browser via [IPython][], an approach 
+covered in many tutorials.  However, I've never been happy with that workflow. 
+IPython notebooks rapidly grow to an unweildy size, are difficult to use with
+version control, and otherwise retard normal software practices.  And while 
+the its interface is good, I still it falls short of a full-featured code IDE.
 
-- once the code is on that remote machine, running it is straightforward
-- however, getting that code to that machine is surprisingly challenging
-- especially one wants to do so continously while they develop the code
+[ipython]: https://ipython.org/
 
-
-- one approach is to work entirely in the web browser via ipython
-- an approach covered by many tutorials
-- however, I've never been happy with that workflow
-- ipython notebooks rapidly grow to an unweildy size, are difficult to version 
-  control, and otherwise retard normal software practices
-- and while the web interface is good, it falls short of a full-featured code 
-  editor
-
-
-- the goal of this guide is to cover the alternative methods of editing code
-  on a remote machine
-- weigh their comparative strengths and weaknesses
-- my background is developing deep learning in python
-- but this advice should be general for any other applications
+The goal of this guide is to cover other approaches to editing code on a remote 
+server, and weigh their comparative strengths and weaknesses.  My background is 
+developing deep learning in Python, but the majority of this advice is general 
+enough for any other applications.
 
 ## What I assume you already know
 
-- Have a remote machine up and running. on aws. on google cloud platform. 
-  your own. etc...
-- You have ssh access to that machine and have sudo access
-- You're comfortable with shell commands and editing configuration files
+There's a lot to cover and I'm going to assume some basic fluency involving 
+working on a remote Linux server.  In particular, I assume: 1) you have a 
+remote Linux machine up and running on AWS/Google Cloud/etc..., 2) 
+you have SSH access to that machine setup and and have sudo access, and 3) 
+you're comfortable with running programs from the command line and editing 
+configuration files.
 
 ## What I won't cover
 
-- vim/emacs in a shell
-    - I once was an emacs user
-    - I stopped a decade ago in favor of other editors
-    - Never picked it back up
-    - If this works for you, you can safely ignore the rest of this guide
-- Redirect XWindows
-    - this has always felt clunky to me
-    - slugging without a very solid connection
-    - need to install XWindows on your remote server
-    - never played as nice as I'd like with local OS (copy, paste, undo, etc...)
-    - Still using emacs or vim
-- sshfs
-    - remotely connect to the machine via an ssh connection
-    - mount the code directory 
-    - in theory this is amazing
-    - in practice it never worked as promised, dropped the connection 
-      regularly, froze my machine a numeber of times, and left me sorting out 
-      conflicting verions of files by hand
+Equally important is what I won't cover.  There's a lot of ways to approach 
+editing code on a remote machine and I have my own opinions.
+
+I won't cover running Vim/Emacs in a remote shell. While, I was once an Emacs 
+user I stopped a decade ago and haven't picked it back up.  If this works for 
+you, you can safely ignore the rest of this guide.
+
+I also won't cover redirecting XWindows from the remote machine to your laptop.
+Personally, I've always found this to be very clunky.  It's sluggish without a
+solid connection, you need to install X on the remote server, and it never 
+plays as nicely with your local window system as I'd like.  And you're still
+probably using Vim/Emacs.
+
+I'd really like to recommend using SSHFS, where you connect to the remote server
+via SSH and mount the remote directory as a local file system.  In theory this
+is amazing.  In practice, it never worked as promised, dropped the connection 
+regularly, froze my machine a numeber of times, and left me sorting out 
+conflicting verions of files by hand.  Thanks no.
 
 ## 2 major approaches
 
-- Edit local files and sync
-    - There are 2 copies of the code, on your laptop and on the remote server
-    - You edit locally and sync changes to the remote server
-    - rsync and PyCharm are your options here
-    - pros: you can edit code offline, entire codebase easily accessible
-    - cons: overwriting work & potential conflicts, workflow can be clunky
-- Edit remote files
-    - There is one copy of the code
-    - It lives on the remote machine
-    - Your editor connects to that machine
-    - rmate and Atom/Nuclide are your options here
-    - pros: no conflicts
-    - cons: can't work offline, can be challenging to navigate large codebases, 
-      potential costs connecting to expensive instances
-- Ala Carte
-    - Don't need to do all the options--any one will work
-    - Don't need to pick just one--they can complement each other
-    - I'll present them in order from least investment (of time or money) to 
-      greatest
-    - and end with my opinions
+So given that long list of caveats, there are 2 basic approaches to editing
+code to be run on a remote server:
+
+*Edit local files and sync.* In this case, there are two copies of the code, on 
+your laptop and on the remote server. You edit the files locally and sync 
+changes to the remote server.  [Rsync][] and [PyCharm][] are the two options I'll 
+discuss here.  The advantage is that you can use any editor you want, can edit 
+code offline, and the entire codebase easily accessible.  The disadvantage is
+you have 2 copies to keep in sync which can occasionally load to overwriting 
+your work and the workflow can be clunky.
+
+[rsync]: https://rsync.samba.org/
+[pycharm]: https://www.jetbrains.com/pycharm/
+
+*Edit remote files.* In this case, there is one copy of the code and it lives 
+on the remote server. Your editor needs to that machine and coordinates changes
+via a custom protocol.  [Remote VSCode][] and [Nuclide][] are the two options I'll discuss
+here.  The advantage is that you never have to deal with conflicting files.  
+The disadvantage is you need to be online and the instance needs to be
+running to do any work, and it can be challenging to navigate large codebases. 
+
+[remote vscode]: https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode
+[nuclide]:  https://nuclide.io/
+
+This guide is ala carte.  You don't need to do all the options--any one will 
+work.  You also don't need to pick just one--they can complement each other. 
+I'll present them in order from least to greatest investment
+and end with my opinions.
 
 ## Aside 1: project folder organization
 
-- whichever option you take, folder organization can help keep you sane
-- 2 top level directories on the server: projects and data
-    - (you can put things where ever you want on your laptop)
-    - projects contains a folder per project, which is a git repo
-    - keep your data outside the project folder
-    - the less files, the faster all the approaches complete their checks for
-      changes
-    - same for results if there's a lot of data
-- define a convention that the contents of each top-level folder of the project
-  on ever get changed on your laptop or on the remote server
-- this will minimize the number if accidents you have syncing and will keep 
-  everything clearer
-- one such layout setup for a sync approach is:
+Whichever route you take, making smart folder organization choices can help keep 
+you sane.  I suggest you have two top-level directories on the 
+server: `~/projects` and `~/data`{{#sidenote "organization"}}They don't have to 
+live in your homedir.  And you can put things where ever you want on your 
+laptop.{{/sidenote}}.
+    
+The projects folder contains a subfolder per project, each of which is a git repo.  Keep your 
+data outside the project folders.  The less files, the faster all the 
+approaches complete their checks for changes.  Same goes for results if there's
+a large amount of files being output.
+
+Also, adopt a convention that the contents of each top-level project folder
+on ever get changed on either your laptop or on the remote server--never both.
+This will minimize the number if accidents you have syncing and will keep 
+everything clearer.
+
+One such folder organization is:
 
 <pre class="code">
 ~/projects
@@ -119,19 +129,20 @@ layout: page.hbs
         ...
 </pre>
 
-- `push` folders, such as `code` and `scripts`, only get changed on the laptop 
-   and are sent to the server
-- `pull` folders, `notebooks` and `results`, only get changed on the remote
-  server and are retrieved to your laptop
-- the names of the folders are unimportant
-- just commit to not changing files in the same folder on both machines
-  {{#sidenote "sn-folders"}}if you don't follow this advice, you'll need to double- and triple-check
-  before synchronizing.  just don't do it.{{/sidenote}}
+`push` folders, such as `code` and `scripts`, only get changed on the laptop 
+and are sent to the server.  `pull` folders, `notebooks` and `results`, only 
+get changed on the remote server and are retrieved to your laptop.
+The names of the folders are unimportant.  Just commit to not changing files 
+in the same folder on both machines.  Otherwise you'll need to double- and 
+triple-check before synchronizing changes.  Just don't do it.
 
 ## Aside 2: SSH configuration
 
-- configure your ssh connection
-- in `~/.ssh/config` you should have an entry that looks like:
+All of these methods rely on passing data through an SSH connection. 
+Setting up your SSH configuration settings can simplify late steps.  
+
+Open the `~/.ssh/config` file on your local machine. Here's what mine looks like.  
+Your's will differ in specifics, but needs to follow the same basic format:
 
 <pre class="code">
 Host aws-deeplearn ec2-XXXXXX.us-west-2.compute.amazonaws.com
@@ -142,30 +153,38 @@ Host aws-deeplearn ec2-XXXXXX.us-west-2.compute.amazonaws.com
     LocalForward 9999 localhost:8888                    # forward ipython notebook
 </pre>
 
-- can now type `ssh aws-deeplearn` and log in without any extra steps
-- any program that SSHs to the full hostname can log in without any extra steps
-- we'll add some additional things as we go
+The section starts with a `Host` line that contains both a nickname for the
+server and the full URL for the server.  The `HostName` line repeats the full
+URL.  The `User` line has the username to log in to the remote server. 
+`IdentifyFile` points to the SSH key generated to allow logging into the server 
+without a password.  Lastly the `LocalForward` line redirects a port from the
+laptop to the server so we can view IPython notebooks.
+
+I can now type `ssh aws-deeplearn` and log in without any extra steps.  Additionally, 
+any program that SSHs to the full hostname can log in without any extra steps.
+And we'll add some additional things as we go.
 
 ## Remote editing via rmate (and Visual Studio Code)
 
-{{#marginnote "comp-rmate-pro"}}
-*Advantages:* simple (comparatively) to setup it's remote edit, so you can't mess things up with sync Works with VS Code, Sublime, and Textmate.  
-*Disadvantages:* can't see entire directory structure need to be online and instance running
+{{#marginnote "comp-rmate"}}
+*Advantages:* Simple (comparatively) to setup. No syncing.  Works with VS Code, Sublime, and Textmate.  
+*Disadvantages:* Can't see entire directory structure.  Need to be online and instance running.
 {{/marginnote}}
 
-- [Remote VSCode][]
-- install Remote VSCode in Visual Studio Code
-- setup the configuration options in your user settings as shown [here][Remote VSCode]
+The first approach is to remotely edit your code with the [Remote VSCode][]
+extension for [Visual Studio Code][vscode].  
 
-[Remote VSCode]: https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode
+[vscode]: https://code.visualstudio.com/
 
-- install rmate on your remote server
+First, install and configure the Remote VSCode extension (installing Visual 
+Code if you haven't already).  In the Visual Studio Code's *Extensions* panel, 
+search for Remote VSCode.  Install it and restart Visual Studio Code.
 
-<pre class="code">
-$ pip install rmate
-</pre>
+Set the Remote VSCode section of your user settings as shown in the Usage 
+section [here][Remote VSCode].  Restart VSCode again.
 
-- configure your ssh settings
+Next, add the following bolded line to the appropriate portion of your SSH 
+config:
 
 <pre class="code">
 Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
@@ -173,89 +192,104 @@ Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
     <strong>RemoteForward 52698 localhost:52698</strong>
 </pre>
 
-- now you can start vs code
-- type `rmate <some file>` on the remote server
-- and it will open in visual studio code
+Lastly, install `rmate` on your remote server:
+
+<pre class="code">
+$ pip install rmate
+</pre>
+
+You can now type `rmate <some file>` in your SSH connection the remote server 
+and the file will open in Visual Studio Code.
 
 ## Syncing via rsync
 
-{{#marginnote "comp-rsync-pro"}}
-*Advantages:* local copy,  use any editor, just run from the shell,  don't need to be online,  easily adaptable to your needs.  
-*Disadvantages:* syncing can mess things up, even with the helper scripts below, need to run manually after making changes, have to like commandline scripting
+{{#marginnote "comp-rsync"}}
+*Advantages:* Can use any editor. Easily adaptable to your needs. Don't need to be online.  
+*Disadvantages:* Need to run manually after making changes. Can overwrite your work.  Have to like commandline scripting.
 {{/marginnote}}
 
-- the most general approach is probably using [rsync][] from the command line
-- in theory, very straight forward
-- `rsync local_folder remote_folder` to send changes to remote machine
-- `rsync remote_folder local_folder` to get changes back
-- in practice, it needs a million command line arguments and you can run it 
-  from the wrong directory
-- either overwriting your work or making needless copies
+[Rsync][] is probably the most general approach to getting files to a remote 
+server.  The usage pattern is straightforward--to sync all your changes simply run 
 
-[rsync]: https://rsync.samba.org/
+<pre class="code">
+rsync source_folder destination_folder
+</pre>
 
-- simplify a bit
-- remember our directory organization?
-- only sync full project directories, respect our push/pull choices from above
-- assumes remote server url is in `$REMOTE_INSTANCE_URL` environment variable 
+However, in practice Rsync needs a million command line arguments and if you 
+run it from the wrong directory, you'll either either overwrite your work or 
+make needless copies.  So we simplify with some scripts that reflect the
+folder organization I described above.  The scripts only sync full project
+directories and respect our push/pull choices from above.
 
+Copy the following 2 scripts and save them somewher in your `$PATH` on your 
+laptop and give them executable permissions:
+
+{{#marginnote "rsync-not-done"}}**NOTE: These scripts won't run correctly 
+complete their initial sync as currently written.  The `--exclude` directives
+shuold be ignored the first time to completely sync.**{{/marginnote}}
 <figure>
 <script src="https://gist.github.com/matttrent/feeab97d476f8dde7c0f713ef03c6f0a.js"></script>
 </figure>
 
-- save these somewhere in `$PATH` on your laptop
-- can now type `remote-push.sh` and `remote-pull.sh` anywhere in your project and
-  it will intelligently sync the entire project with copy on the remote server
-- supports additional rsync options
-- `--dry-run` is a particularly handy one to check before syncing
+You'll also need to set an environment variable named `$REMOTE_INSTANCE_URL`
+that contains the full URL to the remote server (same as in your SSH config).
 
+You can now run `remote-push.sh` and `remote-pull.sh` anywhere in your project 
+and the script will intelligently sync the entire project with the copy on the 
+remote server.  The scripts also support including additional rsync options and
+`--dry-run` is a particularly handy one to check what will change before syncing.
 
-- even with these helpers I would often get confused
-- run remote code, having forgotten to `remote-push` first
+Even with these helpers I would often get confused and try and run code on the
+server having forgotten to `remote-push` my changes first.
 
 ## Syncing via PyCharm
 
 {{#marginnote "comp-pycharm"}}
-*Advantages:* can work offline. editor has a lot of amazing features, including auto-syncing changed files. entirely GUI-based setup.  
-*Disadvantages:* costs $$$
+*Advantages:* Lots of amazing features, including auto-sync on save. Entirely GUI-based setup. Can work offline.  
+*Disadvantages:* Costs $$$.
 {{/marginnote}}
 
-- Cadillac option
-- Great IDE, including the free version
-- However, the feature is only available with the $90/year paid subscription
-- But it includes syntax highlighting and code completion using the remote 
-  server's python install, run remote scripts within the IDE, a remote 
-  debugger, and a bunch of other cool features I haven't explored yet
-- setting everything up is lengthy, but straightforward entering values in
-  PyCharm's GUI
+[PyCharm][] is the Cadillac option.  It's a great IDE, including the
+free version.  However, the remote sync feature is only available with the 
+$90/year paid subscription.  The full version includes syntax highlighting and 
+code completion using the remote server's python install, the ability to run 
+remote scripts within the IDE, a remote debugger, and a bunch of other cool 
+features I haven't explored yet.  Additionally, the setup is entirely within 
+PyCharm's GUI.  It's a quite a few steps, worth considering if you're less
+comfortal with the command line.
 
-
-- follow the instructions here: 
-  [work remotely with pycharm tensorflow and ssh][remote-pycharm]
-- the **Setup the Console** section and everything after it is option
+Follow the instructions in this Medium post: [Work Remotely with PyCharm 
+Tensorflow and SSH][remote-pycharm].  The section titled **Setup the Console**
+and everything after it can safely be omitted.
 
 [remote-pycharm]: https://medium.com/@erikhallstrm/work-remotely-with-pycharm-tensorflow-and-ssh-c60564be862d
 
-## Remote editing via Nuclide (and Atom)
+## Remote editing via Nuclide
 
 {{#marginnote "comp-nuclide"}}
-*Advantages:*  makes remote dev feel like you're doing it on your laptop.  responsive, watches remote files, notifies you of changes.  don't need to worry about syncing.  
-*Disadvantages:*  pain in the ass to install. need to be online and instance running. 
+*Advantages:* Makes remote dev not feel remote.  Responsive, watches remote files, notifies you of changes.  No syncing.  
+*Disadvantages:* Hassle to install. Need to be online and instance running. 
 {{/marginnote}}
 
-- Recently encountered Nuclide when I started at Facebook
-- about Nuclide and Atom
+I recently encountered [Nuclide][] when I started working at Facebook.  It's
+a package for the [Atom][] that provides a unified development enviroment for
+Facebook's languages.  It also happens to have the best remote editor I've
+used.  And it's a pain in the ass to setup.
 
-Install local stuff
+[atom]:     https://atom.io/
 
-- Install Atom
-- Install Nuclide
+First, install [Atom][].  Once installed, search for the 
+[Nuclide][] package and install that.
 
-Install remote stuff
-
-- install some crap {{#sidenote "sn-nuclide-install"}}Yes, I put `$`s at the
+Then, install all the Nuclide server and it's requirements. The full details are
+available in the [Nuclide Remote Dev docs][nuclide remote], but I'll try and
+walk you through the majority of the steps here.  Assuming your remote server
+is running Ubuntu Linux, you'll want to run the 
+following commands{{#sidenote "nuclide-install"}}Yes, I put `$`s at the
 beginning of each line so you have to copy them one-by-one.  It's mean, but
-you'll thank me.{{/sidenote}}
+you'll thank me.{{/sidenote}}:
+
+[nuclide remote]: https://nuclide.io/docs/features/remote/
 
 <pre class="code">
 # installing prerequisites
@@ -282,17 +316,15 @@ $ sudo make install
 $ watchman --version
 
 # configuring inotify
-$ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches && \
-$ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_queued_events && \
-$ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_instances && \
+$ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+$ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_queued_events
+$ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_instances
 $ watchman shutdown-server
 </pre>
 
-Configure ssh
-
-- nuclide server listen on a port not exposed by default in EC2 or other providers
-- want to forward that port through your ssh connection
-- configure your ssh connection to forward
+Once that's complete, you need to configure SSH.  The Nuclide server listens on
+a port not exposed by default on AWS or other providers, so you need forward
+that port via SSH.  Edit your SSH connection to include the following 2 lines:
 
 <pre class="code">
 Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
@@ -301,28 +333,30 @@ Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
     LocalForward 20022 localhost:22</strong>
 </pre>
 
-{{#marginnote "mn-nuclide-remote"}}
+{{#marginnote "nuclide-remote"}}
 <a href="/attachments/nuclide.png"><img src="/attachments/nuclide.png"></a>
 Nuclide Remote Connection dialog with appropriate settings.
 {{/marginnote}}
 
+Open an new SSH connection to the remote server.
 
-configure nuclide connection
+Lastly, you'll need to configure the remote connection in Nuclide.  Open Atom 
+and find the connection dialog.  Set it to look like the image to the right.
+Your Username, Initial Directory, and Private Key File will all be different.
 
-- open ssh connection to remote machine with port forwarded
-- open atom
-- open remote connection dialog
-- set up to look like this 
-
-- connect
+And that should do it.
 
 ## What I'm doing
 
-- PyCharm + Nuclide
-- I adopted the PyCharm workflow early on and hove mostly stuck with it
-- I've started moving some of my workflow to Nuclide
-- but haven't switched over fully
-- PyCharm lets me sync on a per-file basis, so I can resolve an issues that 
-  may arise from combining methods
-- If I were to start over now, and was fine leaving the instance running the
-  whole time I was working, I'd go the Nuclide route
+So, given all this I'm sure you're wondering what I'm using personally. I 
+adopted the PyCharm workflow early on and have stuck with it with few 
+complaints. I've started moving some of my workflow to Nuclide but haven't 
+fully committed.  I can use both interchangably because PyCharm lets me sync on 
+a per-file basis, and I can resolve an issues that may arise.
+
+Not needing to deal with syncing is a big win for Nuclide, but I think the rest
+of PyCharm's Python-specific remote development features may win me over.
+
+Lastly, as long as this article is, it only covers the small aspect of getting
+code changes to the remote server.  I hope to expand to cover other topics such
+such as working with the command line effectively.  
