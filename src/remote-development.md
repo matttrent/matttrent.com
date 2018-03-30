@@ -2,12 +2,11 @@
 title: Developing on a remote server
 subtitle: without IPython and Vim
 layout: page.hbs
-# draft: true
 ---
 
-Over the last year, I've been spending more and more time working on deep learning projects.  All these projects call for a big GPU, of the variety that definitely dosesn't fit into my laptop.  So, while I'm still sitting at my laptop writing code, I need to run the code on a machine that's often somewhere else, such as AWS.
+Over the last year, I've been spending more and more time working on deep learning projects.  All these projects call for a big GPU, of the variety that definitely doesn't fit into my laptop.  So, while I'm still sitting at my laptop writing code, I need to run the code on a machine that's often somewhere else, such as AWS.
 
-The most common remote development approach for deep learning to is a combination of [Vim][] and [Jupyter notebooks][jupyter], which is covered in many tutorials{{#sidenote "tutorials"}}
+The most common remote development approach for deep learning is a combination of [Vim][] and [Jupyter notebooks][jupyter], which is covered in many tutorials{{#sidenote "tutorials"}}
 To get started I recommend [Learn Vim Progressively][vim-prog], [Vimcasts][], and DataCamp's [Jupyter notebook][datacamp-nb] and [Notebooks on EC2][ec2-nb] tutorials.
 {{/sidenote}}.
 
@@ -18,7 +17,7 @@ To get started I recommend [Learn Vim Progressively][vim-prog], [Vimcasts][], an
 [datacamp-nb]: https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
 [ec2-nb]: https://www.datacamp.com/community/tutorials/deep-learning-jupyter-aws
 
-However, I've never been happy with that workflow. My brain has never gotten used to Vim.  IPython notebooks rapidly grow to unweildy sizes, are difficult to use with version control, and otherwise retard normal software practices.  Also, I like having the features of a modern IDE available to me when developing.  And while both have decent interfaces, I feel they still fall short of a full-featured code IDE.
+However, I've never been happy with that workflow. My brain has never gotten used to Vim.  Juypter notebooks rapidly grow to unwieldy sizes, are difficult to use with version control, and otherwise retard normal software practices.  Also, I like having the features of a modern IDE available to me when developing.  And while both have decent interfaces, I feel they still fall short of a full-featured code IDE.
 
 The guide I have written is the guide I wish I hadd come across 4 months ago. I assume you aren't happy with the standard recommendations.  I cover the other approaches to editing code on a remote server, explain how to set them up, and weigh their comparative strengths and weaknesses.  The focus is on deep learning and Python, but the majority of this advice is general enough for any other applications.
 
@@ -26,7 +25,7 @@ The guide I have written is the guide I wish I hadd come across 4 months ago. I 
 
 No and yes.
 
-If you're asking "Do I need this?" the answer is probably "No".  The vast majority of people are happy with IPython and Vim for their needs.  I'd suggest you start there and invest some time learning those tools.  If you're still unhappy with those approaches, come back here.
+If you're asking "Do I need this?" the answer is probably "No".  The vast majority of people are happy with Jupyter and Vim for their needs.  I'd suggest you start there and invest some time learning those tools.  If you're still unhappy with those approaches, come back here.
 
 However, the 2 sections below on repository organization and SSH settings are applicable to any approach and will you remote development workflow easier.  I highly suggest you read those regardless of what approach 
 
@@ -34,7 +33,7 @@ However, the 2 sections below on repository organization and SSH settings are ap
 
 There are 2 basic approaches to editing code to be run on a remote server:
 
-*Edit local files and sync.* In this case, there are two copies of the code, on your laptop and on the remote server. You edit the files locally and sync changes to the remote server.  [Rsync][] and [PyCharm][] are the two options I'll discuss here.  The advantage is that you can use any editor you want, can edit code offline, and the entire codebase easily accessible.  The disadvantage isyou have 2 copies to keep in sync which can occasionally load to overwriting your work and the workflow can be clunky.
+*Edit local files and sync.* In this case, there are two copies of the code, on your laptop and on the remote server. You edit the files locally and sync changes to the remote server.  [Rsync][] and [PyCharm][] are the two options I'll discuss here.  The advantage is that you can use any editor you want, can edit code offline, and the entire codebase easily accessible.  The disadvantage is you have 2 copies to keep in sync which can occasionally load to overwriting your work and the workflow can be clunky.
 
 [rsync]: https://rsync.samba.org/
 [pycharm]: https://www.jetbrains.com/pycharm/
@@ -44,7 +43,7 @@ There are 2 basic approaches to editing code to be run on a remote server:
 [remote vscode]: https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode
 [nuclide]:  https://nuclide.io/
 
-This guide is ala carte.  You don't need to do all the options--any one will work.  You also don't need to pick just one--they can complement each other. I'll present them in order from least to greatest investmentand end with my opinions.
+This guide is ala carte.  You don't need to do all the options--any one will work.  You also don't need to pick just one--they can complement each other. I'll present them in order from least to greatest investment and end with my opinions.
 
 ## Aside 1: project folder organization
 
@@ -93,7 +92,7 @@ Host aws-deeplearn ec2-XXXXXX.us-west-2.compute.amazonaws.com
     LocalForward 9999 localhost:8888                    # forward ipython notebook
 ```
 
-The section starts with a `Host` line that contains both a nickname for the server and the full URL for the server.  The `HostName` line repeats the full URL.  The `User` line has the username to log in to the remote server.  `IdentifyFile` points to the SSH key generated to allow logging into the server  without a password.  Lastly the `LocalForward` line redirects a port from the laptop to the server so we can view IPython notebooks.
+The section starts with a `Host` line that contains both a nickname for the server and the full URL for the server.  The `HostName` line repeats the full URL.  The `User` line has the username to log in to the remote server.  `IdentifyFile` points to the SSH key generated to allow logging into the server  without a password.  Lastly the `LocalForward` line redirects a port from the laptop to the server so we can view Jupyter notebooks.
 
 I can now type `ssh aws-deeplearn` and log in without any extra steps.  Additionally,  any program that SSHs to the full hostname can log in without any extra steps. And we'll add some additional things as we go.
 
@@ -115,7 +114,7 @@ Set the Remote VSCode section of your user settings as shown in the Usage sectio
 Next, add the following bolded line to the appropriate portion of your SSH config:
 
 <pre class="code">
-Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
+Host aws-deeplearn ec2-XXXX.us-west-2.compute.amazonaws.com
     ...
     <strong>RemoteForward 52698 localhost:52698</strong>
 </pre>
@@ -132,7 +131,7 @@ You can now type `rmate <some file>` in your SSH connection the remote server an
 
 {{#marginnote "comp-rsync"}}
 *Advantages:* Can use any editor. Easily adaptable to your needs. Don't need to be online.  
-*Disadvantages:* Need to run manually after making changes. Can overwrite your work.  Have to like commandline scripting.
+*Disadvantages:* Need to run manually after making changes. Can overwrite your work.  Have to like command line scripting.
 {{/marginnote}}
 
 [Rsync][] is probably the most general approach to getting files to a remote server.  The usage pattern is straightforward--to sync all your changes simply run 
@@ -143,9 +142,9 @@ $ rsync source_folder destination_folder
 
 However, in practice Rsync needs a million command line arguments and if you run it from the wrong directory, you'll either either overwrite your work or make needless copies.  So we simplify with some scripts that reflect the folder organization I described above.  The scripts only sync full project directories and respect our push/pull choices from above.
 
-Copy the following 2 scripts and save them somewher in your `$PATH` on your laptop and give them executable permissions:
+Copy the following 2 scripts and save them somewhere in your `$PATH` on your laptop and give them executable permissions:
 
-{{#marginnote "rsync-not-done"}}**NOTE: These scripts won't run correctly complete their initial sync as currently written.  The `--exclude` directives shuold be ignored the first time to completely sync.**{{/marginnote}}
+{{#marginnote "rsync-not-done"}}**NOTE: These scripts won't run correctly complete their initial sync as currently written.  The `--exclude` directives should be ignored the first time to completely sync.**{{/marginnote}}
 <figure>
 <script src="https://gist.github.com/matttrent/feeab97d476f8dde7c0f713ef03c6f0a.js"></script>
 </figure>
@@ -176,7 +175,7 @@ Follow the instructions in this Medium post: [Work Remotely with PyCharm Tensorf
 *Disadvantages:* Hassle to install. Need to be online and instance running. 
 {{/marginnote}}
 
-I recently encountered [Nuclide][] when I started working at Facebook.  It's a package for the [Atom][] that provides a unified development enviroment for Facebook's languages.  It also happens to have the best remote editor I've used.  And it's a pain in the ass to setup.
+I recently encountered [Nuclide][] when I started working at Facebook.  It's a package for the [Atom][] that provides a unified development environment for Facebook's languages.  It also happens to have the best remote editor I've used.  And it's a pain in the ass to setup.
 
 [atom]:     https://atom.io/
 
@@ -220,7 +219,7 @@ $ watchman shutdown-server
 Once that's complete, you need to configure SSH.  The Nuclide server listens on a port not exposed by default on AWS or other providers, so you need forward that port via SSH.  Edit your SSH connection to include the following 2 lines:
 
 <pre class="code">
-Host deeplearn-v100 ec2-XXXX.us-west-2.compute.amazonaws.com
+Host aws-deeplearn ec2-XXXX.us-west-2.compute.amazonaws.com
     ...
     <strong>LocalForward 9090 localhost:9090
     LocalForward 20022 localhost:22</strong>
