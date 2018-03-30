@@ -17,9 +17,9 @@ To get started I recommend [Learn Vim Progressively][vim-prog], [Vimcasts][], an
 [datacamp-nb]: https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
 [ec2-nb]: https://www.datacamp.com/community/tutorials/deep-learning-jupyter-aws
 
-However, I've never been happy with that workflow. My brain has never gotten used to Vim.  Juypter notebooks rapidly grow to unwieldy sizes, are difficult to use with version control, and otherwise retard normal software practices.  Also, I like having the features of a modern IDE available to me when developing.  And while both have decent interfaces, I feel they still fall short of a full-featured code IDE.
+However, I've never been happy with that workflow. My brain has never gotten used to Vim.  Juypter notebooks rapidly grow to unwieldy sizes, are difficult to use with version control, and otherwise retard normal software practices.  Also, I like having the features of a modern IDE available to me when developing, and while both have decent interfaces, I feel they still fall short.
 
-The guide I have written is the guide I wish I hadd come across 4 months ago. I assume you aren't happy with the standard recommendations.  I cover the other approaches to editing code on a remote server, explain how to set them up, and weigh their comparative strengths and weaknesses.  The focus is on deep learning and Python, but the majority of this advice is general enough for any other applications.
+This guide is the guide I wish had found 4 months ago.  I assume you the reader aren't happy with the standard recommendations.  I cover the other approaches to editing code on a remote server, explain how to set them up, and weigh their comparative strengths and weaknesses.  The focus is on deep learning and Python, but the majority of this advice is general enough for any other applications.
 
 ## Is this for me?
 
@@ -27,11 +27,11 @@ No and yes.
 
 If you're asking "Do I need this?" the answer is probably "No".  The vast majority of people are happy with Jupyter and Vim for their needs.  I'd suggest you start there and invest some time learning those tools.  If you're still unhappy with those approaches, come back here.
 
-However, the 2 sections below on repository organization and SSH settings are applicable to any approach and will you remote development workflow easier.  I highly suggest you read those regardless of what approach 
+However, the 2 sections below on repository organization and SSH settings are applicable to any approach and will make your remote development workflow easier.  I highly suggest you read those regardless of what approach 
 
 ## 2 major approaches
 
-There are 2 basic approaches to editing code to be run on a remote server:
+I consider two basic approaches to editing code to be run on a remote server:
 
 *Edit local files and sync.* In this case, there are two copies of the code, on your laptop and on the remote server. You edit the files locally and sync changes to the remote server.  [Rsync][] and [PyCharm][] are the two options I'll discuss here.  The advantage is that you can use any editor you want, can edit code offline, and the entire codebase easily accessible.  The disadvantage is you have 2 copies to keep in sync which can occasionally load to overwriting your work and the workflow can be clunky.
 
