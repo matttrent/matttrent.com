@@ -1,6 +1,6 @@
 ---
 title: Developing on a remote server
-subtitle: without IPython and Vim
+subtitle: without Jupyter and Vim
 layout: page.hbs
 ---
 
