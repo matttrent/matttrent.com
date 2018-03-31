@@ -90,12 +90,6 @@ dd {
   margin-left: 70px; /* custom, orig 180px */
 }
 
-@media screen and (max-width: 760px) { 
-  section>dl { width: 90%; }
-  section>ul { width: 90%; }
-  section>ol { width: 90%; }
-}
-
 dl dt {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
@@ -113,12 +107,19 @@ img.project {
   }
 }
 
-pre { 
+pre {
   width: 52.5%;
   margin-left: 2.5%;
-  overflow-x: auto; 
+  overflow-x: auto;
 }
 
 pre > code {
   font-size: 0.9rem;
+}
+
+@media screen and (max-width: 760px) {
+  section>dl { width: 90%; }
+  section>ul { width: 90%; }
+  section>ol { width: 90%; }
+  pre { width: 97%; }
 }
