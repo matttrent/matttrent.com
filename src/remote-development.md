@@ -1,6 +1,6 @@
 ---
 title: Developing on a remote server
-subtitle: without Jupyter and Vim
+subtitle: Without Jupyter and Vim
 layout: page.hbs
 ---
 
@@ -25,7 +25,7 @@ This guide is the guide I wish had found 4 months ago.  I assume you the reader 
 
 No and yes.
 
-If you're asking "Do I need this?" the answer is probably "No".  The vast majority of people are happy with Jupyter and Vim for their needs.  I'd suggest you start there and invest some time learning those tools.  If you're still unhappy with those approaches, come back here.
+If you're asking "Do I need this?" the answer is probably "No".  The vast majority of people are happy with Jupyter and Vim for their needs.  This is guide also assumes you're comfortable working on the command line, working with configuration files, and installing software.  If you're starting out, I'd suggest you start there and invest some time learning those tools.  If you're still unhappy with those approaches, come back here.
 
 However, the 2 sections below on repository organization and SSH settings are applicable to any approach and will make your remote development workflow easier.  I highly suggest you read those regardless of what approach 
 
