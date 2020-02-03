@@ -183,5 +183,5 @@ A selection of things that I have read not so recently.
 - __Nathaniel Philbrick,__ [In the Heart of the Sea](http://amzn.to/2i4QjRk).  True story of the whaleship Essex.  Attacked by sperm whale in the Pacific, it was Melville's inspiration for Moby Dick.
 - __John Vaillant,__ [The Golden Spruce](http://amzn.to/2iJXRtY).  Man cuts down golden-needled tree on Haida Gwaii.  I mostly enjoyed it for the description of the British Columbian coastal wilderness.
 - __Winifred Gallagher,__ [Rapt: Attention and the Focused Life](http://amzn.to/2iiJh9Y).  Author is diagnosed cancer, realizes her life is improved by living more in the present.  Sadly this book is mostly pop-psychology and doesn't introspect much how attention improved her life.
-- __Pedro Domingos,__ [The Master Algorithm](The Master Algorithm).  Summary of the major approaches to machine learning that turns into an ad for the author's research.  A few insights.
+- __Pedro Domingos,__ [The Master Algorithm](https://amzn.to/2GT6yMF).  Summary of the major approaches to machine learning that turns into an ad for the author's research.  A few insights.
 - __Donald Barlett,__ [Howard Hughes: His Life and Madness](http://amzn.to/2ivcDBM).  For as much as Hughes is a household name, I was surprised how little I knew about his life.  Hughes was a complete nut.
