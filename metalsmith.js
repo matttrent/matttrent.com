@@ -24,6 +24,10 @@ var layouts     = require('metalsmith-layouts');
 var inplace     = require('metalsmith-in-place');
 //                https://github.com/treygriffith/metalsmith-assets
 var assets      = require('metalsmith-assets');
+//                https://github.com/timdp/metalsmith-discover-partials
+var discoverPartials = require('metalsmith-discover-partials');
+//                https://github.com/alex-ketch/metalsmith-renamer
+var renamer     = require('metalsmith-renamer');
 
 
 // register handlebars layout helper
@@ -87,15 +91,29 @@ var M = metalsmith(__dirname)
 // draft: true
 .use(drafts())
 
+// rename all the .html and .md files to have a second .hbs suffix
+// this way both inplace and layouts know to apply the handlebars transformer
+// to the file
+.use(renamer({
+  filesToRename: {
+    pattern: '**/*\+(html|md)',
+    rename: function (name) {
+      return name + '.hbs';
+    }
+  },
+}))
+
+// search for partials in the same layouts directory
+.use(discoverPartials({
+  directory: 'layouts',
+  pattern: /\.hbs$/
+}))
+
 // in-place templating to let handlebars access metadata, defines and 
 // front-matter when processing templates
-.use(inplace('handlebars'))
+.use(inplace())
 
 // process markdown files
-// .use(markdown({
-//   smartypants: true
-// }))
-
 .use(remarkable({
   html: true,
   typographer: true,
@@ -106,16 +124,16 @@ var M = metalsmith(__dirname)
   lang: "en"
 }))
 
-// generate a "permalink", trasforming:
-// /about.html -> /about/index.html so /about will work as a url
-.use(permalinks())
-
 // use handlebars as our templating engine
 // handlebars also processes partial templates, which are stored in the same directory
 .use(layouts({
-  engine: 'handlebars',
-  partials: 'layouts'
+  default: 'layout.hbs',
+  directory: 'layouts'
 }))
+
+// generate a "permalink", trasforming:
+// /about.html -> /about/index.html so /about will work as a url
+.use(permalinks())
 
 // copy static ./assets and ./attachments to the destination directory
 .use(assets({
