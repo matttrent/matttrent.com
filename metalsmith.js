@@ -10,10 +10,8 @@ var define      = require('metalsmith-define');
 var branch      = require('metalsmith-branch');
 //                https://github.com/segmentio/metalsmith-collections
 // var collections = require('metalsmith-collections');
-//                https://github.com/segmentio/metalsmith-markdown
-var markdown    = require('metalsmith-markdown');
-//                https://github.com/markdown-it/markdown-it
-var markdownit  = require('metalsmith-markdownit');
+//                https://github.com/attentif/metalsmith-markdown-remarkable
+var remarkable  = require('metalsmith-markdown-remarkable');
 //                https://github.com/algenon/metalsmith-typography
 var typography  = require('metalsmith-typography');
 //                https://github.com/segmentio/metalsmith-permalinks
@@ -101,7 +99,7 @@ var M = metalsmith(__dirname)
 //   smartypants: true
 // }))
 
-.use(markdownit({
+.use(remarkable({
   html: true,
   typographer: true,
 }))
