@@ -24,10 +24,7 @@ var layouts     = require('metalsmith-layouts');
 var inplace     = require('metalsmith-in-place');
 //                https://github.com/treygriffith/metalsmith-assets
 var assets      = require('metalsmith-assets');
-//                https://github.com/aymericbeaumet/metalsmith-redirect
-var redirect    = require('metalsmith-redirect');
-//                https://github.com/mwishek/metalsmith-s3
-// var s3          = require('metalsmith-s3');
+
 
 // register handlebars layout helper
 handlebars.registerHelper(hb_layouts(handlebars));
@@ -109,14 +106,9 @@ var M = metalsmith(__dirname)
   lang: "en"
 }))
 
-// use a separate logic for files that match neither *.html or index.*
-// in this case, generate a "permalink", trasforming:
+// generate a "permalink", trasforming:
 // /about.html -> /about/index.html so /about will work as a url
-.use(branch('!posts/**.html')
-  .use(branch('!index.*').use(permalinks({
-    relative: false
-  })))
-)
+.use(permalinks())
 
 // use handlebars as our templating engine
 // handlebars also processes partial templates, which are stored in the same directory
