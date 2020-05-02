@@ -127,7 +127,6 @@ var M = metalsmith(__dirname)
 // use handlebars as our templating engine
 // handlebars also processes partial templates, which are stored in the same directory
 .use(layouts({
-  default: 'layout.hbs',
   directory: 'layouts'
 }))
 
