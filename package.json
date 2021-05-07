@@ -25,7 +25,7 @@
     "metalsmith-watch": "^1.0.1",
     "minimist": "^1.2.5",
     "moment": "^2.25.1",
-    "underscore": "^1.10.2",
+    "underscore": "^1.12.1",
     "walk": "^2.3.14"
   },
   "devDependencies": {
