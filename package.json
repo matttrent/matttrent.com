@@ -24,7 +24,7 @@
     "metalsmith-typography": "^0.1.1",
     "metalsmith-watch": "^1.0.1",
     "minimist": "^1.2.5",
-    "moment": "^2.25.1",
+    "moment": "^2.29.4",
     "underscore": "^1.10.2",
     "walk": "^2.3.14"
   },
