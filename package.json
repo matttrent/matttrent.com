@@ -19,7 +19,7 @@
     "metalsmith-markdown-remarkable": "^2.0.4",
     "metalsmith-permalinks": "^2.2.0",
     "metalsmith-prefixoid": "^1.0.3",
-    "metalsmith-renamer": "^0.4.1",
+    "metalsmith-renamer": "^0.5.203",
     "metalsmith-start": "^2.0.1",
     "metalsmith-typography": "^0.1.1",
     "metalsmith-watch": "^1.0.3",
