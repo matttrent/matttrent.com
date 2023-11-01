@@ -105,7 +105,8 @@ M
   }))
 
   // // set global metadata
-  // // TODO: replace use(define()) with this
+  // // TODO: replace use(define()) with this.  
+  // // need to update templates to use {{ site.key }} instead of {{ key }}
   // .metadata({
   //   site: {
   //     title: 'matt trent',
@@ -131,18 +132,18 @@ M
     }
   }))
 
-  // ==== render interal contents of files ====================================
-  // rename all the .html and .md files to have a second .hbs suffix
-  // this way both inplace and layouts know to apply the handlebars transformer
-  // to the file
-  .use(renamer({
-    filesToRename: {
-      pattern: '**/*\+(html|md)',
-      rename: function (name) {
-        return name + '.hbs';
-      }
-    },
-  }))
+  // // ==== render interal contents of files ====================================
+  // // rename all the .html and .md files to have a second .hbs suffix
+  // // this way both inplace and layouts know to apply the handlebars transformer
+  // // to the file
+  // .use(renamer({
+  //   filesToRename: {
+  //     pattern: '**/*\+(html|md)',
+  //     rename: function (name) {
+  //       return name + '.hbs';
+  //     }
+  //   },
+  // }))
 
   // search for partials in the same layouts directory
   // TODO: am I using this?
@@ -152,12 +153,15 @@ M
   }))
 
   // in-place templating to let handlebars access metadata, defines and 
-  // front-matter when processing templates
+  // front-matter when processing templates.  we can skip the separate step 
+  // renaming files to end in .hbs if we use the pattern option
   .use(inplace({
     transform: 'handlebars',
+    pattern: '**/*\+(html|md)',
   }))
 
   // process markdown files
+  // TODO: should I replace with @metalsmith/markdown?
   .use(remarkable({
     html: true,
     typographer: true,
