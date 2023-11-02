@@ -29,7 +29,7 @@ var discoverPartials = require('metalsmith-discover-partials');
 //                https://github.com/alex-ketch/metalsmith-renamer
 var renamer     = require('metalsmith-renamer');
 
-// var debugUI     = require('metalsmith-debug-ui');
+var debugUI     = require('metalsmith-debug-ui');
 
 
 // ----------------------------------------------------------------------------
@@ -62,8 +62,10 @@ handlebars.registerHelper('marginnote', function(name, options) {
   );
 });
 
-handlebars.registerHelper('filedate', function(file, format="YYYY MMM") {
-    return moment(file.date).format(format);
+handlebars.registerHelper('filedate', function(format, options) {
+  return new handlebars.SafeString(
+    moment.utc(this.date).format(format)
+  );
 })
 
 

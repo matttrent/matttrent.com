@@ -71,7 +71,7 @@
     <h2>Notes</h2>
     <dl class='dl-horizontal-wide'>
         {{#each collections.notes}}
-        <dt>{{#filedate}}{{this}}{{/filedate}}</dt>
+        <dt>{{#filedate "YYYY MMM"}}{{this}}{{/filedate}}</dt>
         <dd><a href="/{{this.permalink}}">{{ title }}</a></dd>
         {{/each}}
     </dl>   
