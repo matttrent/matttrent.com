@@ -29,6 +29,8 @@ var discoverPartials = require('metalsmith-discover-partials');
 //                https://github.com/alex-ketch/metalsmith-renamer
 var renamer     = require('metalsmith-renamer');
 
+var data        = require('metalsmith-data');
+
 var debugUI     = require('metalsmith-debug-ui');
 
 
@@ -133,6 +135,19 @@ M
       reverse: true,
     }
   }))
+
+  // // ==== load photos data from json file ====================================
+  // .use(data({
+  //   test: {
+  //     src: './src/photos.json',
+  //     options: {
+  //       delimiter: ',',
+  //       columns: true,
+  //       trim: true,
+  //       cast: true,
+  //     }
+  //   }
+  // }))
 
   // // ==== render interal contents of files ====================================
   // // rename all the .html and .md files to have a second .hbs suffix
