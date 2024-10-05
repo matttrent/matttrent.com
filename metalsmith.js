@@ -99,31 +99,20 @@ M
   })      
 
   // ==== site content definitions ============================================
-  // define our defines
-  // available in handlbars in the form {{ attachments_prefix }}
-  .use(define({
-    attachments_prefix:   '/attachments',
-    _:                    require('underscore'),
-    current_date:         moment().format('DD MMMM YYYY'),
-    current_month:        moment().format('MMMM YYYY'),
-    current_year:         moment().year(),
-    cache_suffix:         'v=' + String(Math.round( Math.random() * 1e7 )),
-  }))
-
-  // // set global metadata
-  // // TODO: replace use(define()) with this.  
-  // // need to update templates to use {{ site.key }} instead of {{ key }}
-  // .metadata({
-  //   site: {
-  //     title: 'matt trent',
-  //     url: 'https://matttrent.com',
-  //     attachments_prefix: '/attachments',
-  //     current_date: moment().format('DD MMMM YYYY'),
-  //     current_month: moment().format('MMMM YYYY'),
-  //     current_year: moment().year(),
-  //     cache_suffix: 'v=' + String(Math.round(Math.random() * 1e7)),
-  //   }
-  // })
+  // set global metadata
+  // use {{ site.key }} to access
+  .metadata({
+    site: {
+      title: 'matt trent',
+      url: 'https://matttrent.com',
+      attachments_prefix: '/attachments',
+      _: require('underscore'),
+      current_date: moment().format('DD MMMM YYYY'),
+      current_month: moment().format('MMMM YYYY'),
+      current_year: moment().year(),
+      cache_suffix: 'v=' + String(Math.round(Math.random() * 1e7)),
+    }
+  })
 
   // ability to store posts as drafts by placing the following front-matter:
   // draft: true
@@ -214,12 +203,12 @@ M
     directory: 'layouts'
   }))
 
-  // ==== generate an RSS feed ================================================
-  .use(feed({
-    collection: 'notes',
-    destination: 'feed.rss',
-    limit: 20
-  }))
+  // // ==== generate an RSS feed ================================================
+  // .use(feed({
+  //   collection: 'notes',
+  //   destination: 'feed.rss',
+  //   limit: 20
+  // }))
 
   // ==== add assets to build =================================================
   // copy static ./assets and ./attachments to the destination directory

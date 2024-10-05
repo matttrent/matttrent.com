@@ -4,7 +4,7 @@ layout: page.hbs
 ---
 
 <figure>
-<img src="{{ attachments_prefix }}/research/photometric-processing-1.png" alt="" width="32%" /> <img src="{{ attachments_prefix }}/research/photometric-processing-2.png" alt="" width="32%" /> <img src="{{ attachments_prefix }}/research/photometric-processing-3.png" alt="" width="32%" />{{#marginnote "caption"}}
+<img src="{{ site.attachments_prefix }}/research/photometric-processing-1.png" alt="" width="32%" /> <img src="{{ site.attachments_prefix }}/research/photometric-processing-2.png" alt="" width="32%" /> <img src="{{ site.attachments_prefix }}/research/photometric-processing-3.png" alt="" width="32%" />{{#marginnote "caption"}}
   Left: original HDR image, tone mapped for display.  Center: high contrast, low frequency image representing the LED backlight.  Right: LCD image corresponding to backlight.  The combination of the backlight and LCD image will reconstruct the original image. 
 {{/marginnote}}
 </figure>
@@ -30,7 +30,7 @@ framework.
 - [HDR Display Systems][HDRDisplay]
 - [Dolby Vision display][vision]
 
-[MSc]:          {{ attachments_prefix }}/research/papers/MscThesis.pdf
+[MSc]:          {{ site.attachments_prefix }}/research/papers/MscThesis.pdf
 [JVCI]:         http://dx.doi.org/10.1016/j.jvcir.2007.06.006
 [EG2005]:       http://isg.cs.tcd.ie/eg2005/T7.html
 [HDRDisplay]:   http://www.cs.ubc.ca/labs/imager/tr/2004/Seetzen_2004_HDR

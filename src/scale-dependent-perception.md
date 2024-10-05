@@ -4,7 +4,7 @@ layout: page.hbs
 ---
 
 <figure>
-  <img src="{{ attachments_prefix }}/research/chuckclose_full.png" alt="" width="35.5%"/> <img src="{{ attachments_prefix }}/research/chuckclose_crop.png" alt="" width="61.5%"/>{{#marginnote "caption"}}
+  <img src="{{ site.attachments_prefix }}/research/chuckclose_full.png" alt="" width="35.5%"/> <img src="{{ site.attachments_prefix }}/research/chuckclose_crop.png" alt="" width="61.5%"/>{{#marginnote "caption"}}
     Self-portrait of Chuck Close viewed at 2 scales.  The left image is clearly recognizable as a portrait, even thought it contains the same diamond-shaped artifacts as the right.  However, without having first seen the left, the right image is difficult to distinguish as an eye and glasses.  Changing the scale (in this case zooming in) shifts the dominant interpretation from a portrait in the left image to artifacts in the right image.
 {{/marginnote}}
 </figure>
@@ -22,10 +22,10 @@ These methods take inspiration from the fundamental organization of spatial imag
 - [Blur-Aware Image Downsizing][BAD]
 - [Defocus Techniques for Camera Dynamic Range Expansion][DRE]
 
-[PhD]:  {{ attachments_prefix }}/research/papers/PhdThesis.pdf
+[PhD]:  {{ site.attachments_prefix }}/research/papers/PhdThesis.pdf
 [USM]:  http://www.cs.ubc.ca/labs/imager/tr/2012/Countershading/
 [BAD]:  http://www.cs.ubc.ca/labs/imager/tr/2011/BlurAwareDownsize/
-[DRE]:  {{ attachments_prefix }}/research/papers/ElectronicImaging.2010-Defocus.pdf
+[DRE]:  {{ site.attachments_prefix }}/research/papers/ElectronicImaging.2010-Defocus.pdf
 
 ## Presentation
 
