@@ -127,31 +127,18 @@ M
     }
   }))
 
-  // // ==== load photos data from json file ====================================
-  // .use(data({
-  //   test: {
-  //     src: './src/photos.json',
-  //     options: {
-  //       delimiter: ',',
-  //       columns: true,
-  //       trim: true,
-  //       cast: true,
-  //     }
-  //   }
-  // }))
-
-  // // ==== render interal contents of files ====================================
-  // // rename all the .html and .md files to have a second .hbs suffix
-  // // this way both inplace and layouts know to apply the handlebars transformer
-  // // to the file
-  // .use(renamer({
-  //   filesToRename: {
-  //     pattern: '**/*\+(html|md)',
-  //     rename: function (name) {
-  //       return name + '.hbs';
-  //     }
-  //   },
-  // }))
+  // ==== load photos data from json file ====================================
+  .use(data({
+    test: {
+      src: './src/photos.csv',
+      options: {
+        delimiter: ',',
+        columns: true,
+        trim: true,
+        cast: true,
+      }
+    }
+  }))
 
   // search for partials in the same layouts directory
   // TODO: am I using this?
@@ -183,7 +170,7 @@ M
   // ==== permalink / move to final location ==================================
   // generate a "permalink", trasforming:
   // /about.html -> /about/index.html so /about will work as a url
-  // .use(permalinks())
+  // handles collections as well
   .use(permalinks(
     {
       relative: false,

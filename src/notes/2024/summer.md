@@ -6,4 +6,12 @@ layout: page.hbs
 draft: true
 ---
 
-Hello.
+Hello.  {{site.attachments_prefix}}
+
+<!-- 
+<ul>
+{{#each data.test}}
+<li><img src="{{../site.attachments_prefix}}/{{this.filename}}" alt="{{this.caption}}"> {{this.caption}}</li>
+{{/each}}
+</ul> 
+-->
