@@ -79,7 +79,9 @@ handlebars.registerHelper('filedate', function(format, options) {
 // init the metalsmith object
 var M = metalsmith(__dirname);
 
-debugUI.patch(M)
+if (process.env.DEBUG && process.env.NODE_ENV === 'development') {
+  debugUI.patch(M)
+}
 
 M
   // ==== metalsmith build configuration ======================================

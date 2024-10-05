@@ -1,11 +1,11 @@
 build: clean
-	node metalsmith.js
+	NODE_ENV=production node metalsmith.js
 
 clean:
 	rm -rf build
 
 serve:
-	node_modules/metalsmith-start/bin/metalsmith-start
+	DEBUG=1 NODE_ENV=development node_modules/metalsmith-start/bin/metalsmith-start
 
 deploy: build
 	cd ./build && \
