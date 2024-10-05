@@ -203,12 +203,12 @@ M
     directory: 'layouts'
   }))
 
-  // // ==== generate an RSS feed ================================================
-  // .use(feed({
-  //   collection: 'notes',
-  //   destination: 'feed.rss',
-  //   limit: 20
-  // }))
+  // ==== generate an RSS feed ================================================
+  .use(feed({
+    collection: 'notes',
+    destination: 'feed.rss',
+    limit: 20
+  }))
 
   // ==== add assets to build =================================================
   // copy static ./assets and ./attachments to the destination directory
