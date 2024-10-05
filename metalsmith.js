@@ -28,9 +28,11 @@ var assets      = require('metalsmith-assets');
 var discoverPartials = require('metalsmith-discover-partials');
 //                https://github.com/alex-ketch/metalsmith-renamer
 var renamer     = require('metalsmith-renamer');
-
+//                https://github.com/hurrymaplelad/metalsmith-feed
+var feed        = require('metalsmith-feed');
+//                https://github.com/elcontraption/metalsmith-data
 var data        = require('metalsmith-data');
-
+//                https://github.com/leviwheatcroft/metalsmith-debug-ui
 var debugUI     = require('metalsmith-debug-ui');
 
 
@@ -77,7 +79,7 @@ handlebars.registerHelper('filedate', function(format, options) {
 // init the metalsmith object
 var M = metalsmith(__dirname);
 
-// debugUI.patch(M)
+debugUI.patch(M)
 
 M
   // ==== metalsmith build configuration ======================================
@@ -210,6 +212,13 @@ M
   // use handlebars as our templating engine
   .use(layouts({
     directory: 'layouts'
+  }))
+
+  // ==== generate an RSS feed ================================================
+  .use(feed({
+    collection: 'notes',
+    destination: 'feed.rss',
+    limit: 20
   }))
 
   // ==== add assets to build =================================================
