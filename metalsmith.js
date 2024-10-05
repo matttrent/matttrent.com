@@ -4,8 +4,8 @@ var moment      = require('moment');
 
 var metalsmith  = require('metalsmith');
 
-//                https://github.com/aymericbeaumet/metalsmith-define
-var define      = require('metalsmith-define');
+// //                https://github.com/aymericbeaumet/metalsmith-define
+// var define      = require('metalsmith-define');
 // //                https://github.com/ericgj/metalsmith-branch
 // var branch      = require('metalsmith-branch');
 //                https://github.com/metalsmith/collections
@@ -26,8 +26,8 @@ var inplace     = require('@metalsmith/in-place');
 var assets      = require('metalsmith-assets');
 //                https://github.com/timdp/metalsmith-discover-partials
 var discoverPartials = require('metalsmith-discover-partials');
-//                https://github.com/alex-ketch/metalsmith-renamer
-var renamer     = require('metalsmith-renamer');
+// //                https://github.com/alex-ketch/metalsmith-renamer
+// var renamer     = require('metalsmith-renamer');
 //                https://github.com/hurrymaplelad/metalsmith-feed
 var feed        = require('metalsmith-feed');
 //                https://github.com/elcontraption/metalsmith-data
