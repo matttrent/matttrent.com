@@ -1,6 +1,7 @@
 ---
 title: What I'm reading
 layout: page.hbs
+draft: true
 ---
 
 A list of books at various stages of my reading pipeline.
