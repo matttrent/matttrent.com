@@ -43,18 +43,18 @@
 }
 
 body { 
-	background-color: #fbfbf8;
+	background-color: rgb(246, 245, 241);
 }
 
 a:link { 
   text-decoration: none;
-  background: -webkit-linear-gradient(#fbfbf8, #fbfbf8), -webkit-linear-gradient(#fbfbf8, #fbfbf8), -webkit-linear-gradient(#333, #333);
-  background: linear-gradient(#fbfbf8, #fbfbf8), linear-gradient(#fbfbf8, #fbfbf8), linear-gradient(#333, #333);
+  background: -webkit-linear-gradient(rgb(246, 245, 241), rgb(246, 245, 241)), -webkit-linear-gradient(rgb(246, 245, 241), rgb(246, 245, 241)), -webkit-linear-gradient(#333, #333);
+  background: linear-gradient(rgb(246, 245, 241), rgb(246, 245, 241)), linear-gradient(rgb(246, 245, 241), rgb(246, 245, 241)), linear-gradient(#333, #333);
   -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
   -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
   background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
   background-repeat: no-repeat, no-repeat, repeat-x;
-  text-shadow: 0.03em 0 #fbfbf8, -0.03em 0 #fbfbf8, 0 0.03em #fbfbf8, 0 -0.03em #fbfbf8, 0.06em 0 #fbfbf8, -0.06em 0 #fbfbf8, 0.09em 0 #fbfbf8, -0.09em 0 #fbfbf8, 0.12em 0 #fbfbf8, -0.12em 0 #fbfbf8, 0.15em 0 #fbfbf8, -0.15em 0 #fbfbf8;
+  text-shadow: 0.03em 0 rgb(246, 245, 241), -0.03em 0 rgb(246, 245, 241), 0 0.03em rgb(246, 245, 241), 0 -0.03em rgb(246, 245, 241), 0.06em 0 rgb(246, 245, 241), -0.06em 0 rgb(246, 245, 241), 0.09em 0 rgb(246, 245, 241), -0.09em 0 rgb(246, 245, 241), 0.12em 0 rgb(246, 245, 241), -0.12em 0 rgb(246, 245, 241), 0.15em 0 rgb(246, 245, 241), -0.15em 0 rgb(246, 245, 241);
   background-position: 0% 93%, 100% 93%, 0% 93%; 
 }
 
